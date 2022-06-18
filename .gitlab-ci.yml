@@ -1,0 +1,35 @@
+update:
+  before_script:
+    - which ssh-agent || ( apt-get update -qy && apt-get install openssh-client -qqy )
+    - eval `ssh-agent -s`
+    - echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+    - git config --global user.email "coral-version@localhost"
+    - git config --global user.name coral-version
+
+    - npm install
+  script:
+    - node scripts/fetch-itunes.js 1234806557 > data/coral-itunes.json
+    - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json  
+    - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json
+    - node scripts/fetch-google-play.js com.nintendo.znma > data/moon-google-play.json
+    - node scripts/fetch-nintendo.js nintendo_switch_online_app > data/coral-nintendo.json
+    - node scripts/fetch-nintendo.js nintendo_switch_parental_controls_app > data/moon-nintendo.json
+    - node scripts/fetch-nintendo-eu.js 1520024 > data/coral-nintendo-eu.json
+    - node scripts/fetch-nintendo-eu.js 1497986 > data/moon-nintendo-eu.json
+
+    - git add data/* || true
+    - git status
+    - git commit -m "Update versions" || true
+    # - git push origin -o ci.skip
+    - git remote rm origin && git remote add origin git@$CI_SERVER_HOST:$CI_PROJECT_PATH.git
+    - git push origin HEAD:$CI_COMMIT_REF_NAME -o ci.skip
+  only:
+    variables:
+      - $SSH_PRIVATE_KEY
+  except:
+    changes:
+      - data/*

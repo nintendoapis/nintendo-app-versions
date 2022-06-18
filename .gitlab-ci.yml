@@ -19,8 +19,8 @@ update-versions:
     - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json  
     - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znma > data/moon-google-play.json
-    - node scripts/fetch-nintendo.js nintendo_switch_online_app > data/coral-nintendo.json
-    - node scripts/fetch-nintendo.js nintendo_switch_parental_controls_app > data/moon-nintendo.json
+    - node scripts/fetch-nintendo-jp.js nintendo_switch_online_app > data/coral-nintendo-jp.json
+    - node scripts/fetch-nintendo-jp.js nintendo_switch_parental_controls_app > data/moon-nintendo-jp.json
     - node scripts/fetch-nintendo-eu.js 1520024 > data/coral-nintendo-eu.json
     - node scripts/fetch-nintendo-eu.js 1497986 > data/moon-nintendo-eu.json
 

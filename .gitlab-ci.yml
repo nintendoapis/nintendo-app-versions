@@ -1,4 +1,5 @@
 update:
+  image: node
   before_script:
     - which ssh-agent || ( apt-get update -qy && apt-get install openssh-client -qqy )
     - eval `ssh-agent -s`
@@ -24,7 +25,6 @@ update:
     - git add data/* || true
     - git status
     - git commit -m "Update versions" || true
-    # - git push origin -o ci.skip
     - git remote rm origin && git remote add origin git@$CI_SERVER_HOST:$CI_PROJECT_PATH.git
     - git push origin HEAD:$CI_COMMIT_REF_NAME -o ci.skip
   only:

@@ -1,4 +1,5 @@
-update:
+update-versions:
+  stage: deploy
   image: node
   before_script:
     - which ssh-agent || ( apt-get update -qy && apt-get install openssh-client -qqy )
@@ -13,6 +14,7 @@ update:
 
     - npm install
   script:
+    - mkdir -p data
     - node scripts/fetch-itunes.js 1234806557 > data/coral-itunes.json
     - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json  
     - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json

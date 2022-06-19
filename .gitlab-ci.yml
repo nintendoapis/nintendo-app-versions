@@ -30,5 +30,5 @@ update-versions:
     - git remote rm origin && git remote add origin git@$CI_SERVER_HOST:$CI_PROJECT_PATH.git
     - git push origin HEAD:$CI_COMMIT_REF_NAME
   except:
-    changes:
-      - data/*
+    variables:
+      - $CI_COMMIT_AUTHOR == "coral-version <coral-version@localhost>"

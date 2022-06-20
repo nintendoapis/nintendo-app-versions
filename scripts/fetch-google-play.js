@@ -30,7 +30,21 @@ console.warn(
 
 const date = new Date(updated_on.text());
 
+const version = (() => {
+    for (const script of $('script')) {
+        const text = $(script).text();
+        const match = text.match(/"(\d+\.\d+\.\d+)"/);
+        if (!match) continue;
+        
+        console.warn('Found version number', match[0]);
+        return match[1];
+    }
+
+    throw new Error('Could not find version number');
+})();
+
 const result = {
+    version,
     updated_at: date.toString(),
 };
 

@@ -16,7 +16,7 @@ update-versions:
   script:
     - mkdir -p data
     - node scripts/fetch-itunes.js 1234806557 > data/coral-itunes.json
-    - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json  
+    - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json
     - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znma > data/moon-google-play.json
     - node scripts/fetch-nintendo-jp.js nintendo_switch_online_app > data/coral-nintendo-jp.json

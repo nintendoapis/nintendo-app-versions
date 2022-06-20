@@ -38,7 +38,7 @@ pages:
   image: alpine
   script:
     - mkdir -p public
-    - cp data public
+    - cp -R data public
   artifacts:
     paths:
       - public
@@ -46,6 +46,7 @@ pages:
     refs:
       - main
     changes:
+      - .gitlab-ci.yml
       - data/*
   environment:
     name: GitLab Pages

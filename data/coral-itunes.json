@@ -132,26 +132,26 @@
         "currency": "GBP",
         "bundleId": "com.nintendo.znca",
         "releaseDate": "2017-07-19T00:57:14Z",
-        "trackId": 1234806557,
-        "trackName": "Nintendo Switch Online",
+        "isVppDeviceBasedLicensingEnabled": true,
         "genreIds": [
             "6016"
         ],
         "primaryGenreName": "Entertainment",
-        "isVppDeviceBasedLicensingEnabled": true,
+        "trackId": 1234806557,
+        "trackName": "Nintendo Switch Online",
         "sellerName": "Nintendo Co., Ltd.",
         "currentVersionReleaseDate": "2022-05-18T03:06:49Z",
         "releaseNotes": "Various issues are now resolved.",
         "primaryGenreId": 6016,
-        "version": "2.1.1",
-        "wrapperType": "software",
-        "description": "The Nintendo Switch Online app is designed to help enhance your online gameplay experience on Nintendo Switch™. With this app, you can use voice chat while gaming, see whether your friends are online and use game-specific services!\nGame-specific services are currently available for Animal Crossing: New Horizons, Super Smash Bros. Ultimate and Splatoon 2.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ An introduction to game-specific services\n\n　・ Animal Crossing: New Horizons\n　　　・ Send custom designs created in Animal Crossing games on Nintendo 3DS to Animal Crossing: New Horizons\n　　　・ Use your smart device to send messages that appear in-game\n　　　・ View the online status of your Best Friends\n\n　・ Super Smash Bros. Ultimate\n　　　・ View posted images and videos\n　　　・ Queue downloads of user-created stages to play them in your copy of the game\n　　　・ Receive notifications about upcoming events\n\n　・ Splatoon 2\n　　　・ Check leaderboards and map schedules\n　　　・ View your battle and Salmon Run stats\n\n◆ Checking the online status of friends\n\nYou can use your smart device to check whether your friends are online. You'll also be able to check what games your online friends are playing!\n*You will need to use your Nintendo Switch console to add friends and configure other friend settings.\n\n◆ Using voice chat while gaming\n\nWhen playing online in supported games, you can use voice chat with your friends via this app. How you use voice chat depends on the game and mode you're using - for example, when you split into teams in Splatoon 2, you can choose to use voice chat just with your team members so that friends on the other team won't know your next move.\n\nAttention:\n● A Nintendo Switch console and supported software are required to use this app's services.\n● A paid membership to Nintendo Switch Online is required to play online in some Nintendo Switch software and to use some of this app's features.\n● You must have a Nintendo Account for ages 13 and up in order to use some of this app's features, including voice chat.\n● Permanent internet connection required for use.\n● May contain advertisements and product placement.\n● iOS version 12.0 or higher is required to use this app.",
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "genres": [
             "Entertainment"
         ],
         "price": 0,
+        "description": "The Nintendo Switch Online app is designed to help enhance your online gameplay experience on Nintendo Switch™. With this app, you can use voice chat while gaming, see whether your friends are online and use game-specific services!\nGame-specific services are currently available for Animal Crossing: New Horizons, Super Smash Bros. Ultimate and Splatoon 2.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ An introduction to game-specific services\n\n　・ Animal Crossing: New Horizons\n　　　・ Send custom designs created in Animal Crossing games on Nintendo 3DS to Animal Crossing: New Horizons\n　　　・ Use your smart device to send messages that appear in-game\n　　　・ View the online status of your Best Friends\n\n　・ Super Smash Bros. Ultimate\n　　　・ View posted images and videos\n　　　・ Queue downloads of user-created stages to play them in your copy of the game\n　　　・ Receive notifications about upcoming events\n\n　・ Splatoon 2\n　　　・ Check leaderboards and map schedules\n　　　・ View your battle and Salmon Run stats\n\n◆ Checking the online status of friends\n\nYou can use your smart device to check whether your friends are online. You'll also be able to check what games your online friends are playing!\n*You will need to use your Nintendo Switch console to add friends and configure other friend settings.\n\n◆ Using voice chat while gaming\n\nWhen playing online in supported games, you can use voice chat with your friends via this app. How you use voice chat depends on the game and mode you're using - for example, when you split into teams in Splatoon 2, you can choose to use voice chat just with your team members so that friends on the other team won't know your next move.\n\nAttention:\n● A Nintendo Switch console and supported software are required to use this app's services.\n● A paid membership to Nintendo Switch Online is required to play online in some Nintendo Switch software and to use some of this app's features.\n● You must have a Nintendo Account for ages 13 and up in order to use some of this app's features, including voice chat.\n● Permanent internet connection required for use.\n● May contain advertisements and product placement.\n● iOS version 12.0 or higher is required to use this app.",
+        "version": "2.1.1",
+        "wrapperType": "software",
         "userRatingCount": 867
     }
 }

@@ -11,8 +11,8 @@
         "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/dd/44/d8dd44f5-aa5a-5963-511a-18cb75385bd3/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
         "artworkUrl512": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/dd/44/d8dd44f5-aa5a-5963-511a-18cb75385bd3/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
         "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/dd/44/d8dd44f5-aa5a-5963-511a-18cb75385bd3/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
-        "averageUserRating": 4.64964,
-        "averageUserRatingForCurrentVersion": 4.64964,
+        "averageUserRating": 4.64968,
+        "averageUserRatingForCurrentVersion": 4.64968,
         "bundleId": "com.nintendo.znma",
         "contentAdvisoryRating": "17+",
         "currency": "GBP",
@@ -165,8 +165,8 @@
         "trackId": 1190074407,
         "trackName": "Nintendo Switch Parental Cont…",
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-parental-cont/id1190074407?uo=4",
-        "userRatingCount": 20182,
-        "userRatingCountForCurrentVersion": 20182,
+        "userRatingCount": 20187,
+        "userRatingCountForCurrentVersion": 20187,
         "version": "1.17.0",
         "wrapperType": "software"
     }

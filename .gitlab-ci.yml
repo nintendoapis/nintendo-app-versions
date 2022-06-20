@@ -32,3 +32,21 @@ update-versions:
   except:
     variables:
       - $CI_COMMIT_AUTHOR == "coral-version <coral-version@localhost>"
+
+pages:
+  stage: deploy
+  image: alpine
+  script:
+    - mkdir -p public
+    - cp data public
+  artifacts:
+    paths:
+      - public
+  only:
+    refs:
+      - main
+    changes:
+      - data/*
+  environment:
+    name: GitLab Pages
+    url: $CI_PAGES_URL

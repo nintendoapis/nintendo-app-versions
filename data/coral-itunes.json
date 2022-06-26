@@ -11,8 +11,8 @@
         "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ae/01/6b/ae016b87-f8cd-d3c3-433e-639668e729a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
         "artworkUrl512": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ae/01/6b/ae016b87-f8cd-d3c3-433e-639668e729a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
         "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ae/01/6b/ae016b87-f8cd-d3c3-433e-639668e729a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
-        "averageUserRating": 3.09793,
-        "averageUserRatingForCurrentVersion": 3.09793,
+        "averageUserRating": null,
+        "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znca",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
@@ -150,8 +150,8 @@
         "trackId": 1234806557,
         "trackName": "Nintendo Switch Online",
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-online/id1234806557?uo=4",
-        "userRatingCount": 868,
-        "userRatingCountForCurrentVersion": 868,
+        "userRatingCount": null,
+        "userRatingCountForCurrentVersion": null,
         "version": "2.1.1",
         "wrapperType": "software"
     }

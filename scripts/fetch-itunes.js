@@ -9,7 +9,13 @@ const response = await fetch(url);
 const data = await response.json();
 
 const result = {
-    result: data.results[0],
+    result: {
+        ...data.results[0],
+        averageUserRating: null,
+        averageUserRatingForCurrentVersion: null,
+        userRatingCount: null,
+        userRatingCountForCurrentVersion: null,
+    },
 };
 
 console.log(stringify(result, {space: 4}));

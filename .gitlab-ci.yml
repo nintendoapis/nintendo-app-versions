@@ -32,6 +32,7 @@ update-versions:
   rules:
     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_AUTHOR == "coral-version <coral-version@localhost>"
       when: never
+    - when: always
 
 pages:
   stage: deploy

@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.2.0",
+            "label": "Ver. 2.2.0 ［2022.7.26］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>フレンドコードでフレンド申請できるようになりました。</li>\n            <p class=\"c-note--xs\"><span class=\"c-note__icon\">※</span><span class=\"c-note__text\">フレンド申請の承認はNintendo Switchから操作いただく必要があります。</span></p>\n          <li>フレンドコードをURLとしてコピーしたり、QRコードとして保存したりすることができるようになりました。共有した相手からフレンド申請を受け取ることができます。</li>\n          <li>その他、細かな修正を行いました。</li>\n          <li>iOSの対応バージョンを変更しました。このアプリを使用するには、iOS 14.0以降が必要です（iOSのみ）。</li>\n        </ul>"
+        },
+        {
             "version": "2.1.1",
             "label": "Ver. 2.1.1 ［2022.5.18］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n          <li>一部の端末でゲーム連携サービスが表示されない不具合を修正しました（Androidのみ）。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n              <li>一部の端末でゲーム連携サービスが表示されない不具合を修正しました（Androidのみ）。</li>\n            </ul>"
         },
         {
             "version": "2.1.0",

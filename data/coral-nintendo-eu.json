@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.2.0",
+            "label": "Ver. 2.2.0 [Released 26/07/22]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v220\" rel=\"1\"> <br> <h2>Ver. 2.2.0</h2> <ul><li>You can now send friend requests via friend code. <ul><li>Users must use a Nintendo Switch console to respond to friend requests.</li></ul> </li><li>You can now copy your friend code as a URL and/or save it as a QR Code. You can receive friend requests from anyone with whom you share the URL or QR Code.</li><li>Various issues are now resolved.</li><li>Changed minimum OS version. <ul><li>iOS version 14.0 or later is required to use this application.</li></ul> </li></ul> </div>"
+        },
+        {
             "version": "2.1.1",
             "label": "Ver. 2.1.1 [Released 18/05/22]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v211\" rel=\"1\"> <br> <h2>Ver. 2.1.1</h2> <ul><li>Various issues are now resolved.</li><li>A bug which caused game-specific services to not be displayed on some devices has been fixed (for Android only).</li></ul> </div>"

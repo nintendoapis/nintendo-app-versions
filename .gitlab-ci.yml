@@ -24,6 +24,9 @@ update-versions:
     - node scripts/fetch-nintendo-eu.js 1520024 > data/coral-nintendo-eu.json
     - node scripts/fetch-nintendo-eu.js 1497986 > data/moon-nintendo-eu.json
 
+    - DISCORD_WEBHOOK_MENTION=1002674504570515476 node scripts/discord.json coral
+    - DISCORD_WEBHOOK_MENTION=1002674644874170398 node scripts/discord.json moon
+
     - git add data/* || true
     - git status
     - git commit -m "Update versions" || true

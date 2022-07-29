@@ -12,6 +12,10 @@ const versions = $('a').filter(function () {
     return $(this).text().trim().match(/\bver\.?\b/i);
 });
 
+if (!versions.length) {
+    throw new Error('No versions found');
+}
+
 console.warn('Found %d versions', versions.length);
 
 const result = {

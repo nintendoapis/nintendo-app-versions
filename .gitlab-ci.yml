@@ -27,6 +27,8 @@ update-versions:
     - DISCORD_WEBHOOK_MENTION="&1002674504570515476" node scripts/discord.js coral
     - DISCORD_WEBHOOK_MENTION="&1002674644874170398" node scripts/discord.js moon
 
+    - node scripts/splatnet3.js > data/splatnet3-app.json
+
     - git add data/* || true
     - git status
     - git commit -m "Update versions" || true

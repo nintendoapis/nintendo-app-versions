@@ -4,6 +4,7 @@
     "private": true,
     "dependencies": {
         "cheerio": "^1.0.0-rc.11",
+        "js-beautify": "^1.14.6",
         "json-stable-stringify": "^1.0.1",
         "node-fetch": "^3.2.6"
     }

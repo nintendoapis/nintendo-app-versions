@@ -143,7 +143,11 @@
             "iPadNinthGenCellular-iPadNinthGenCellular",
             "iPhoneSEThirdGen-iPhoneSEThirdGen",
             "iPadAirFifthGen-iPadAirFifthGen",
-            "iPadAirFifthGenCellular-iPadAirFifthGenCellular"
+            "iPadAirFifthGenCellular-iPadAirFifthGenCellular",
+            "iPhone14-iPhone14",
+            "iPhone14Plus-iPhone14Plus",
+            "iPhone14Pro-iPhone14Pro",
+            "iPhone14ProMax-iPhone14ProMax"
         ],
         "trackCensoredName": "Nintendo Switch Online",
         "trackContentRating": "12+",

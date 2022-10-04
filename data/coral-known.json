@@ -42,6 +42,8 @@
         "1.1.0-ios",
         "1.1.0-android",
         "2.2.0-ios",
-        "2.2.0-android"
+        "2.2.0-android",
+        "2.3.0-android",
+        "2.3.0-ios"
     ]
 }

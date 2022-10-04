@@ -28,7 +28,7 @@ if (!script_urls.length) {
     throw new Error('Could not find JavaScript source');
 }
 
-const version_regex = /\b(\d+\.\d+\.\d+)\b-.*\b([0-9a-f]{40})\b/;
+const version_regex = /\b([0-9a-f]{40})\b.*revision_info_not_set.*\n?.*\b(\d+\.\d+\.\d+)\b-/;
 let script_url;
 let script_sha256;
 let match = null;
@@ -52,8 +52,8 @@ if (!match) {
     throw new Error('Could not find version in any JavaScript source code');
 }
 
-const version = match[1];
-const revision = match[2];
+const version = match[2];
+const revision = match[1];
 
 console.warn(
     'Found version match at %d',

@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.3.1",
+            "label": "Ver. 2.3.1 [Released 05/10/22]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v231\" rel=\"1\"> <br> <h2>Ver. 2.3.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
+        },
+        {
             "version": "2.3.0",
             "label": "Ver. 2.3.0 [Released 27/09/22]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"1\"> <br> <h2>Ver. 2.3.0</h2> <ul><li>Added support for Splatoon 3 widgets. \"Battle Logs\", \"Stage Schedule\" and \"Album\" can be checked from your device's home screen. <ul><li> <strong>Note:</strong> Depending on your device, some widgets may not be available.</li></ul> </li><li>Various other small changes have also been made.</li></ul> </div>"

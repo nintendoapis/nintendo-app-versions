@@ -173,5 +173,6 @@
         "userRatingCountForCurrentVersion": null,
         "version": "1.17.0",
         "wrapperType": "software"
-    }
+    },
+    "version": "1.17.0"
 }

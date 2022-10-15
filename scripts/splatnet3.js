@@ -63,6 +63,8 @@ console.warn(
 );
 
 const result = {
+    web_app_ver: version + '-' + revision.substr(0, 8),
+
     version,
     revision,
 

@@ -39,6 +39,7 @@ update-versions:
     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_AUTHOR == "coral-version <coral-version@localhost>"
       when: never
     - when: always
+  resource-group: update-versions
   retry: 2
 
 pages:

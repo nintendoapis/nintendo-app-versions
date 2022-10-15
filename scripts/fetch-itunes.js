@@ -9,6 +9,7 @@ const response = await fetch(url);
 const data = await response.json();
 
 const result = {
+    version: data.results[0].version,
     result: {
         ...data.results[0],
         averageUserRating: null,

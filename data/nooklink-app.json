@@ -1,0 +1,16 @@
+{
+    "version": "2.1.1",
+    "app_env": {
+        "NODE_ENV": "production",
+        "PUBLIC_URL": "",
+        "REACT_APP_GA_TID": "UA-153558426-2",
+        "REACT_APP_ENV": "lp1",
+        "REACT_APP_BLANCO_BASE_URL": "https://web.sd.lp1.acbaa.srv.nintendo.net",
+        "REACT_APP_GA4_TID": "G-210JGD2VEW",
+        "REACT_APP_VERSION": "2.1.1"
+    },
+    "html_url": "https://web.sd.lp1.acbaa.srv.nintendo.net/",
+    "html_sha256": "3da13e4856b35b62dad76967c9d55a221b7da9931259a2c079cc298b01f4c5d2",
+    "script_url": "https://web.sd.lp1.acbaa.srv.nintendo.net/static/js/main.f259e2ce.chunk.js",
+    "script_sha256": "bb379d3be4dfbcc8d6a57ee759fdd709314cbd3f78e65872e78c630a56c72aef"
+}

@@ -11,6 +11,7 @@ const result = {
     updated_at: new Date(data.updated).toString(),
     result: {
         ...data,
+        maxInstalls: null,
         score: null,
         scoreText: null,
         ratings: null,

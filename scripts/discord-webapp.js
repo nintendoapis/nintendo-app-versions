@@ -3,10 +3,17 @@ import fetch from 'node-fetch';
 
 /** @type {'splatnet3'} */
 const app = process.argv[2];
-const app_name = app === 'splatnet3' ? 'SplatNet 3' : app;
-const app_colour = app === 'splatnet3' ? 0xfefb55 : null;
+const app_name =
+    app === 'splatnet3' ? 'SplatNet 3' :
+    app === 'nooklink' ? 'NookLink' :
+    app;
+const app_colour =
+    app === 'splatnet3' ? 0xfefb55 :
+    app === 'nooklink' ? 0x6cc1fe :
+    null;
 
 const web = JSON.parse(await fs.readFile(new URL('../data/' + app + '-app.json', import.meta.url), 'utf-8'));
+const revision = 'revision' in web ? web.version + '-' + web.revision : web.version;
 
 const known = await (async () => {
     try {
@@ -17,14 +24,17 @@ const known = await (async () => {
 })();
 const new_versions = [];
 
-if (!known.versions.includes(web.version + '-' + web.revision + '-web')) {
+if (!known.versions.includes(revision + '-web')) {
     const other_revisions = known.versions.filter(v => v.startsWith(web.version + '-') && v.endsWith('-web'));
     console.log('New version detected', web.version, web.revision, other_revisions);
-    known.versions.push(web.version + '-' + web.revision + '-web');
-    new_versions.push([web.version, web.revision, 'Web', 'Web', other_revisions]);
+    known.versions.push(revision + '-web');
+    new_versions.push([web.version, web.revision ?? null, 'Web', 'Web', other_revisions]);
 }
 
 console.log('New versions', new_versions.length);
+
+const app_env_json = JSON.stringify(web.app_env);
+const known_app_env_json = JSON.stringify(known.app_env);
 
 if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
     for (const [version, revision, platform, source, other_revisions] of new_versions) {
@@ -39,13 +49,22 @@ if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
                 { name: 'Version', value: version, inline: true },
                 { name: 'Platform', value: platform, inline: true },
                 { name: 'Source', value: source, inline: true },
-                { name: 'Revision', value: '`' + revision + '`', inline: true },
+                ...(revision ? [
+                    { name: 'Revision', value: '`' + revision + '`', inline: true },
+                ] : []),
+                ...(app_env_json !== known_app_env_json ? [
+                    {
+                        name: 'Environment variables',
+                        value: '```json\n' + JSON.stringify(web.app_env, null, 4) + '\n```',
+                        inline: false,
+                    },
+                ] : []),
             ],
         };
 
         const mention = process.env.DISCORD_WEBHOOK_MENTION ? '<@' + process.env.DISCORD_WEBHOOK_MENTION + '> ' : '';
         const message = {
-            content: mention + app_name + ' v' + version + '-' + revision.substr(0, 8) + ' released',
+            content: mention + app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released',
             embeds: [embed],
         };
 

@@ -1,9 +1,9 @@
 {
-    "web_app_ver": "1.0.0-5644e7a2",
+    "web_app_ver": "1.0.0-d7b95a79",
     "version": "1.0.0",
-    "revision": "5644e7a2ab85c0c2a167847b635027afd13143c9",
+    "revision": "d7b95a7917a0fc53ed8f80e938ec708a97159205",
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "5c9ede0177691bd4afdc5c02c4fdd98fd3225668e0725181f93a962d3402b35f",
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.748558dc.js",
-    "script_sha256": "bfcfd1728353ff9bdfc29f94d6f0cf926d1969194b9e0fdc88f246fdf55fca07"
+    "html_sha256": "8073ced1130171ec621b2e43a62f5afa3206d0b9cb3b603b97a0ec3ae2a6a2b5",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.3934eff1.js",
+    "script_sha256": "d514e8b05d4e182bfac23b9baa11002adf0f8b75ecdee907d36c4e09e8aee509"
 }

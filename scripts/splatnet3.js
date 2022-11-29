@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import * as vm from 'node:vm';
 import fetch from 'node-fetch';
 import { load } from 'cheerio';
 import beautify from 'js-beautify';
@@ -32,6 +33,8 @@ const version_regex = /\b([0-9a-f]{40})\b.*revision_info_not_set.*\n?.*\b(\d+\.\
 let script_url;
 let script_sha256;
 let match = null;
+let env_match = null;
+let app_env = null;
 
 for (const url of script_urls) {
     const response = await fetch(url);
@@ -44,6 +47,28 @@ for (const url of script_urls) {
 
     script_url = url;
     script_sha256 = createHash('sha256').update(body).digest('hex');
+
+    env_match = formatted_js.match(/{\n( *)NODE_ENV: /);
+
+    if (env_match) {
+        const env_start = env_match[0] + formatted_js.substr(env_match.index + env_match[0].length);
+        const env = env_start.split('\n');
+        const start = env.shift();
+        const end_index = env.findIndex(l => !l.startsWith(env_match[1]));
+
+        if (env[end_index].trimStart().startsWith('}')) {
+            const env_str = start + '\n' + env.slice(0, end_index).join('\n') + '\n}';
+
+            app_env = vm.runInNewContext('(' + env_str + ')', {}, {
+                filename: script_url.toString(),
+                timeout: 1000,
+            });
+        } else {
+            console.warn('Failed to find end of app environment', env_match.index);
+        }
+    } else {
+        console.warn('Could not find app environment in main chunk JavaScript source');
+    }
 
     break;
 }
@@ -61,12 +86,14 @@ console.warn(
     JSON.stringify(version),
     JSON.stringify(revision)
 );
+if (app_env) console.warn('Found app environment at %d', env_match.index, app_env);
 
 const result = {
     web_app_ver: version + '-' + revision.substr(0, 8),
 
     version,
     revision,
+    app_env,
 
     html_url: html_url.toString(),
     html_sha256: createHash('sha256').update(html_body).digest('hex'),

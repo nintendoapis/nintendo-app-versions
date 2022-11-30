@@ -2,6 +2,17 @@
     "web_app_ver": "2.0.0-8a061f6c",
     "version": "2.0.0",
     "revision": "8a061f6c34f6149b4775a13262f9e059fda92a31",
+    "app_env": {
+        "NODE_ENV": "production",
+        "PUBLIC_URL": "",
+        "FAST_REFRESH": true,
+        "REACT_APP_DEEPLINK_SHARE_URL_BASE": "https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808",
+        "REACT_APP_SHOW_UI_FULL_VERSION": "false",
+        "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
+        "REACT_APP_REVISION": "8a061f6c34f6149b4775a13262f9e059fda92a31",
+        "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
+        "REACT_APP_USE_PERSISTED_QUERY": "1"
+    },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
     "html_sha256": "2c7d7df5041e53f9a5d87d4eebe25c83c71a663c2da9380d4f465b3161b269a4",
     "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.ee700a23.js",

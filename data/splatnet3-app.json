@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "2.0.0-8a061f6c",
+    "web_app_ver": "2.0.0-15dc639f",
     "version": "2.0.0",
-    "revision": "8a061f6c34f6149b4775a13262f9e059fda92a31",
+    "revision": "15dc639f04fdf1acbe85eda600442ba92904cc6b",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -9,12 +9,12 @@
         "REACT_APP_DEEPLINK_SHARE_URL_BASE": "https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808",
         "REACT_APP_SHOW_UI_FULL_VERSION": "false",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "8a061f6c34f6149b4775a13262f9e059fda92a31",
+        "REACT_APP_REVISION": "15dc639f04fdf1acbe85eda600442ba92904cc6b",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "2c7d7df5041e53f9a5d87d4eebe25c83c71a663c2da9380d4f465b3161b269a4",
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.ee700a23.js",
-    "script_sha256": "d83107525e5688f1abf2c70a7db16202e1f26a4b8b9340ac4eef6f1c9d7f6378"
+    "html_sha256": "0984e9b19ccdf699549adb9a4e37aa42997685e19f3a83b69fd3e77fc3782b66",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.f3e1e4a3.js",
+    "script_sha256": "da1ebc5c6176f22ce9dba67756ef5abcbac5d0048e36649b917121a17f7b5c21"
 }

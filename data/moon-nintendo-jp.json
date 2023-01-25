@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "1.18.1",
+            "label": "Ver. 1.18.1 ［2023.1.25］（iOSのみ）",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "1.18.0",
             "label": "Ver. 1.18.0 ［2022.12.6］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>iOS 16およびAndroid 13に対応しました。</li>\n          <li>その他、機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>iOS 16およびAndroid 13に対応しました。</li>\n              <li>その他、機能の改善と、不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "1.17.0",

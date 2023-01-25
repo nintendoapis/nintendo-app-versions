@@ -8,20 +8,20 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/52/a9/0f/52a90fe3-6c4c-0009-292a-92993909b3a1/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/52/a9/0f/52a90fe3-6c4c-0009-292a-92993909b3a1/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/52/a9/0f/52a90fe3-6c4c-0009-292a-92993909b3a1/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znma",
         "contentAdvisoryRating": "17+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2023-01-25T02:34:42Z",
+        "currentVersionReleaseDate": "2022-12-06T02:07:42Z",
         "description": "As a parent, do you sometimes ask yourself questions like...\n\nDoes my child spend too much time playing games?\nWhat sorts of games does my child play?\nCan I restrict games according to my child's age?\n\nIf so, this might be just the app for you!\n\nNintendo Switch Parental Controls™ is a free app that allows you to easily monitor your child's use of the Nintendo Switch console. \n(Please note: A Nintendo Switch console with the latest available system version is required to use this app.)\n \nWith Nintendo Switch Parental Controls, you can:\n\n1. Monitor your child's play time on the console.\nSet a daily play time limit, which notifies your child on the console when time's up for the day. You can also check this app to see how long they've been playing. If necessary, you can also use the \"Suspend Software\" feature to make the console go into sleep mode when the set time is reached.\n\n2. Find out what games your child plays.\nNintendo Switch Parental Controls provides convenient reports that show you what video games have been played on the console recently and how much time was spent playing each day.\nView daily reports and monthly summaries of play activity. If you choose to receive push notifications, you'll be notified when a new monthly summary is available.\nThis will help you learn what games your child enjoys most.\n \n3. Set restrictions to ensure your child can play safely, no matter their age.\nEasily restrict features of the Nintendo Switch console as appropriate for your child. This includes restricting games above specific age ratings.\n\n\nAttention:\n● In order to use the Nintendo Switch Parental Controls app, a parent or guardian (aged 18 or above) needs to have a Nintendo Account.\n● You can set purchasing restrictions, including restrictions on purchasing products and services in Nintendo eShop, in the Nintendo Account settings.\n● In order to make use of all of the features and settings available in the Nintendo Switch Parental Controls app, all linked Nintendo Switch consoles need to be using the latest system version.",
         "features": [
             "iosUniversal"
         ],
-        "fileSizeBytes": "120949760",
+        "fileSizeBytes": "97913856",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -57,7 +57,7 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2017-03-02T02:30:52Z",
-        "releaseNotes": "Implemented bug fixes.",
+        "releaseNotes": "Added compatibility with iOS 16.\nOther small improvements have also been made.",
         "screenshotUrls": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/a7/88/e4/a788e4c4-a005-bc9b-db60-89d6d3d28e30/cb12b378-4a3f-4285-a566-79efd4183e06_000_iphone6Plus_en-GB_@9f26e6f52e0ef3f49162123f281ba1d3ef27ddb3@.png/392x696bb.png",
             "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d0/5c/a2/d05ca299-23bb-8155-bfe8-a84c285a69a5/6bef65f9-8252-46d4-9ded-df7038365bf5_001_iphone6Plus_en-GB_@6ce0a3eaefeae5db120f18a63c316843e2a93d80@.png/392x696bb.png",
@@ -177,8 +177,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-parental-cont/id1190074407?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.18.1",
+        "version": "1.18.0",
         "wrapperType": "software"
     },
-    "version": "1.18.1"
+    "version": "1.18.0"
 }

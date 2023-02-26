@@ -12,6 +12,7 @@ const nintendo_jp = JSON.parse(await fs.readFile(new URL('../data/' + app + '-ni
 
 const known = await (async () => {
     try {
+        // return {versions: []};
         return JSON.parse(await fs.readFile(new URL('../data/' + app + '-known.json', import.meta.url), 'utf-8'));
     } catch (err) {
         return {versions: []};
@@ -22,12 +23,12 @@ const new_versions = [];
 if (!known.versions.includes(itunes.result.version + '-ios')) {
     console.log('New version detected on iTunes', itunes.result.version);
     known.versions.push(itunes.result.version + '-ios');
-    new_versions.push([itunes.result.version, 'iOS', 'iTunes']);
+    new_versions.push([itunes.result.version, 'iOS', 'iTunes', itunes.result.trackViewUrl]);
 }
 if (!known.versions.includes(googleplay.version + '-android')) {
     console.log('New version detected on Google Play', googleplay.version);
     known.versions.push(googleplay.version + '-android');
-    new_versions.push([googleplay.version, 'Android', 'Google Play']);
+    new_versions.push([googleplay.version, 'Android', 'Google Play', googleplay.result.url]);
 }
 
 for (const version of nintendo_jp.versions) {
@@ -39,19 +40,19 @@ for (const version of nintendo_jp.versions) {
     if (platforms.includes('ios') && !known.versions.includes(version.version + '-ios')) {
         console.log('New version detected on Nintendo JP', version.version);
         known.versions.push(version.version + '-ios');
-        new_versions.push([version.version, 'iOS', 'Nintendo JP']);
+        new_versions.push([version.version, 'iOS', 'Nintendo JP', nintendo_jp.url]);
     }
     if (platforms.includes('android') && !known.versions.includes(version.version + '-android')) {
         console.log('New version detected on Nintendo JP', version.version);
         known.versions.push(version.version + '-android');
-        new_versions.push([version.version, 'Android', 'Nintendo JP']);
+        new_versions.push([version.version, 'Android', 'Nintendo JP', nintendo_jp.url]);
     }
 }
 
 console.log('New versions', new_versions);
 
-if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
-    for (const [version, platform, source] of new_versions) {
+for (const [version, platform, source, url] of new_versions) {
+    if (process.env.DISCORD_WEBHOOK_ID) {
         const embed = {
             title: 'New ' + app_name + ' version detected',
             color: app === 'moon' ? 16673321 : 15073298,
@@ -84,6 +85,29 @@ if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
         });
 
         console.log('Sent Discord notification', message, embed.fields, await response.json());
+    }
+
+    if (process.env.MASTODON_TOKEN) {
+        const status = app_name + ' v' + version + ' (' + platform + ') released\n\n' + url;
+
+        const data = {
+            status,
+            // public, unlisted, private (followers), direct (mentions)
+            visibility: 'unlisted',
+            language: 'en',
+        };
+
+        const response = await fetch('https://' + process.env.MASTODON_HOST + '/api/v1/statuses', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + process.env.MASTODON_TOKEN,
+                'Idempotency-Key': version + '-' + platform,
+            },
+            body: JSON.stringify(data),
+        });
+
+        console.log('Posted Mastodon status', data, await response.json());
     }
 }
 

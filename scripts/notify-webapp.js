@@ -1,16 +1,15 @@
 import * as fs from 'node:fs/promises';
 import fetch from 'node-fetch';
 
-/** @type {'splatnet3'} */
+/** @type {'splatnet3'|'nooklink'} */
 const app = process.argv[2];
-const app_name =
-    app === 'splatnet3' ? 'SplatNet 3' :
-    app === 'nooklink' ? 'NookLink' :
-    app;
-const app_colour =
-    app === 'splatnet3' ? 0xfefb55 :
-    app === 'nooklink' ? 0x6cc1fe :
-    null;
+const app_info = {
+    'splatnet3': ['SplatNet 3', 0xfefb55, 'https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808'],
+    'nooklink': ['NookLink', 0x6cc1fe, 'https://dpl.sd.lp1.acbaa.srv.nintendo.net/znca/game/4953919198265344'],
+};
+const app_name = app_info[app]?.[0] ?? null;
+const app_colour = app_info[app]?.[1] ?? null;
+const app_url = app_info[app]?.[2] ?? null;
 
 const web = JSON.parse(await fs.readFile(new URL('../data/' + app + '-app.json', import.meta.url), 'utf-8'));
 const revision = 'revision' in web ? web.version + '-' + web.revision : web.version;
@@ -36,8 +35,8 @@ console.log('New versions', new_versions.length);
 const app_env_json = JSON.stringify(web.app_env);
 const known_app_env_json = JSON.stringify(known.app_env);
 
-if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
-    for (const [version, revision, platform, source, other_revisions] of new_versions) {
+for (const [version, revision, platform, source, other_revisions] of new_versions) {
+    if (process.env.DISCORD_WEBHOOK_ID) {
         const embed = {
             title: 'New ' + app_name + ' ' + (other_revisions.length ? 'revision' : 'version') + ' detected',
             color: app_colour,
@@ -80,6 +79,30 @@ if (new_versions.length && process.env.DISCORD_WEBHOOK_ID) {
         });
 
         console.log('Sent Discord notification', message, embed.fields, await response.json());
+    }
+
+    if (process.env.MASTODON_TOKEN) {
+        const status = app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released' +
+            (app_url ? '\n\n' + app_url : '');
+
+        const data = {
+            status,
+            // public, unlisted, private (followers), direct (mentions)
+            visibility: 'public',
+            language: 'en',
+        };
+
+        const response = await fetch('https://' + process.env.MASTODON_HOST + '/api/v1/statuses', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + process.env.MASTODON_TOKEN,
+                'Idempotency-Key': version + '-' + platform + '-' + revision,
+            },
+            body: JSON.stringify(data),
+        });
+
+        console.log('Posted Mastodon status', data, await response.json());
     }
 }
 

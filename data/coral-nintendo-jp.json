@@ -135,5 +135,6 @@
             "label": "Ver. 1.1.0 ［2017.9.13］",
             "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>他のアプリを開いていても、本アプリでボイスチャットが続けられるようになりました。</li>\n                <p class=\"c-note--xs\"><span class=\"c-note__icon\">※</span><span class=\"c-note__text\">音声が出たり、マイクを使ったりするアプリを除きます。</span></p>\n              <li>スリープ中でもボイスチャットが続けられるようになりました。</li>\n                <p class=\"c-note--xs\"><span class=\"c-note__icon\">※</span><span class=\"c-note__text\">Android 6.0 以降の省電力機能により、スリープ中にボイスチャットを一定時間続けると切断されることがあります。スリープ中にボイスチャットをしたい場合は、アプリ内の「設定・その他」→「省電力設定」を選択して、各端末の省電力機能を解除してください。くわしくは、お持ちのスマートフォンなど、各端末の公式サイトをご覧ください。</span></p>\n              <li>Bluetooth機器への対応を改善しました（Android端末のみ）。</li>\n            </ul>"
         }
-    ]
+    ],
+    "url": "https://www.nintendo.co.jp/support/app/nintendo_switch_online_app/index.html"
 }

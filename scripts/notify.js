@@ -116,7 +116,7 @@ for (const [version, platform, source, url] of new_versions) {
         const data = {
             status,
             // public, unlisted, private (followers), direct (mentions)
-            visibility: 'unlisted',
+            visibility: 'public',
             language: 'en',
         };
 

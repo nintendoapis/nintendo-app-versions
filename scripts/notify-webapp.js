@@ -35,8 +35,24 @@ console.log('New versions', new_versions.length);
 const app_env_json = JSON.stringify(web.app_env);
 const known_app_env_json = JSON.stringify(known.app_env);
 
+let discord_guild_id = null;
+
 for (const [version, revision, platform, source, other_revisions] of new_versions) {
+    let discord_message = null;
+    let discord_message_url = null;
+    let mastodon_status = null;
+
     if (process.env.DISCORD_WEBHOOK_ID) {
+        if (!discord_guild_id && process.env.MASTODON_TOKEN) {
+            const webhook_url = 'https://discord.com/api/webhooks/' + process.env.DISCORD_WEBHOOK_ID + '/' +
+                process.env.DISCORD_WEBHOOK_TOKEN;
+
+            const response = await fetch(webhook_url);
+            const data = await response.json();
+
+            discord_guild_id = data.guild_id;
+        }
+
         const embed = {
             title: 'New ' + app_name + ' ' + (other_revisions.length ? 'revision' : 'version') + ' detected',
             color: app_colour,
@@ -78,12 +94,19 @@ for (const [version, revision, platform, source, other_revisions] of new_version
             body: JSON.stringify(message),
         });
 
-        console.log('Sent Discord notification', message, embed.fields, await response.json());
+        discord_message = await response.json();
+        console.log('Sent Discord notification', message, embed.fields, discord_message);
+
+        if (discord_guild_id) {
+            discord_message_url = 'https://discord.com/channels/' + discord_guild_id +
+                '/' + discord_message.channel_id + '/' + discord_message.id;
+        }
     }
 
     if (process.env.MASTODON_TOKEN) {
         const status = app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released' +
-            (app_url ? '\n\n' + app_url : '');
+            (app_url ? '\n\n' + app_url : '') +
+            (discord_message_url ? (app_url ? '' : '\n') + '\n' + discord_message_url : '');
 
         const data = {
             status,
@@ -102,7 +125,8 @@ for (const [version, revision, platform, source, other_revisions] of new_version
             body: JSON.stringify(data),
         });
 
-        console.log('Posted Mastodon status', data, await response.json());
+        mastodon_status = await response.json();
+        console.log('Posted Mastodon status', data, mastodon_status);
     }
 }
 

@@ -51,8 +51,24 @@ for (const version of nintendo_jp.versions) {
 
 console.log('New versions', new_versions);
 
+let discord_guild_id = null;
+
 for (const [version, platform, source, url] of new_versions) {
+    let discord_message = null;
+    let discord_message_url = null;
+    let mastodon_status = null;
+
     if (process.env.DISCORD_WEBHOOK_ID) {
+        if (!discord_guild_id && process.env.MASTODON_TOKEN) {
+            const webhook_url = 'https://discord.com/api/webhooks/' + process.env.DISCORD_WEBHOOK_ID + '/' +
+                process.env.DISCORD_WEBHOOK_TOKEN;
+
+            const response = await fetch(webhook_url);
+            const data = await response.json();
+
+            discord_guild_id = data.guild_id;
+        }
+
         const embed = {
             title: 'New ' + app_name + ' version detected',
             color: app === 'moon' ? 16673321 : 15073298,
@@ -84,11 +100,18 @@ for (const [version, platform, source, url] of new_versions) {
             body: JSON.stringify(message),
         });
 
-        console.log('Sent Discord notification', message, embed.fields, await response.json());
+        discord_message = await response.json();
+        console.log('Sent Discord notification', message, embed.fields, discord_message);
+
+        if (discord_guild_id) {
+            discord_message_url = 'https://discord.com/channels/' + discord_guild_id +
+                '/' + discord_message.channel_id + '/' + discord_message.id;
+        }
     }
 
     if (process.env.MASTODON_TOKEN) {
-        const status = app_name + ' v' + version + ' (' + platform + ') released\n\n' + url;
+        const status = app_name + ' v' + version + ' (' + platform + ') released\n\n' + url +
+            (discord_message_url ? '\n' + discord_message_url : '');
 
         const data = {
             status,
@@ -107,7 +130,8 @@ for (const [version, platform, source, url] of new_versions) {
             body: JSON.stringify(data),
         });
 
-        console.log('Posted Mastodon status', data, await response.json());
+        mastodon_status = await response.json();
+        console.log('Posted Mastodon status', data, mastodon_status);
     }
 }
 

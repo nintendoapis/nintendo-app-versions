@@ -26,7 +26,7 @@ const result = {
             release_notes_html: $($(e).attr('data-target')).toString(),
         };
     }),
-    url,
+    url: response.url,
 };
 
 console.log(JSON.stringify(result, null, 4));

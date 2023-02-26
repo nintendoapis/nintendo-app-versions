@@ -22,7 +22,7 @@ const result = {
             release_notes_html: $(e).next().toString(),
         };
     }),
-    url,
+    url: response.url,
 };
 
 console.log(JSON.stringify(result, null, 4));

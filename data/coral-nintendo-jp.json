@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.5.0",
+            "label": "Ver. 2.5.0 ［2023.3.1］",
+            "release_notes_html": "<h4 class=\"c-heading-lv4 u-spc-lv6\"><span class=\"c-heading-lv4__text\">iOS版の更新内容</span></h4>"
+        },
+        {
             "version": "2.4.0",
             "label": "Ver. 2.4.0 ［2022.12.1］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>『スプラトゥーン3』のウィジェットが「Xマッチ」に対応しました。</li>\n          <li>Android 13のアプリごとの言語設定を利用できるようになりました（Androidのみ）。</li>\n          <li>その他、細かな修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>『スプラトゥーン3』のウィジェットが「Xマッチ」に対応しました。</li>\n              <li>Android 13のアプリごとの言語設定を利用できるようになりました（Androidのみ）。</li>\n              <li>その他、細かな修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "2.3.1",

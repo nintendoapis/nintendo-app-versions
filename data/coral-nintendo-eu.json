@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.5.0",
+            "label": "Ver. 2.5.0 [Released 01/03/23]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v250\" rel=\"1\"> <br> <h2>Ver. 2.5.0</h2> <ul><li>Updated the contents of some Splatoon 3 widgets for Android.</li><li>Splatoon 3 widgets can now also be used on the lock screen in iOS 16.</li><li>Various other small changes have also been made.</li></ul> </div>"
+        },
+        {
             "version": "2.4.0",
             "label": "Ver. 2.4.0 [Released 01/12/22]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v240\" rel=\"1\"> <br> <h2>Ver. 2.4.0</h2> <ul><li>Added X Battle support to Splatoon 3 widgets.</li><li>The Android 13 app-specific language settings can now be used.</li><li>Various other small changes have also been made.</li></ul> </div>"

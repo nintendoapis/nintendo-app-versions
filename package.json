@@ -7,6 +7,7 @@
         "google-play-scraper": "^9.1.1",
         "js-beautify": "^1.14.6",
         "json-stable-stringify": "^1.0.1",
-        "node-fetch": "^3.2.6"
+        "node-fetch": "^3.2.6",
+        "turndown": "^7.1.1"
     }
 }

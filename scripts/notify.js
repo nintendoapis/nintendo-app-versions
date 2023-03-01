@@ -1,5 +1,8 @@
 import * as fs from 'node:fs/promises';
 import fetch from 'node-fetch';
+import Turndown from 'turndown';
+
+const turndown = new Turndown();
 
 /** @type {'coral'|'moon'} */
 const app = process.argv[2];
@@ -12,7 +15,6 @@ const nintendo_jp = JSON.parse(await fs.readFile(new URL('../data/' + app + '-ni
 
 const known = await (async () => {
     try {
-        // return {versions: []};
         return JSON.parse(await fs.readFile(new URL('../data/' + app + '-known.json', import.meta.url), 'utf-8'));
     } catch (err) {
         return {versions: []};
@@ -23,12 +25,14 @@ const new_versions = [];
 if (!known.versions.includes(itunes.result.version + '-ios')) {
     console.log('New version detected on iTunes', itunes.result.version);
     known.versions.push(itunes.result.version + '-ios');
-    new_versions.push([itunes.result.version, 'iOS', 'iTunes', itunes.result.trackViewUrl]);
+    new_versions.push([itunes.result.version, 'iOS', 'iTunes',
+        itunes.result.trackViewUrl, itunes.result.releaseNotes]);
 }
 if (!known.versions.includes(googleplay.version + '-android')) {
     console.log('New version detected on Google Play', googleplay.version);
     known.versions.push(googleplay.version + '-android');
-    new_versions.push([googleplay.version, 'Android', 'Google Play', googleplay.result.url]);
+    new_versions.push([googleplay.version, 'Android', 'Google Play',
+        googleplay.result.url, turndown.turndown(googleplay.result.recentChanges)]);
 }
 
 for (const version of nintendo_jp.versions) {
@@ -40,12 +44,14 @@ for (const version of nintendo_jp.versions) {
     if (platforms.includes('ios') && !known.versions.includes(version.version + '-ios')) {
         console.log('New version detected on Nintendo JP', version.version);
         known.versions.push(version.version + '-ios');
-        new_versions.push([version.version, 'iOS', 'Nintendo JP', nintendo_jp.url]);
+        new_versions.push([version.version, 'iOS', 'Nintendo JP',
+            nintendo_jp.url, turndown.turndown(version.release_notes_html)]);
     }
     if (platforms.includes('android') && !known.versions.includes(version.version + '-android')) {
         console.log('New version detected on Nintendo JP', version.version);
         known.versions.push(version.version + '-android');
-        new_versions.push([version.version, 'Android', 'Nintendo JP', nintendo_jp.url]);
+        new_versions.push([version.version, 'Android', 'Nintendo JP',
+            nintendo_jp.url, turndown.turndown(version.release_notes_html)]);
     }
 }
 
@@ -53,7 +59,7 @@ console.log('New versions', new_versions);
 
 let discord_guild_id = null;
 
-for (const [version, platform, source, url] of new_versions) {
+for (const [version, platform, source, url, release_notes] of new_versions) {
     let discord_message = null;
     let discord_message_url = null;
     let mastodon_status = null;
@@ -79,7 +85,8 @@ for (const [version, platform, source, url] of new_versions) {
             fields: [
                 { name: 'Version', value: version, inline: true },
                 { name: 'Platform', value: platform, inline: true },
-                { name: 'Source', value: source, inline: true },
+                { name: 'Source', value: `[${source}](${url})` , inline: true },
+                { name: 'Release notes', value: release_notes },
             ],
         };
 
@@ -111,7 +118,9 @@ for (const [version, platform, source, url] of new_versions) {
 
     if (process.env.MASTODON_TOKEN) {
         const status = app_name + ' v' + version + ' (' + platform + ') released\n\n' + url +
-            (discord_message_url ? '\n' + discord_message_url : '');
+            (discord_message_url ? '\n' + discord_message_url : '') +
+            '\n\n' + (release_notes && release_notes.split('\n').find(l => l && !l.startsWith('・') && !l.startsWith('-')) ?
+                '> ' + release_notes.replace(/\n/g, '\n> ') : release_notes);
 
         const data = {
             status,

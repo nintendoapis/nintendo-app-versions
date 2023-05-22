@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.5.1",
+            "label": "Ver. 2.5.1 [Released 22/05/23]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v251\" rel=\"1\"> <br> <h2>Ver. 2.5.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
+        },
+        {
             "version": "2.5.0",
             "label": "Ver. 2.5.0 [Released 01/03/23]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v250\" rel=\"1\"> <br> <h2>Ver. 2.5.0</h2> <ul><li>Updated the contents of some Splatoon 3 widgets for Android.</li><li>Splatoon 3 widgets can now also be used on the lock screen in iOS 16.</li><li>Various other small changes have also been made.</li></ul> </div>"
@@ -18,7 +23,7 @@
         {
             "version": "2.3.0",
             "label": "Ver. 2.3.0 [Released 27/09/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"1\"> <br> <h2>Ver. 2.3.0</h2> <ul><li>Added support for Splatoon 3 widgets. \"Battle Logs\", \"Stage Schedule\" and \"Album\" can be checked from your device's home screen. <ul><li> <strong>Note:</strong> Depending on your device, some widgets may not be available.</li></ul> </li><li>Various other small changes have also been made.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"1\"> <br> <h2>Ver. 2.3.0</h2> <ul><li>Added support for Splatoon 3 widgets. \"Battle Logs\", \"Stage Schedule\" and \"Album\" can be checked from your device's home screen. <ul><li><strong>Note:</strong> Depending on your device, some widgets may not be available.</li></ul> </li><li>Various other small changes have also been made.</li></ul> </div>"
         },
         {
             "version": "2.2.0",
@@ -33,7 +38,7 @@
         {
             "version": "2.1.0",
             "label": "Ver. 2.1.0 [Released 09/05/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v210\" rel=\"1\"> <br> <h2>Ver. 2.1.0</h2> <ul><li>You can now switch between light mode and dark mode. <ul><li> <strong>Note:</strong> Supported for iOS 13/Android 10 and later.</li></ul> </li><li>Improvements have been made for performance and ease of use.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v210\" rel=\"1\"> <br> <h2>Ver. 2.1.0</h2> <ul><li>You can now switch between light mode and dark mode. <ul><li><strong>Note:</strong> Supported for iOS 13/Android 10 and later.</li></ul> </li><li>Improvements have been made for performance and ease of use.</li></ul> </div>"
         },
         {
             "version": "2.0.0",

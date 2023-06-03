@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "4.0.0-e2ee936d",
+    "web_app_ver": "4.0.0-d5178440",
     "version": "4.0.0",
-    "revision": "e2ee936dbecad1fd8582c2a35c2603c63767263f",
+    "revision": "d51784409653a32bc05fe77704381de83c61fbb2",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,13 +11,13 @@
         "REACT_APP_NEW_PARAM_1": "",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "e2ee936dbecad1fd8582c2a35c2603c63767263f",
+        "REACT_APP_REVISION": "d51784409653a32bc05fe77704381de83c61fbb2",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "e16d19e83fa1ac63732368527c699dd02fb7e5e325e0287ca2f1383d82b5d2a5",
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.49edd4a1.js",
-    "script_sha256": "36a9584887c4a0b557987f4d70e76ef1b809eea77edf38c5cecc2f0fc14a2387"
+    "html_sha256": "1c34157bce691748e2e9ed8da1e1a516fd2960f8df142421726f4f546cb56d43",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.d94c5ef3.js",
+    "script_sha256": "d96e2e3fe8605dd4734698217e76de6b5417c6cfbfb9d848d891cd9e474b2f2f"
 }

@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.5.2",
+            "label": "Ver. 2.5.2 ［2023.6.13］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "2.5.1",
             "label": "Ver. 2.5.1 ［2023.5.22］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "2.5.0",

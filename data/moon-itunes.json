@@ -8,20 +8,20 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e2/b8/63/e2b863bd-161f-9ffc-c17a-6da472c33218/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
+        "artworkUrl512": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znma",
         "contentAdvisoryRating": "17+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2023-01-25T02:34:42Z",
+        "currentVersionReleaseDate": "2023-07-04T02:03:50Z",
         "description": "As a parent, do you sometimes ask yourself questions like...\n\nDoes my child spend too much time playing games?\nWhat sorts of games does my child play?\nCan I restrict games according to my child's age?\n\nIf so, this might be just the app for you!\n\nNintendo Switch Parental Controls™ is a free app that allows you to easily monitor your child's use of the Nintendo Switch console. \n(Please note: A Nintendo Switch console with the latest available system version is required to use this app.)\n \nWith Nintendo Switch Parental Controls, you can:\n\n1. Monitor your child's play time on the console.\nSet a daily play time limit, which notifies your child on the console when time's up for the day. You can also check this app to see how long they've been playing. If necessary, you can also use the \"Suspend Software\" feature to make the console go into sleep mode when the set time is reached.\n\n2. Find out what games your child plays.\nNintendo Switch Parental Controls provides convenient reports that show you what video games have been played on the console recently and how much time was spent playing each day.\nView daily reports and monthly summaries of play activity. If you choose to receive push notifications, you'll be notified when a new monthly summary is available.\nThis will help you learn what games your child enjoys most.\n \n3. Set restrictions to ensure your child can play safely, no matter their age.\nEasily restrict features of the Nintendo Switch console as appropriate for your child. This includes restricting games above specific age ratings.\n\n\nAttention:\n● In order to use the Nintendo Switch Parental Controls app, a parent or guardian (aged 18 or above) needs to have a Nintendo Account.\n● You can set purchasing restrictions, including restrictions on purchasing products and services in Nintendo eShop, in the Nintendo Account settings.\n● In order to make use of all of the features and settings available in the Nintendo Switch Parental Controls app, all linked Nintendo Switch consoles need to be using the latest system version.",
         "features": [
             "iosUniversal"
         ],
-        "fileSizeBytes": "120949760",
+        "fileSizeBytes": "87875584",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -52,7 +52,7 @@
             "RU",
             "ES"
         ],
-        "minimumOsVersion": "9.0",
+        "minimumOsVersion": "11.0",
         "price": 0,
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
@@ -68,18 +68,6 @@
         "sellerName": "Nintendo Co., Ltd.",
         "sellerUrl": "https://www.nintendo.co.uk",
         "supportedDevices": [
-            "iPad2Wifi-iPad2Wifi",
-            "iPad23G-iPad23G",
-            "iPhone4S-iPhone4S",
-            "iPadThirdGen-iPadThirdGen",
-            "iPadThirdGen4G-iPadThirdGen4G",
-            "iPhone5-iPhone5",
-            "iPodTouchFifthGen-iPodTouchFifthGen",
-            "iPadFourthGen-iPadFourthGen",
-            "iPadFourthGen4G-iPadFourthGen4G",
-            "iPadMini-iPadMini",
-            "iPadMini4G-iPadMini4G",
-            "iPhone5c-iPhone5c",
             "iPhone5s-iPhone5s",
             "iPadAir-iPadAir",
             "iPadAirCellular-iPadAirCellular",
@@ -177,8 +165,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-parental-cont/id1190074407?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.18.1",
+        "version": "1.18.2",
         "wrapperType": "software"
     },
-    "version": "1.18.1"
+    "version": "1.18.2"
 }

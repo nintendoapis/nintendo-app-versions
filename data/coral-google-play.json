@@ -1,6 +1,6 @@
 {
-    "version": "2.6.0",
-    "updated_at": "Fri Jun 16 2023 06:09:14 GMT+0000 (Coordinated Universal Time)",
+    "version": "2.7.0",
+    "updated_at": "Thu Aug 10 2023 03:25:22 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Switch Online",
         "description": "The Nintendo Switch Online app is designed to help enhance your online gameplay experience on Nintendo Switch™. With this app, you can use voice chat while gaming, see whether your friends are online and use game-specific services!\nGame-specific services are currently available for Animal Crossing: New Horizons, Super Smash Bros. Ultimate, Splatoon 2 and Splatoon 3.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ An introduction to game-specific services\n\n　・ Splatoon 3\n　　　・ View the online status of friends who play Splatoon 3\n　　　・ View your battle logs and Salmon Run stats\n　　　・ Check stage schedules\n\n　・ Animal Crossing: New Horizons\n　　　・ Send custom designs created in Animal Crossing games on Nintendo 3DS to Animal Crossing: New Horizons\n　　　・ Use your smart device to send messages that appear in-game\n　　　・ View the online status of your Best Friends\n\n　・ Super Smash Bros. Ultimate\n　　　・ View posted images and videos\n　　　・ Queue downloads of user-created stages to play them in your copy of the game\n　　　・ Receive notifications about upcoming events\n\n　・ Splatoon 2\n　　　・ View your battle and Salmon Run stats\n　　　・ Check leaderboards and map schedules\n\n◆ Checking the online status of friends\n\nYou can use your smart device to check whether your friends are online. You'll also be able to check what games your online friends are playing, and even send friend requests from within this app!\n*You will need to use your Nintendo Switch console to accept friend requests and configure other friend settings.\n\n◆ Using voice chat while gaming\n\nWhen playing online in supported games, you can use voice chat with your friends via this app. How you use voice chat depends on the game and mode you're using - for example, when you split into teams in Splatoon 3, you can choose to use voice chat just with your team members so that friends on the other team won't know your next move.\n\nAttention:\n● A Nintendo Switch console and supported software are required to use this app's services.\n● A paid membership to Nintendo Switch Online is required to play online in some Nintendo Switch software and to use some of this app's features.\n● You must have a Nintendo Account for ages 13 and up in order to use some of this app's features, including voice chat.\n● Permanent internet connection required for use.\n● May contain advertisements and product placement.\n● Android version 6.0 or higher is required to use this app.\n\nQR Code is a registered trademark of DENSO WAVE INCORPORATED in JAPAN and other countries.\n\nNintendo Account Agreement: https://accounts.nintendo.com/term_chooser/eula",
@@ -44,8 +44,8 @@
         "contentRating": "PEGI 3",
         "adSupported": false,
         "released": "18 Jul 2017",
-        "updated": 1686895754000,
-        "version": "2.6.0",
+        "updated": 1691637922000,
+        "version": "2.7.0",
         "recentChanges": "Various issues are now resolved.",
         "comments": null,
         "appId": "com.nintendo.znca",

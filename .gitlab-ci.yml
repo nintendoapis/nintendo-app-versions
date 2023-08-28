@@ -56,15 +56,38 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    refs:
-      - main
-    changes:
-      - .gitlab-ci.yml
-      - data/*
-  except:
-    variables:
-      - $CI_PIPELINE_SOURCE == "schedule"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"
+      changes:
+        - .gitlab-ci.yml
+        - data/*
   environment:
     name: GitLab Pages
     url: $CI_PAGES_URL
+
+trigger-analyse/splatnet3:
+  stage: deploy
+  trigger:
+    project: $SPLATNET3_APP_RESOURCES_PROJECT
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main" && $SPLATNET3_APP_RESOURCES_PROJECT
+      changes:
+        - data/splatnet3-app.json
+
+trigger-analyse/nooklink:
+  stage: deploy
+  trigger:
+    project: $NOOKLINK_APP_RESOURCES_PROJECT
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main" && $NOOKLINK_APP_RESOURCES_PROJECT
+      changes:
+        - data/nooklink-app.json
+
+trigger-analyse/lhub:
+  stage: deploy
+  trigger:
+    project: $LHUB_APP_RESOURCES_PROJECT
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main" && $LHUB_APP_RESOURCES_PROJECT
+      changes:
+        - data/lhub-app.json

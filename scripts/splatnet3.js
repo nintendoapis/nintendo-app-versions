@@ -30,6 +30,7 @@ if (!script_urls.length) {
 }
 
 const version_regex = /\b([0-9a-f]{40})\b.*revision_info_not_set.*\n?.*\b(\d+\.\d+\.\d+)\b-/;
+let script_response;
 let script_url;
 let script_sha256;
 let match = null;
@@ -46,6 +47,7 @@ for (const url of script_urls) {
     match = formatted_js.match(version_regex);
     if (!match) continue;
 
+    script_response = response;
     script_url = url;
     script_sha256 = createHash('sha256').update(body).digest('hex');
 
@@ -90,7 +92,7 @@ for (const url of script_urls) {
                 formatted_js.indexOf('\n', start_index) - start_line_index);
         } while (start_line.startsWith(indent + ' '));
 
-        const module_call_js = 
+        const module_call_js =
             'let exports = {}; (' + start_line.replace(/\b\d+:/, '') +
             formatted_js.substr(start_index, end_line_index - start_index) +
             '})(null, null, {r: () => undefined, d: (n, e) => Object.assign(exports, e)}); exports.default.call(null)';
@@ -98,7 +100,59 @@ for (const url of script_urls) {
             timeout: 1000,
         });
 
-        graphql_queries.push(query);
+        graphql_queries.push({query, data: {id: query.params.id, name: query.params.name}});
+    }
+
+    const chunk_json_modules = [];
+
+    for (const match of formatted_js.matchAll(/\n {8}(const | {4})[0-9A-Za-z_]+ ?= ?(JSON\.parse\((['"])(.+)['"]\))(,|;)?/g)) {
+        console.warn('Found JSON module', js_url.pathname, match.index, match[3]);
+
+        const json = vm.runInNewContext(match[3] + match[4] + match[3], {}, {
+            timeout: 1000,
+        });
+
+        const data = JSON.parse(json);
+        chunk_json_modules.push(data);
+    }
+
+    for (const match of formatted_js.matchAll(/(\n( +)("(.+)"): )\{\n +kind: "Document",/ig)) {
+        console.warn('Found GraphQL query entry', js_url.pathname, match.index, [...match[4].matchAll(/(query|mutation|fragment) +([a-z0-9-_]+)/ig)].map(m => m[0]).join(', '));
+
+        const query = JSON.parse(match[3]);
+        const start_index = match.index + match[1].length;
+        const end = '\n' + match[2] + '}';
+        const end_index = formatted_js.indexOf(end, start_index) + end.length;
+
+        const query_js = formatted_js.substr(start_index, end_index - start_index);
+        const parsed_query = vm.runInNewContext('(' + query_js + ')', {}, {
+            timeout: 1000,
+        });
+
+        const operation = parsed_query.definitions.find(d => d.kind === 'OperationDefinition');
+        if (!operation) continue;
+
+        const persisted_query_id = chunk_json_modules.find(data => {
+            if (!data || typeof data !== 'object') return false;
+            if (!data[operation.name.value]) return false;
+
+            for (const [key, value] of Object.entries(data)) {
+                if (typeof value !== 'string') return false;
+                if (!value.match(/^[0-9a-f]{64}$/)) return false;
+            }
+
+            return true;
+        })?.[operation.name.value];
+        if (!persisted_query_id) continue;
+
+        graphql_queries.push({
+            start_index, end_index, query, parsed_query,
+            data: {
+                id: persisted_query_id,
+                name: operation.name.value,
+                operation: operation.operation,
+            },
+        });
     }
 
     break;
@@ -128,11 +182,21 @@ const result = {
 
     html_url: html_url.toString(),
     html_sha256: createHash('sha256').update(html_body).digest('hex'),
+    html_headers: {
+        'last-modified': html_response.headers.get('last-modified'),
+        'etag': html_response.headers.get('etag'),
+        'x-amz-version-id': html_response.headers.get('x-amz-version-id'),
+    },
 
     script_url: script_url.toString(),
     script_sha256,
+    script_headers: {
+        'last-modified': script_response.headers.get('last-modified'),
+        'etag': script_response.headers.get('etag'),
+        'x-amz-version-id': script_response.headers.get('x-amz-version-id'),
+    },
 
-    graphql_queries: Object.fromEntries(graphql_queries.map(d => [d.params.name, d.params.id])),
+    graphql_queries: Object.fromEntries(graphql_queries.map(d => [d.data.name, d.data.id])),
 };
 
 console.log(JSON.stringify(result, null, 4));

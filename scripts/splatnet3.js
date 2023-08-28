@@ -35,6 +35,7 @@ let script_sha256;
 let match = null;
 let env_match = null;
 let app_env = null;
+const graphql_queries = [];
 
 for (const url of script_urls) {
     const response = await fetch(url);
@@ -70,6 +71,36 @@ for (const url of script_urls) {
         console.warn('Could not find app environment in main chunk JavaScript source');
     }
 
+    const js_url = new URL(script_url);
+
+    for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{32})"/gi)) {
+        console.warn('Found GraphQL query module', js_url.pathname, match.index, match[1]);
+
+        const end_index = formatted_js.indexOf('\n            },', match.index) + 1;
+        const end_line_index = formatted_js.lastIndexOf('\n', end_index) + 1;
+        const end_line = formatted_js.substr(end_line_index, formatted_js.indexOf('\n', end_index) - end_line_index);
+        const indent = end_line.match(/^\s*/)[0];
+
+        let start_index = end_line_index;
+        let start_line = end_line;
+        do {
+            start_index = formatted_js.lastIndexOf('\n', start_index - 1);
+            const start_line_index = formatted_js.lastIndexOf('\n', start_index - 1) + 1;
+            start_line = formatted_js.substr(start_line_index,
+                formatted_js.indexOf('\n', start_index) - start_line_index);
+        } while (start_line.startsWith(indent + ' '));
+
+        const module_call_js = 
+            'let exports = {}; (' + start_line.replace(/\b\d+:/, '') +
+            formatted_js.substr(start_index, end_line_index - start_index) +
+            '})(null, null, {r: () => undefined, d: (n, e) => Object.assign(exports, e)}); exports.default.call(null)';
+        const query = vm.runInNewContext(module_call_js, {}, {
+            timeout: 1000,
+        });
+
+        graphql_queries.push(query);
+    }
+
     break;
 }
 
@@ -100,6 +131,8 @@ const result = {
 
     script_url: script_url.toString(),
     script_sha256,
+
+    graphql_queries: Object.fromEntries(graphql_queries.map(d => [d.params.name, d.params.id])),
 };
 
 console.log(JSON.stringify(result, null, 4));

@@ -1,18 +1,18 @@
 {
     "version": "2.5.5",
-    "revision": "e14342a",
+    "revision": "a296293",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
         "FAST_REFRESH": true,
         "REACT_APP_API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "REACT_APP_ENV_CODE": "lp1",
-        "REACT_APP_GIT_COMMIT_HASH": "e14342a",
+        "REACT_APP_GIT_COMMIT_HASH": "a296293",
         "REACT_APP_ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
         "REACT_APP_VERSION": "2.5.5"
     },
     "html_url": "https://lp1.nso.nintendo.net/",
-    "html_sha256": "812d48380804e1d77b026548f2d761c6eab1d79f1b4799ceef6593c154799b8f",
-    "script_url": "https://lp1.nso.nintendo.net/static/js/vendors.2eb3ea79.js",
-    "script_sha256": "78b71d5d3bae6438f028dd5ad01d5eb69a25d886fbc35dbd3a92ea643ac7066f"
+    "html_sha256": "10aae3abdf90b8e3d35077b9863e283d3bd73abf0486794457106c31dd957f3d",
+    "script_url": "https://lp1.nso.nintendo.net/static/js/vendors.1a4f2624.js",
+    "script_sha256": "731f04119193ce70241a7994600644cae2820fd667edf587405e3566dec14ab1"
 }

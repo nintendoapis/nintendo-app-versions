@@ -1,23 +1,23 @@
 {
-    "web_app_ver": "4.0.0-d5178440",
+    "web_app_ver": "4.0.0-355675c2",
     "version": "4.0.0",
-    "revision": "d51784409653a32bc05fe77704381de83c61fbb2",
+    "revision": "355675c26a08aabd7b3893fc0b8faef7dcbe26f9",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
         "FAST_REFRESH": true,
         "REACT_APP_DEEPLINK_SHARE_URL_BASE": "https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808",
         "REACT_APP_SHOW_UI_FULL_VERSION": "false",
-        "REACT_APP_NEW_PARAM_1": "",
+        "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "d51784409653a32bc05fe77704381de83c61fbb2",
+        "REACT_APP_REVISION": "355675c26a08aabd7b3893fc0b8faef7dcbe26f9",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "1c34157bce691748e2e9ed8da1e1a516fd2960f8df142421726f4f546cb56d43",
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.d94c5ef3.js",
-    "script_sha256": "d96e2e3fe8605dd4734698217e76de6b5417c6cfbfb9d848d891cd9e474b2f2f"
+    "html_sha256": "af54ccb492c9ae11e36b5588279826b56e404c9e2a4b989c9876a95bd1a26970",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.631eca4e.js",
+    "script_sha256": "8822bf4a50fd9a926497289ac1946db05cdc81426fb7d2d377808d630bd6a2ab"
 }

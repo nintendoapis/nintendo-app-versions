@@ -18,8 +18,18 @@
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
     "html_sha256": "af54ccb492c9ae11e36b5588279826b56e404c9e2a4b989c9876a95bd1a26970",
+    "html_headers": {
+        "last-modified": "Mon, 28 Aug 2023 08:15:40 GMT",
+        "etag": "\"ba8114500b12eda8200f584ff950dea0\"",
+        "x-amz-version-id": "myyw70k_s2JLiNHWV1fa2lWPMsC1b7SI"
+    },
     "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.631eca4e.js",
     "script_sha256": "8822bf4a50fd9a926497289ac1946db05cdc81426fb7d2d377808d630bd6a2ab",
+    "script_headers": {
+        "last-modified": "Mon, 28 Aug 2023 08:15:41 GMT",
+        "etag": "\"03d15805f649f024fa8706df4d0eb7c2\"",
+        "x-amz-version-id": "RHy7B7ojHQkLT8b9pQogCe5lJgI7ha.j"
+    },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "991bace9e8c52d63084cd1570a97a5b4",
         "CheckinWithQRCodeMutation": "daffd9621680664dbf19d27e87484ac7",
@@ -114,6 +124,16 @@
         "CatalogRefetchQuery": "60a6592c6ee8e47245020ae0d314d378",
         "HomeQuery": "7dcc64ea27a08e70919893a0d3f70871",
         "VsHistoryDetailPagerRefetchQuery": "994cf141e55213e6923426caf37a1934",
-        "VsHistoryDetailQuery": "9ee0099fbe3d8db2a838a75cf42856dd"
+        "VsHistoryDetailQuery": "9ee0099fbe3d8db2a838a75cf42856dd",
+        "IfTournamentManagerIsAvailableQuery": "8892ce4157248506f51735e2c9eb300c6c980c67ff8c317b927b05e8d35852d9",
+        "ReserveRoomMutation": "7dd691a19092b4df99b67c2157e6b836ab8bafdf65f9e46ccf848c543459ca9d",
+        "CancelReservationMutation": "963e7a0e2c37f54df3316e5d170584d3b96f9c2102823fb5788ec0e8d3372eba",
+        "OverwriteReservedRoomMutation": "5fd71f88970f80a456d826061a78f1c0b287b5d3daadc6c7c64db50aae9694ee",
+        "CreateRoomMutation": "4e664b99a438ae0bb3466fe7df0f6f8e2c36fab2288e2c602cb3339e9ab01325",
+        "TournamentNotificationMainQuery": "93d0a1ccf461da6d23faea6340806f1b6b563f1c375b4a6a0ad35bc5f759f4b4",
+        "UseShowTournamentSupportNotificationBadgeQuery": "8f40ba6c690211fa2d261a20be7accc063481d377146f7cfb793664ac056df5a",
+        "RoomCreatorInvitationQuery": "f7cb0e797b3f51dc4ac8f0cce1bdfafe4407e25dc483998290fc3d187bd6007e",
+        "RoomCreatorQuery": "0cdb5030fe7e59ef56e71b0a669bdca29993aebca785b11b99e89076886064cc",
+        "CloseRoomMutation": "60fcc66077357ca266610d035d877845de83aebd8dd67e366c2dcb7756b3f80b"
     }
 }

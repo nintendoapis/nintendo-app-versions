@@ -75,7 +75,7 @@ for (const url of script_urls) {
 
     const js_url = new URL(script_url);
 
-    for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{32})"/gi)) {
+    for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{64})"/gi)) {
         console.warn('Found GraphQL query module', js_url.pathname, match.index, match[1]);
 
         const end_index = formatted_js.indexOf('\n            },', match.index) + 1;

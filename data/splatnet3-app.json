@@ -19,16 +19,16 @@
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
     "html_sha256": "13e1599a672c35797e81fb421803e4da874185a803eb24550c5f94472399f961",
     "html_headers": {
-        "last-modified": "Tue, 05 Sep 2023 03:13:55 GMT",
+        "last-modified": "Tue, 05 Sep 2023 05:03:30 GMT",
         "etag": "\"10c6f36729d332b88ce82e52c5effed1\"",
-        "x-amz-version-id": "uzvJZy2km9fyo1SywUJWhOZmVA4FPdwW"
+        "x-amz-version-id": "M_HXtEWmoYlz6SvJa7YcGPCsgsK81VTe"
     },
     "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.43d829a4.js",
     "script_sha256": "2d8fa60b91ae33fa4ee24107cada87881c854cd842bed8fe75731b4b228ea372",
     "script_headers": {
-        "last-modified": "Tue, 05 Sep 2023 03:13:56 GMT",
+        "last-modified": "Tue, 05 Sep 2023 05:03:31 GMT",
         "etag": "\"0b3583ac80503223eb739e324c61eea1\"",
-        "x-amz-version-id": "YIDBXPQz8KevFblSpMs12I1KhgBGjj.T"
+        "x-amz-version-id": "4tndyM728pjOQJBOpjYSax3hUFwjBjsz"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",

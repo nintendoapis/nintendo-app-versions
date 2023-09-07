@@ -8,9 +8,9 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-        "artworkUrl512": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/90/5f/b8905f5e-325c-7ed6-f438-3d98f937b48a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znma",
@@ -32,11 +32,11 @@
             "Utilities"
         ],
         "ipadScreenshotUrls": [
-            "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/86/d3/ec/86d3ec89-b120-c4bf-521c-e8036571edde/3f3e23de-ad0c-4ed5-aaa5-068900038e8d_000_ipadPro_en-GB_@8c9a8d206833abf2c259920fbc36b8e94a5ccb46@.png/576x768bb.png",
-            "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/16/ef/18/16ef185a-7ae1-3062-0217-4509c3c9b87e/525c9fed-02bb-4ed6-b34b-a31ee4c08f33_001_ipadPro_en-GB_@5f532906886b480eb009e5fd844e6e0078e1acf3@.png/576x768bb.png",
-            "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/91/3e/34/913e3498-a51b-4949-73e9-9df1e46f7c30/a3744762-c2f7-4d7a-ad96-edcec733aa82_002_ipadPro_en-GB_@95175ba87706cf75c5796aa4733d191129380065@.png/576x768bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/86/d3/ec/86d3ec89-b120-c4bf-521c-e8036571edde/3f3e23de-ad0c-4ed5-aaa5-068900038e8d_000_ipadPro_en-GB_@8c9a8d206833abf2c259920fbc36b8e94a5ccb46@.png/576x768bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/16/ef/18/16ef185a-7ae1-3062-0217-4509c3c9b87e/525c9fed-02bb-4ed6-b34b-a31ee4c08f33_001_ipadPro_en-GB_@5f532906886b480eb009e5fd844e6e0078e1acf3@.png/576x768bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/91/3e/34/913e3498-a51b-4949-73e9-9df1e46f7c30/a3744762-c2f7-4d7a-ad96-edcec733aa82_002_ipadPro_en-GB_@95175ba87706cf75c5796aa4733d191129380065@.png/576x768bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/52/c7/ce/52c7cea1-97a4-608e-1efa-a6aba1a09217/011ddf60-5593-4f48-ad8b-49f714ecfde1_003_ipadPro_en-GB_@1f17d2f405d079856f64e0485cfae851d3c201b2@.png/576x768bb.png",
-            "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/d7/2c/6e/d72c6e58-7395-3115-be38-7256a31af743/a0df20a3-12d6-4b61-8b4f-2e84b632fe23_004_ipadPro_en-GB_@90fcf5eab1e8439c0607df7d1d73808bd822b73d@.png/576x768bb.png"
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/d7/2c/6e/d72c6e58-7395-3115-be38-7256a31af743/a0df20a3-12d6-4b61-8b4f-2e84b632fe23_004_ipadPro_en-GB_@90fcf5eab1e8439c0607df7d1d73808bd822b73d@.png/576x768bb.png"
         ],
         "isGameCenterEnabled": false,
         "isVppDeviceBasedLicensingEnabled": true,
@@ -60,9 +60,9 @@
         "releaseNotes": "Implemented bug fixes.",
         "screenshotUrls": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/a7/88/e4/a788e4c4-a005-bc9b-db60-89d6d3d28e30/cb12b378-4a3f-4285-a566-79efd4183e06_000_iphone6Plus_en-GB_@9f26e6f52e0ef3f49162123f281ba1d3ef27ddb3@.png/392x696bb.png",
-            "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d0/5c/a2/d05ca299-23bb-8155-bfe8-a84c285a69a5/6bef65f9-8252-46d4-9ded-df7038365bf5_001_iphone6Plus_en-GB_@6ce0a3eaefeae5db120f18a63c316843e2a93d80@.png/392x696bb.png",
-            "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ae/56/c7/ae56c7b2-e6cb-cf45-00ad-d15d0239055a/cee82dbe-0f71-4a39-a605-540126a5e253_002_iphone6Plus_en-GB_@65ca8fa6cba3bfa10911bc49791faabdf046b901@.png/392x696bb.png",
-            "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/f1/cd/c5/f1cdc57b-e5da-9d51-7254-dfbfdfc36509/ddc1d9b0-2e13-4018-a7e0-ac05b394763b_003_iphone6Plus_en-GB_@63c8c00f92777238a40395d12e9f7b54433014a0@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d0/5c/a2/d05ca299-23bb-8155-bfe8-a84c285a69a5/6bef65f9-8252-46d4-9ded-df7038365bf5_001_iphone6Plus_en-GB_@6ce0a3eaefeae5db120f18a63c316843e2a93d80@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ae/56/c7/ae56c7b2-e6cb-cf45-00ad-d15d0239055a/cee82dbe-0f71-4a39-a605-540126a5e253_002_iphone6Plus_en-GB_@65ca8fa6cba3bfa10911bc49791faabdf046b901@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/f1/cd/c5/f1cdc57b-e5da-9d51-7254-dfbfdfc36509/ddc1d9b0-2e13-4018-a7e0-ac05b394763b_003_iphone6Plus_en-GB_@63c8c00f92777238a40395d12e9f7b54433014a0@.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/8d/6f/81/8d6f81ad-810b-ba85-157a-f0c7db04cedf/a11a6d85-260c-4354-841b-44be0d04255e_004_iphone6Plus_en-GB_@8b53e00b57dc46b6283bde449d7c4af2e58cce89@.png/392x696bb.png"
         ],
         "sellerName": "Nintendo Co., Ltd.",

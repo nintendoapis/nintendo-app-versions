@@ -1,14 +1,9 @@
 {
     "versions": [
         {
-            "version": "1.19.0",
-            "label": "Ver. 1.19.0 [Released 07/09/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v119\" rel=\"1\"> <h2>Version 1.19.0</h2> <ul><li>Small improvements have been made.</li><li>Additionally, the supported iOS versions have changed. iOS version 14.0 or higher is now required to use this app.</li></ul> </div>"
-        },
-        {
             "version": "1.17.0",
             "label": "Ver. 1.17.0 [Released 18/09/18]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v17\" rel=\"1\"> <br> <h2>Version 1.17.0</h2> <ul><li>If you've set up Parental Controls on a Nintendo Switch console, articles that appear in that console's news feed will observe the Restricted Software settings. <ul><li>Settings are located in the application's Settings &gt; Restriction Level &gt; Restricted Software</li></ul> </li><li>Establishing a new Internet connection on a Nintendo Switch console with Parental Controls enabled no longer requires a PIN. When Notification Settings for the app are <a href=\"/Support/Nintendo-Switch/How-to-Update-Notification-Settings-in-the-Nintendo-Switch-Parental-Controls-App-1494770.html\" class=\"\" target=\"nintendo\" title=\"How to Update Notification Settings in the Nintendo Switch Parental Controls App\">turned on</a>, a push notification will be sent to your smartphone when a new connection is established. </li><li>Feature improvements and bug fixes have been implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v17\" rel=\"1\"> <br> <h2>Version 1.17.0</h2> <ul><li>If you've set up Parental Controls on a Nintendo Switch console, articles that appear in that console's news feed will observe the Restricted Software settings. <ul><li>Settings are located in the application's Settings &gt; Restriction Level &gt; Restricted Software</li></ul> </li><li>Establishing a new Internet connection on a Nintendo Switch console with Parental Controls enabled no longer requires a PIN. When Notification Settings for the app are turned on, a push notification will be sent to your smartphone when a new connection is established. </li><li>Feature improvements and bug fixes have been implemented.</li></ul> </div>"
         },
         {
             "version": "1.15.0",

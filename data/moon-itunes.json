@@ -157,7 +157,11 @@
             "iPadPro11FourthGen-iPadPro11FourthGen",
             "iPadPro11FourthGenCellular-iPadPro11FourthGenCellular",
             "iPadProSixthGen-iPadProSixthGen",
-            "iPadProSixthGenCellular-iPadProSixthGenCellular"
+            "iPadProSixthGenCellular-iPadProSixthGenCellular",
+            "iPhone15-iPhone15",
+            "iPhone15Plus-iPhone15Plus",
+            "iPhone15Pro-iPhone15Pro",
+            "iPhone15ProMax-iPhone15ProMax"
         ],
         "trackCensoredName": "Nintendo Switch Parental Cont…",
         "trackContentRating": "17+",

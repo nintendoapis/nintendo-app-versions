@@ -6,7 +6,9 @@ import beautify from 'js-beautify';
 const html_url = new URL('https://c.nintendo.com/splatoon3-tournament/?lang=en-GB');
 
 const html_response = await fetch(html_url);
-const html_body = await html_response.text();
+const html_body = (await html_response.text())
+    .replace(/("_sentryTraceData": *")[^"]*(")/, '$1$2')
+    .replace(/(sentry-trace_id=)[0-9a-f]{32}/, '$1');
 
 const html_sha256 = createHash('sha256').update(html_body).digest('hex');
 

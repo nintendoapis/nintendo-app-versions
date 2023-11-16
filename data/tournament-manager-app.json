@@ -1,12 +1,12 @@
 {
-    "revision": "lp1-5dc79cc67d915029af98b455fd92c5a634311172",
-    "build_id": "einD9gjX5xsKWC53E8nco",
+    "revision": "lp1-042637abe87ec0c379c204b920c9c64b23b370d8",
+    "build_id": "xdZLos2pSxZl_3kTnDBAj",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "4ada2825e4ad538e61358004da7509f24fc906b6a132217484ad2747613c6b01",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/einD9gjX5xsKWC53E8nco/_buildManifest.js",
+    "html_sha256": "37ec72d61f65f4a6154d3de37fa2966e9dbf2ce536a57b073ec0492b69a8ecb3",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/xdZLos2pSxZl_3kTnDBAj/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Thu, 16 Nov 2023 03:38:05 GMT",
-        "etag": "W/\"183d-18bd6351548\""
+        "last-modified": "Thu, 16 Nov 2023 05:33:14 GMT",
+        "etag": "W/\"183d-18bd69e8190\""
     },
     "build_manifest_hash_sha256": "c86f2e28ec9aa30d252e2c8c1b7ac9670ce349ba3184465cb30bea4a6fb00c76",
     "build_manifest": {
@@ -357,6 +357,6 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-5dc79cc67d915029af98b455fd92c5a634311172"
+        "id": "lp1-042637abe87ec0c379c204b920c9c64b23b370d8"
     }
 }

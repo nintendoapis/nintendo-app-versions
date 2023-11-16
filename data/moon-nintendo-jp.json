@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "1.19.0",
+            "label": "Ver. 1.19.0 ［2023.9.14］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n          <li>iOS 対応バージョンを変更しました。このアプリを使用するには、iOS 14.0以降が必要です。（iOSのみ）</li>\n        </ul>"
+        },
+        {
             "version": "1.18.2",
             "label": "Ver. 1.18.2 ［2023.7.4］（iOSのみ）",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "1.18.1",

@@ -37,6 +37,9 @@ for (const script of $('script')) {
 
 console.warn('Found scripts', script_urls.map(s => s.pathname.substr(1)));
 
+const graphql_queries = [];
+let downloaded_assets = [];
+
 let build_manifest_url = null;
 let build_manifest_headers = null;
 let build_manifest_hash_sha256 = null;
@@ -100,7 +103,68 @@ for (const script_url of script_urls) {
         }
     }
 
-    if (build_manifest && sentry_release) break;
+    await extractRelayGraphqlRequestModulesFromJs(url.pathname, url, formatted_js);
+}
+
+async function extractRelayGraphqlRequestModulesFromJs(name, url, formatted_js) {
+    if (downloaded_assets.includes(url.pathname)) return;
+    downloaded_assets.push(url.pathname);
+
+    for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{64})"/gi)) {
+        console.warn('Found GraphQL query module', url.pathname, match.index, match[1]);
+
+        const end_index = formatted_js.indexOf('\n        },', match.index) + 1;
+        const end_line_index = formatted_js.lastIndexOf('\n', end_index) + 1;
+        const end_line = formatted_js.substr(end_line_index, formatted_js.indexOf('\n', end_index) - end_line_index);
+        const indent = end_line.match(/^\s*/)[0];
+
+        let start_index = end_line_index;
+        let start_line = end_line;
+        do {
+            start_index = formatted_js.lastIndexOf('\n', start_index - 1);
+            const start_line_index = formatted_js.lastIndexOf('\n', start_index - 1) + 1;
+            start_line = formatted_js.substr(start_line_index,
+                formatted_js.indexOf('\n', start_index) - start_line_index);
+        } while (start_line.startsWith(indent + ' '));
+
+        const module_call_js =
+            'let exports = {}; (' + start_line.replace(/\b\d+:/, '') +
+            formatted_js.substr(start_index, end_line_index - start_index) +
+            '})(null, exports, {r: () => undefined, d: (n, e) => Object.assign(exports, e)}); exports.default';
+        const query = vm.runInNewContext(module_call_js, {}, {
+            timeout: 1000,
+        });
+
+        const data = {start_index, start_line, end_index, end_line, indent};
+        const module_js = '//' + start_line +
+            formatted_js.substr(start_index, end_line_index - start_index) +
+            '//' + end_line;
+
+        graphql_queries.push({...data, query, data: query.params});
+    }
+}
+
+if (!build_manifest || !sentry_release) {
+    throw new Error('Unable to find build manifest or Sentry release data');
+}
+
+for (const route of Object.keys(build_manifest)) {
+    if (!route.startsWith('/')) continue;
+
+    for (const asset_url of build_manifest[route]) {
+        if (!asset_url.endsWith('.js')) continue;
+
+        const url = new URL('_next/' + asset_url, html_url);
+
+        console.warn('Downloading asset', url.href);
+
+        const response = await fetch(url);
+        const js = await response.text();
+
+        const formatted_js = beautify(js);
+
+        await extractRelayGraphqlRequestModulesFromJs(asset_url, url, formatted_js);
+    }
 }
 
 const result = {
@@ -117,6 +181,8 @@ const result = {
 
     app_url,
     sentry_release,
+
+    graphql_queries: Object.fromEntries(graphql_queries.map(d => [d.data.name, d.data.id])),
 };
 
 console.log(JSON.stringify(result, null, 4));

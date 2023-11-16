@@ -7,6 +7,7 @@ const app_info = {
     'splatnet3': ['SplatNet 3', 0xfefb55, 'https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808'],
     'nooklink': ['NookLink', 0x6cc1fe, 'https://dpl.sd.lp1.acbaa.srv.nintendo.net/znca/game/4953919198265344'],
     'lhub': ['Nintendo Switch Online applet', 0xe60012, null],
+    'tournament-manager': ['Splatoon 3 Tournament Manager', 0xfefb55, 'https://c.nintendo.com/splatoon3-tournament/'],
 };
 const app_name = app_info[app]?.[0] ?? null;
 const app_colour = app_info[app]?.[1] ?? null;
@@ -25,10 +26,12 @@ const known = await (async () => {
 const new_versions = [];
 
 if (!known.versions.includes(revision + '-web')) {
-    const other_revisions = known.versions.filter(v => v.startsWith(web.version + '-') && v.endsWith('-web'));
-    console.log('New version detected', web.version, web.revision, other_revisions);
+    const other_revisions = web.version ?
+        known.versions.filter(v => v.startsWith(web.version + '-') && v.endsWith('-web')) : [];
+
+    console.log('New version detected', web.version, web.revision, web.build_id, other_revisions);
     known.versions.push(revision + '-web');
-    new_versions.push([web.version, web.revision ?? null, 'Web', 'Web', other_revisions]);
+    new_versions.push([web.version ?? null, web.revision ?? null, web.build_id ?? null, 'Web', 'Web', other_revisions]);
 }
 
 console.log('New versions', new_versions.length);
@@ -38,7 +41,7 @@ const known_app_env_json = JSON.stringify(known.app_env);
 
 let discord_guild_id = null;
 
-for (const [version, revision, platform, source, other_revisions] of new_versions) {
+for (const [version, revision, build_id, platform, source, other_revisions] of new_versions) {
     let discord_message = null;
     let discord_message_url = null;
     let mastodon_status = null;
@@ -62,11 +65,16 @@ for (const [version, revision, platform, source, other_revisions] of new_version
                 url: 'https://github.com/samuelthomas2774/nintendo-app-versions',
             },
             fields: [
-                { name: 'Version', value: version, inline: true },
+                ...(version ? [
+                    { name: 'Version', value: version, inline: true },
+                ] : []),
                 { name: 'Platform', value: platform, inline: true },
                 { name: 'Source', value: source, inline: true },
                 ...(revision ? [
-                    { name: 'Revision', value: '`' + revision + '`', inline: true },
+                    { name: 'Revision', value: '`' + revision + '`', inline: false },
+                ] : []),
+                ...(build_id ? [
+                    { name: 'Build ID', value: '`' + build_id + '`', inline: false },
                 ] : []),
                 ...(app_env_json !== known_app_env_json ? [
                     {
@@ -80,7 +88,9 @@ for (const [version, revision, platform, source, other_revisions] of new_version
 
         const mention = process.env.DISCORD_WEBHOOK_MENTION ? '<@' + process.env.DISCORD_WEBHOOK_MENTION + '> ' : '';
         const message = {
-            content: mention + app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released',
+            content: version ?
+                mention + app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released' :
+                mention + app_name + ' revision `' + revision + '` released',
             embeds: [embed],
         };
 
@@ -105,7 +115,10 @@ for (const [version, revision, platform, source, other_revisions] of new_version
     }
 
     if (process.env.MASTODON_TOKEN) {
-        const status = app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released' +
+        const status =
+            (version ?
+                app_name + ' v' + version + (revision ? '-' + revision.substr(0, 8) : '') + ' released' :
+                app_name + ' revision ' + revision + ' released') +
             (app_url ? '\n\n' + app_url : '') +
             (discord_message_url ? (app_url ? '' : '\n') + '\n' + discord_message_url : '');
 

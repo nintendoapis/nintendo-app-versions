@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "6.0.0-e135295b",
+    "web_app_ver": "6.0.0-daea5c11",
     "version": "6.0.0",
-    "revision": "e135295bf62c6b17c3ec314f4f030352228b6db1",
+    "revision": "daea5c11e2ba702fbe5adcbacd66d8cdff903394",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,24 +11,24 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "e135295bf62c6b17c3ec314f4f030352228b6db1",
+        "REACT_APP_REVISION": "daea5c11e2ba702fbe5adcbacd66d8cdff903394",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "b2c4f4113e348595ee46a44ed71759a0060eb70e29ceeacbc3fae6bde1e83561",
+    "html_sha256": "2ad0ec83c24a7f482cd6de00d2f833f558cdaf0662f5c80aecea1d72ac03b12e",
     "html_headers": {
-        "last-modified": "Thu, 30 Nov 2023 02:22:40 GMT",
-        "etag": "\"18b0250ffe22132079c470355bc93355\"",
-        "x-amz-version-id": "_ylO56ts3IOOhTv6L7ZJ09q03dgNIaH7"
+        "last-modified": "Wed, 13 Dec 2023 01:18:53 GMT",
+        "etag": "\"15775c043760e2460752c0df3ce09497\"",
+        "x-amz-version-id": "ybjZbR8BBRTdBtmNkpOaDlWw8tBhUIcd"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.8a498a92.js",
-    "script_sha256": "c85e183afccb94ff7b5e0981df457d4d130a6783ab37fe7379a2bafac8b8a9bf",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.af19adb7.js",
+    "script_sha256": "c2d9b62bdf7559a7423e4c0130f1ad62f0052fa7f19f8767916a1750d91d3b3e",
     "script_headers": {
-        "last-modified": "Thu, 30 Nov 2023 02:22:41 GMT",
-        "etag": "\"7cfd3745418c3646b37c8d4576df8e64\"",
-        "x-amz-version-id": "dG_RA8Ea7tYBJIJeSk1QKJGT1lH5e1oS"
+        "last-modified": "Wed, 13 Dec 2023 01:18:54 GMT",
+        "etag": "\"77a63f86e09353581937621bc45a9438\"",
+        "x-amz-version-id": "F6HU_zkDdTX0QnGMRBN2QwvgCUXhlChE"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",

@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "6.0.0-daea5c11",
+    "web_app_ver": "6.0.0-1249ecb9",
     "version": "6.0.0",
-    "revision": "daea5c11e2ba702fbe5adcbacd66d8cdff903394",
+    "revision": "1249ecb9c06fb57f87d5a76e13bf9c0c45b5764e",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,24 +11,24 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "daea5c11e2ba702fbe5adcbacd66d8cdff903394",
+        "REACT_APP_REVISION": "1249ecb9c06fb57f87d5a76e13bf9c0c45b5764e",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "2ad0ec83c24a7f482cd6de00d2f833f558cdaf0662f5c80aecea1d72ac03b12e",
+    "html_sha256": "80549518a0f8436003e016d530d0190dcb24b094d98fcc9b6abdd50727a5bc14",
     "html_headers": {
-        "last-modified": "Wed, 13 Dec 2023 01:18:53 GMT",
-        "etag": "\"15775c043760e2460752c0df3ce09497\"",
-        "x-amz-version-id": "ybjZbR8BBRTdBtmNkpOaDlWw8tBhUIcd"
+        "last-modified": "Thu, 25 Jan 2024 01:48:05 GMT",
+        "etag": "\"0a449538baf51f147b1d7c44607b6c4e\"",
+        "x-amz-version-id": "iQWlJxpi.eCjr7DOIYBPrn_H.AQTkrHn"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.af19adb7.js",
-    "script_sha256": "c2d9b62bdf7559a7423e4c0130f1ad62f0052fa7f19f8767916a1750d91d3b3e",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.e942c34f.js",
+    "script_sha256": "38fc0aae874413214f3d75e2dc37ccfba450c8058603147c6eae9ad472806577",
     "script_headers": {
-        "last-modified": "Wed, 13 Dec 2023 01:18:54 GMT",
-        "etag": "\"77a63f86e09353581937621bc45a9438\"",
-        "x-amz-version-id": "F6HU_zkDdTX0QnGMRBN2QwvgCUXhlChE"
+        "last-modified": "Thu, 25 Jan 2024 01:48:07 GMT",
+        "etag": "\"3b82613dba75e28de4442b8ce7357fad\"",
+        "x-amz-version-id": "kvSguJ73ICpi7SYD3I4LNwvtEtsddtMt"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",

@@ -93,7 +93,7 @@ for (const url of script_urls) {
         } while (start_line.startsWith(indent + ' '));
 
         const module_call_js =
-            'let exports = {}; (' + start_line.replace(/\b\d+:/, '') +
+            'let exports = {}; (' + start_line.replace(/\b\d+(e\d)?:/, '') +
             formatted_js.substr(start_index, end_line_index - start_index) +
             '})(null, null, {r: () => undefined, d: (n, e) => Object.assign(exports, e)}); exports.default.call(null)';
         const query = vm.runInNewContext(module_call_js, {}, {

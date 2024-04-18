@@ -1,34 +1,34 @@
 {
-    "web_app_ver": "6.0.0-eb33aadc",
+    "web_app_ver": "6.0.0-2ba8cb04",
     "version": "6.0.0",
-    "revision": "eb33aadc3227a1ed33880520563718a6167698ad",
+    "revision": "2ba8cb048291dd4761938df65d860b37fb6e8b9c",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
         "FAST_REFRESH": true,
         "REACT_APP_DEEPLINK_SHARE_URL_BASE": "https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808",
         "REACT_APP_SHOW_UI_FULL_VERSION": "false",
-        "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament",
+        "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament/api/app/bootstrap",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "eb33aadc3227a1ed33880520563718a6167698ad",
+        "REACT_APP_REVISION": "2ba8cb048291dd4761938df65d860b37fb6e8b9c",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "4c5dfbad65b1db0472bd587785e1bddb9a37fcedbb5b75ed2f21ececb03f2eac",
+    "html_sha256": "e7fc0a2cbb40e5047110f44fe0ebb9c69e1b7ffe3c7094f3b0c3f9c92bbe7cc8",
     "html_headers": {
-        "last-modified": "Thu, 22 Feb 2024 01:41:54 GMT",
-        "etag": "\"936dee54b7808fb5ce18eafbe614b0ea\"",
-        "x-amz-version-id": "1IXIk2pxSF5.XP3xtPnA58_zhV7oHs_8"
+        "last-modified": "Thu, 18 Apr 2024 02:31:00 GMT",
+        "etag": "\"9080e883cdd7d7bbb935d1f9ef97e059\"",
+        "x-amz-version-id": "ZYO4HGm2.omn5RfIbFv5gLgR3WyYBzEh"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.a638a314.js",
-    "script_sha256": "12fb00a805fd01b34292199ba05c5d3f51164ba805908dc2b8e9b57629790ef1",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.06c4deaf.js",
+    "script_sha256": "30203302f6adfb67a6a01d9f546a6529358c5027473e3dfef18d944d13a1b32d",
     "script_headers": {
-        "last-modified": "Thu, 22 Feb 2024 01:41:55 GMT",
-        "etag": "\"2450c42c3dd7227d9002ead8801f90f8\"",
-        "x-amz-version-id": "0Vut_uXcig4.ArW6wbDH9H9O.Ortwnxe"
+        "last-modified": "Thu, 18 Apr 2024 02:31:00 GMT",
+        "etag": "\"d097434e59e36ffddc37505c7542e3f1\"",
+        "x-amz-version-id": "xnT0GrS7jeNMr_wU7cIh0X_qV7jGQ5YF"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",
@@ -138,7 +138,6 @@
         "HomeQuery": "51fc56bbf006caf37728914aa8bc0e2c86a80cf195b4d4027d6822a3623098a8",
         "VsHistoryDetailPagerRefetchQuery": "973ca7012d8e94da97506cd39dfbb2a45eaae6e382607b650533d4f5077d840d",
         "VsHistoryDetailQuery": "f893e1ddcfb8a4fd645fd75ced173f18b2750e5cfba41d2669b9814f6ceaec46",
-        "IfTournamentManagerIsAvailableQuery": "8892ce4157248506f51735e2c9eb300c6c980c67ff8c317b927b05e8d35852d9",
         "ReserveRoomMutation": "7dd691a19092b4df99b67c2157e6b836ab8bafdf65f9e46ccf848c543459ca9d",
         "CancelReservationMutation": "963e7a0e2c37f54df3316e5d170584d3b96f9c2102823fb5788ec0e8d3372eba",
         "OverwriteReservedRoomMutation": "5fd71f88970f80a456d826061a78f1c0b287b5d3daadc6c7c64db50aae9694ee",

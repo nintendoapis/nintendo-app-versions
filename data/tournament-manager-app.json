@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-1b742b76c26c1c1bb47fbaa87073186f4dd508d2",
-    "build_id": "BpkqtvsVMxCqdhUNazmfD",
+    "revision": "lp1-8d435d058ed558def2a974a98f9bf8ec6a92bd82",
+    "build_id": "cJazedq6ACHH_rnQfC0Zu",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "5585d07e18a183d6f032d5ba959bfd18ab2398485a012ebb6233e957aec71687",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/BpkqtvsVMxCqdhUNazmfD/_buildManifest.js",
+    "html_sha256": "ebc235b436d943aeb62951e5c9af34502a380141edd3c034ed8a3f4f78b05398",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/cJazedq6ACHH_rnQfC0Zu/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Thu, 18 Apr 2024 03:08:39 GMT",
-        "etag": "W/\"201e-18eef2d7ad8\""
+        "last-modified": "Thu, 18 Apr 2024 07:47:28 GMT",
+        "etag": "W/\"201e-18ef02cbe80\""
     },
-    "build_manifest_hash_sha256": "3769e4577aeb22a06b84ccd68c830ca7025b8080fef81a783e92b9861be7ec5f",
+    "build_manifest_hash_sha256": "2d8e67e60a5806e091c0a7bbd1ecbe03d2c893ca1146e0f508590f4288a9b15c",
     "build_manifest": {
         "__rewrites": {
             "beforeFiles": [],
@@ -213,10 +213,10 @@
             "static/chunks/2525-8d6452ce6be1e3f5.js",
             "static/chunks/6206-5c82bfa125b585c5.js",
             "static/chunks/3485-d180b741d499123e.js",
-            "static/css/838060aa80b8a7be.css",
-            "static/chunks/7883-879967080c45dfde.js",
+            "static/css/8ee6ad966e3e9cef.css",
+            "static/chunks/7883-249b2e6545144cec.js",
             "static/css/f89f62fada46b2cf.css",
-            "static/chunks/pages/tournament-1ae1a7a6f95326ae.js"
+            "static/chunks/pages/tournament-3821c8162f456fc1.js"
         ],
         "/tournament/[tournamentId]": [
             "static/chunks/1604-405469425c682866.js",
@@ -232,10 +232,10 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/chunks/3485-d180b741d499123e.js",
             "static/css/362fd630501c042e.css",
-            "static/chunks/pages/tournament/[tournamentId]-e8aaf119eea5de4c.js"
+            "static/chunks/pages/tournament/[tournamentId]-f4960ba9ccbc83ed.js"
         ],
         "/tournament/[tournamentId]/board": [
             "static/chunks/1604-405469425c682866.js",
@@ -252,7 +252,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/css/46657cb491474b94.css",
             "static/chunks/9582-15d76bb780bd3fe6.js",
             "static/chunks/pages/tournament/[tournamentId]/board-46c5b767c71f232d.js"
@@ -270,7 +270,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/chunks/3035-e90ece791d56931d.js",
             "static/css/4b62e5003683dadf.css",
             "static/chunks/pages/tournament/[tournamentId]/board/table-bd4bd2c7443416e2.js"
@@ -284,9 +284,9 @@
             "static/chunks/2525-8d6452ce6be1e3f5.js",
             "static/chunks/6206-5c82bfa125b585c5.js",
             "static/chunks/3485-d180b741d499123e.js",
-            "static/css/838060aa80b8a7be.css",
-            "static/chunks/7883-879967080c45dfde.js",
-            "static/chunks/pages/tournament/[tournamentId]/edit-73f2477e5502197e.js"
+            "static/css/8ee6ad966e3e9cef.css",
+            "static/chunks/7883-249b2e6545144cec.js",
+            "static/chunks/pages/tournament/[tournamentId]/edit-cf0f006e7d2ca8a6.js"
         ],
         "/tournament/[tournamentId]/entrant_team": [
             "static/chunks/1604-405469425c682866.js",
@@ -302,7 +302,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/css/793fda0e5388e1ae.css",
             "static/chunks/pages/tournament/[tournamentId]/entrant_team-fe63cea79803aba2.js"
         ],
@@ -331,7 +331,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/chunks/4999-fb326de005613d21.js",
             "static/css/283f1f0f92654ffa.css",
             "static/chunks/pages/tournament/[tournamentId]/result-ce25c384ecbfc458.js"
@@ -349,7 +349,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/css/4bb5b84231f34ca4.css",
             "static/chunks/pages/tournament/[tournamentId]/result/block-36d03afe4de4c7f3.js"
         ],
@@ -368,7 +368,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/css/46657cb491474b94.css",
             "static/chunks/9582-15d76bb780bd3fe6.js",
             "static/chunks/pages/tournament/[tournamentId]/result/board-f4ad989a828e99c4.js"
@@ -386,7 +386,7 @@
             "static/chunks/5600-89b40f6470926488.js",
             "static/chunks/857-0e99a6b37375e9e2.js",
             "static/css/cc485c612ea6eeb8.css",
-            "static/chunks/7175-796f302c0f687c07.js",
+            "static/chunks/7175-c1a3962c6cae4223.js",
             "static/chunks/3035-e90ece791d56931d.js",
             "static/css/4b62e5003683dadf.css",
             "static/chunks/pages/tournament/[tournamentId]/result/table-10129939da8e6c1d.js"
@@ -435,7 +435,7 @@
             "static/chunks/5849-00a09c98bb0e2ddd.js",
             "static/chunks/2807-e01bc1b017374578.js",
             "static/css/a48d6e0baaa534f5.css",
-            "static/chunks/pages/user/[userId]/tournaments-490c9a967cd03af4.js"
+            "static/chunks/pages/user/[userId]/tournaments-19c36d2fd4e27b23.js"
         ],
         "/welcome": [
             "static/chunks/5600-89b40f6470926488.js",
@@ -500,7 +500,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-1b742b76c26c1c1bb47fbaa87073186f4dd508d2"
+        "id": "lp1-8d435d058ed558def2a974a98f9bf8ec6a92bd82"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",

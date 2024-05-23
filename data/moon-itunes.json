@@ -161,7 +161,15 @@
             "iPhone15-iPhone15",
             "iPhone15Plus-iPhone15Plus",
             "iPhone15Pro-iPhone15Pro",
-            "iPhone15ProMax-iPhone15ProMax"
+            "iPhone15ProMax-iPhone15ProMax",
+            "iPadAir11M2-iPadAir11M2",
+            "iPadAir11M2Cellular-iPadAir11M2Cellular",
+            "iPadAir13M2-iPadAir13M2",
+            "iPadAir13M2Cellular-iPadAir13M2Cellular",
+            "iPadPro11M4-iPadPro11M4",
+            "iPadPro11M4Cellular-iPadPro11M4Cellular",
+            "iPadPro13M4-iPadPro13M4",
+            "iPadPro13M4Cellular-iPadPro13M4Cellular"
         ],
         "trackCensoredName": "Nintendo Switch Parental Cont…",
         "trackContentRating": "17+",

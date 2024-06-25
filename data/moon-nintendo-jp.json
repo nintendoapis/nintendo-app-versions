@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "1.21.0",
+            "label": "Ver. 1.21.0 ［2024.6.24］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "1.20.0",
             "label": "Ver. 1.20.0 ［2023.11.30］（Androidのみ）",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>機能の改善と、不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "1.19.0",

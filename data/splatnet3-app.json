@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "6.0.0-9f87c815",
+    "web_app_ver": "6.0.0-f734f04c",
     "version": "6.0.0",
-    "revision": "9f87c815ae04e65d45db6369e47d4b83309e9c75",
+    "revision": "f734f04c25efc3fbdcf5d6100db465038c831b7e",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,28 +11,28 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament/api/app/bootstrap",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "9f87c815ae04e65d45db6369e47d4b83309e9c75",
+        "REACT_APP_REVISION": "f734f04c25efc3fbdcf5d6100db465038c831b7e",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "cf7d28a52c8ee7c0f92ac30708a2a2356962206173fac148731634a2e456d83d",
+    "html_sha256": "174d9783d0591efad17f6c28a98c60fb99ceec4e7c8117e151f6845e596bbdb9",
     "html_headers": {
-        "last-modified": "Fri, 31 May 2024 02:06:34 GMT",
-        "etag": "\"46a4b1b60e4e00220d1aa6942f76164c\"",
-        "x-amz-version-id": "2fODvfrW5z4F3KZxJwW.85H_tmIKN2IW"
+        "last-modified": "Tue, 09 Jul 2024 03:02:16 GMT",
+        "etag": "\"25b910fab229c373a87236d2c0e4bcc4\"",
+        "x-amz-version-id": "MBSDj3LB.Y1rAEx8.qYZ1ZK3.drhu6pO"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.0ba28531.js",
-    "script_sha256": "d773b6f0d53740ecb4c5b8e1df9fbed03e66e4581983cd509712a4442b11c12e",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.b48a4f3e.js",
+    "script_sha256": "e028308cd4ae2c87bca68bca0e86e54da51de21a37d6992600b2459b93f42906",
     "script_headers": {
-        "last-modified": "Fri, 31 May 2024 02:06:35 GMT",
-        "etag": "\"1835235cb3e382005e1064e64929788a\"",
-        "x-amz-version-id": "80FLl35xWoMx_JBRmaGcVJCQJGRa87Ze"
+        "last-modified": "Tue, 09 Jul 2024 03:02:16 GMT",
+        "etag": "\"2be6f4fb79be7671bf10481ba312405f\"",
+        "x-amz-version-id": "ikEolmxZdY2VlX2tpef_S1UxQTMtB6Fg"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",
-        "CheckinWithQRCodeMutation": "63a60eea7926b0f2600cfb64d8bf3b6736afc1e1040beabd5dfa40fbfdcb92d8",
+        "CheckinWithQRCodeMutation": "b9a6f95611387d59c38902e41ea9506edd3ec139650c92e150fd337156b9edc6",
         "CoopPagerLatestCoopQuery": "bc8a3d48e91d5d695ef52d52ae466920670d4f4381cb288cd570dc8160250457",
         "RankingHoldersFestTeamRankingHoldersPaginationQuery": "34460535ce2b699ed0617d67e22a7e3290fd30041559bf6f05d408d06f1c9938",
         "VotesUpdateFestVoteMutation": "b0830a3c3c9d8aa6ed83e200aed6b008f992acdba4550ab4399417c1f765e7e3",
@@ -64,7 +64,7 @@
         "JourneyChallengeDetailRefetchQuery": "c7e4044cc4320e4ae44ccda1b7eb74897d213628c4e5d2f2863df5f8e8a9478d",
         "JourneyQuery": "654ab98ebbb2057cb3e5d2c492cf03fd1acfba264108435f50b26295646db8ec",
         "JourneyRefetchQuery": "10f2d2907537c27dd1e941bf74d2dd111a26acfd859d3ed8ef4735bef1928b11",
-        "CheckinQuery": "6dfce83d02761395758ae21454cb46924e81c22c3f151f91330b0602278a060e",
+        "CheckinQuery": "dc832041ee7c499cec8d5ea1f7042eb686792f8bfad5c8f5cd43c24a91f3d9ce",
         "CoopHistoryDetailQuery": "f2d55873a9281213ae27edc171e2b19131b3021a2ae263757543cdd3bf015cc8",
         "CoopHistoryDetailRefetchQuery": "4bf516ccfd9a3f4efc32b215c59ae42c2a06dd2d8f73de95c2676dea6db74446",
         "CoopHistoryQuery": "0f8c33970a425683bb1bdecca50a0ca4fb3c3641c0b2a1237aedfde9c0cb2b8f",

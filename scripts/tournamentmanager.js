@@ -140,6 +140,24 @@ async function extractRelayGraphqlRequestModulesFromJs(name, url, formatted_js) 
             formatted_js.substr(start_index, end_line_index - start_index) +
             '//' + end_line;
 
+        if (typeof query === 'function' && query.toString().replaceAll(/\n/g, '').match(/^\s*function(\s+[0-9A-Za-z_]+)?\s*\(\)\s*\{\s*return\s+[0-9A-Za-z_]+\s*;?\s*}\s*$/)) {
+            const result = query.call(null);
+
+            if (result?.metadata?.refetch?.operation) {
+                console.warn('GraphQL query module is refetch operation', url.pathname, match.index, match[1]);
+
+                const query = result.metadata.refetch.operation;
+                graphql_queries.push({...data, query, data: query.params});
+
+                continue;
+            }
+        }
+
+        if (!query?.params) {
+            console.warn('GraphQL query module has no query, skipping', url.pathname, match.index, match[1], query.toString());
+            continue;
+        }
+
         graphql_queries.push({...data, query, data: query.params});
     }
 }

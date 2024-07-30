@@ -1,115 +1,130 @@
 {
     "versions": [
         {
+            "version": "2.10.1",
+            "label": "Ver. 2.10.1 [Released 11/06/24]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v2101\" rel=\"1\"> <h2>Ver. 2.10.1</h2> <ul><li>Bug fixes have been implemented.</li></ul> </div>"
+        },
+        {
+            "version": "2.10.0",
+            "label": "Ver. 2.10.0 [Released 08/05/24]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v2100\" rel=\"1\"> <h2>Ver. 2.10.0</h2> <ul><li>Added support for landscape mode (Android).</li><li>Various other small changes have also been made. </li></ul> </div>"
+        },
+        {
+            "version": "2.9.0",
+            "label": "Ver. 2.9.0 [Released 22/02/24]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v290\" rel=\"1\"> <h2>Ver. 2.9.0</h2> <ul><li>Bug fixes have been implemented.</li><li>Changed minimum OS version. <ul><li>iOS version 15.0 or later is required to use this application.</li><li>Android OS version 8.0 or later is required to use this application.</li></ul> </li></ul> </div>"
+        },
+        {
             "version": "2.8.1",
             "label": "Ver. 2.8.1 [Released 07/12/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v281\" rel=\"1\"> <h2>Ver. 2.8.1</h2> <ul><li>Various minor improvements have been implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v281\" rel=\"2\"> <h2>Ver. 2.8.1</h2> <ul><li>Various minor improvements have been implemented.</li></ul> </div>"
         },
         {
             "version": "2.8.0",
             "label": "Ver. 2.8.0 [Released 30/11/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v280\" rel=\"1\"> <h2>Ver. 2.8.0</h2> <ul><li>Added support for landscape mode on iPad.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v280\" rel=\"2\"> <h2>Ver. 2.8.0</h2> <ul><li>Added support for landscape mode on iPad.</li></ul> </div>"
         },
         {
             "version": "2.7.1",
             "label": "Ver. 2.7.1 [Released 08/11/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v271\" rel=\"1\"> <h2>Ver. 2.7.1</h2> <ul><li>Various minor improvements have been implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v271\" rel=\"2\"> <h2>Ver. 2.7.1</h2> <ul><li>Various minor improvements have been implemented.</li></ul> </div>"
         },
         {
             "version": "2.7.0",
             "label": "Ver. 2.7.0 [Released 24/08/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v270\" rel=\"1\"> <h2>Ver. 2.7.0</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v270\" rel=\"2\"> <h2>Ver. 2.7.0</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
         },
         {
             "version": "2.6.0",
             "label": "Ver. 2.6.0 [Released 24/07/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v260\" rel=\"1\"> <h2>Ver. 2.6.0</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v260\" rel=\"2\"> <h2>Ver. 2.6.0</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
         },
         {
             "version": "2.5.2",
             "label": "Ver. 2.5.2 [Released 13/06/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v252\" rel=\"1\"> <h2>Ver. 2.5.2</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v252\" rel=\"2\"> <h2>Ver. 2.5.2</h2> <ul><li>Bug fixes implemented.</li></ul> </div>"
         },
         {
             "version": "2.5.1",
             "label": "Ver. 2.5.1 [Released 22/05/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v251\" rel=\"1\"> <br> <h2>Ver. 2.5.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v251\" rel=\"2\"> <br> <h2>Ver. 2.5.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
         },
         {
             "version": "2.5.0",
             "label": "Ver. 2.5.0 [Released 01/03/23]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v250\" rel=\"1\"> <br> <h2>Ver. 2.5.0</h2> <ul><li>Updated the contents of some Splatoon 3 widgets for Android.</li><li>Splatoon 3 widgets can now also be used on the lock screen in iOS 16.</li><li>Various other small changes have also been made.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v250\" rel=\"2\"> <br> <h2>Ver. 2.5.0</h2> <ul><li>Updated the contents of some Splatoon 3 widgets for Android.</li><li>Splatoon 3 widgets can now also be used on the lock screen in iOS 16.</li><li>Various other small changes have also been made.</li></ul> </div>"
         },
         {
             "version": "2.4.0",
             "label": "Ver. 2.4.0 [Released 01/12/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v240\" rel=\"1\"> <br> <h2>Ver. 2.4.0</h2> <ul><li>Added X Battle support to Splatoon 3 widgets.</li><li>The Android 13 app-specific language settings can now be used.</li><li>Various other small changes have also been made.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v240\" rel=\"2\"> <br> <h2>Ver. 2.4.0</h2> <ul><li>Added X Battle support to Splatoon 3 widgets.</li><li>The Android 13 app-specific language settings can now be used.</li><li>Various other small changes have also been made.</li></ul> </div>"
         },
         {
             "version": "2.3.1",
             "label": "Ver. 2.3.1 [Released 05/10/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v231\" rel=\"1\"> <br> <h2>Ver. 2.3.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v231\" rel=\"2\"> <br> <h2>Ver. 2.3.1</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
         },
         {
             "version": "2.3.0",
             "label": "Ver. 2.3.0 [Released 27/09/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"1\"> <br> <h2>Ver. 2.3.0</h2> <ul><li>Added support for Splatoon 3 widgets. \"Battle Logs\", \"Stage Schedule\" and \"Album\" can be checked from your device's home screen. <ul><li><strong>Note:</strong> Depending on your device, some widgets may not be available.</li></ul> </li><li>Various other small changes have also been made.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"2\"> <br> <h2>Ver. 2.3.0</h2> <ul><li>Added support for Splatoon 3 widgets. \"Battle Logs\", \"Stage Schedule\" and \"Album\" can be checked from your device's home screen. <ul><li><strong>Note:</strong> Depending on your device, some widgets may not be available.</li></ul> </li><li>Various other small changes have also been made.</li></ul> </div>"
         },
         {
             "version": "2.2.0",
             "label": "Ver. 2.2.0 [Released 26/07/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v220\" rel=\"1\"> <br> <h2>Ver. 2.2.0</h2> <ul><li>You can now send friend requests via friend code. <ul><li>Users must use a Nintendo Switch console to respond to friend requests.</li></ul> </li><li>You can now copy your friend code as a URL and/or save it as a QR Code. You can receive friend requests from anyone with whom you share the URL or QR Code.</li><li>Various issues are now resolved.</li><li>Changed minimum OS version. <ul><li>iOS version 14.0 or later is required to use this application.</li></ul> </li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v220\" rel=\"2\"> <br> <h2>Ver. 2.2.0</h2> <ul><li>You can now send friend requests via friend code. <ul><li>Users must use a Nintendo Switch console to respond to friend requests.</li></ul> </li><li>You can now copy your friend code as a URL and/or save it as a QR Code. You can receive friend requests from anyone with whom you share the URL or QR Code.</li><li>Various issues are now resolved.</li><li>Changed minimum OS version. <ul><li>iOS version 14.0 or later is required to use this application.</li></ul> </li></ul> </div>"
         },
         {
             "version": "2.1.1",
             "label": "Ver. 2.1.1 [Released 18/05/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v211\" rel=\"1\"> <br> <h2>Ver. 2.1.1</h2> <ul><li>Various issues are now resolved.</li><li>A bug which caused game-specific services to not be displayed on some devices has been fixed (for Android only).</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v211\" rel=\"2\"> <br> <h2>Ver. 2.1.1</h2> <ul><li>Various issues are now resolved.</li><li>A bug which caused game-specific services to not be displayed on some devices has been fixed (for Android only).</li></ul> </div>"
         },
         {
             "version": "2.1.0",
             "label": "Ver. 2.1.0 [Released 09/05/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v210\" rel=\"1\"> <br> <h2>Ver. 2.1.0</h2> <ul><li>You can now switch between light mode and dark mode. <ul><li><strong>Note:</strong> Supported for iOS 13/Android 10 and later.</li></ul> </li><li>Improvements have been made for performance and ease of use.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v210\" rel=\"2\"> <br> <h2>Ver. 2.1.0</h2> <ul><li>You can now switch between light mode and dark mode. <ul><li><strong>Note:</strong> Supported for iOS 13/Android 10 and later.</li></ul> </li><li>Improvements have been made for performance and ease of use.</li></ul> </div>"
         },
         {
             "version": "2.0.0",
             "label": "Ver. 2.0.0 [Released 07/03/22]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v200\" rel=\"1\"> <br> <h2>Ver. 2.0.0</h2> <ul><li>The app design has been updated.</li><li>You can now view which friends are online.</li><li>You can now change who can see your online status.</li><li>You can now check your friend code in the app.</li><li>Various other small changes have also been made.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v200\" rel=\"2\"> <br> <h2>Ver. 2.0.0</h2> <ul><li>The app design has been updated.</li><li>You can now view which friends are online.</li><li>You can now change who can see your online status.</li><li>You can now check your friend code in the app.</li><li>Various other small changes have also been made.</li></ul> </div>"
         },
         {
             "version": "1.12.0",
             "label": "Ver. 1.12.0 [Released 03/08/21]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v112\" rel=\"1\"> <br> <h2>Ver. 1.12.0</h2> <ul><li>Changed the screen in voice chat.</li><li>Other enhancements have been made to improve performance and usability.</li><li>Changed minimum OS version. <ul><li>iOS version 12.0 or later is required to use this application.</li><li>Android OS version 6.0 or later is required to use this application.</li></ul> </li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v112\" rel=\"2\"> <br> <h2>Ver. 1.12.0</h2> <ul><li>Changed the screen in voice chat.</li><li>Other enhancements have been made to improve performance and usability.</li><li>Changed minimum OS version. <ul><li>iOS version 12.0 or later is required to use this application.</li><li>Android OS version 6.0 or later is required to use this application.</li></ul> </li></ul> </div>"
         },
         {
             "version": "1.11.0",
             "label": "Ver. 1.11.0 [Released 19/05/21]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v111\" rel=\"1\"> <br> <h2>Version 1.11.0</h2> <ul><li>Users with Nintendo Accounts for ages 12 and under can now use game-specific services. Some features, including voice chat, still require a Nintendo Account for ages 13 and up.</li><li>You can now disable the voice chat start alert. Please check \"Voice Chat Settings\" within this app's settings for more information.</li><li>Bug fixes implemented. </li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v111\" rel=\"2\"> <br> <h2>Version 1.11.0</h2> <ul><li>Users with Nintendo Accounts for ages 12 and under can now use game-specific services. Some features, including voice chat, still require a Nintendo Account for ages 13 and up.</li><li>You can now disable the voice chat start alert. Please check \"Voice Chat Settings\" within this app's settings for more information.</li><li>Bug fixes implemented. </li></ul> </div>"
         },
         {
             "version": "1.10.0",
             "label": "Ver. 1.10.0 [Released 07/12/20]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v110\" rel=\"1\"> <br> <h2>Version 1.10.0</h2> <ul><li>Bug fixes implemented. </li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v110\" rel=\"2\"> <br> <h2>Version 1.10.0</h2> <ul><li>Bug fixes implemented. </li></ul> </div>"
         },
         {
             "version": "1.9.0",
             "label": "Ver. 1.9.0 [Released 08/09/20]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v19\" rel=\"1\"> <br> <h2>Version 1.9.0</h2> <ul><li>Supported OS versions changed. Android 11 and iOS 14 are now supported. </li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v19\" rel=\"2\"> <br> <h2>Version 1.9.0</h2> <ul><li>Supported OS versions changed. Android 11 and iOS 14 are now supported. </li></ul> </div>"
         },
         {
             "version": "1.5.0",
             "label": "Ver. 1.5.0 [Released 08/04/19]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v15\" rel=\"1\"> <br> <h2>Version 1.5.0</h2> <ul><li>Various performance and usability improvements implemented, including changing the button display position.</li><li>Bug fixes implemented.</li><li>Supported OS versions changed. To use this app, iOS ver 10.0 (or later) or Android ver 5.5 (or later) is now required.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v15\" rel=\"2\"> <br> <h2>Version 1.5.0</h2> <ul><li>Various performance and usability improvements implemented, including changing the button display position.</li><li>Bug fixes implemented.</li><li>Supported OS versions changed. To use this app, iOS ver 10.0 (or later) or Android ver 5.5 (or later) is now required.</li></ul> </div>"
         },
         {
             "version": "1.4.0",
             "label": "Ver. 1.4.0 [Released 09/09/18]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v14\" rel=\"1\"> <br> <h2>Version 1.4.0</h2> <ul><li>Added voice chat support for additional software. <ul><li>A list of software that supports voice chat can be found within the app by selecting \"Voice Chat\" from the main menu, and then selecting \"Supported Software\".</li></ul> </li><li>Other enhancements have been made to improve performance and usability.</li></ul> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v14\" rel=\"2\"> <br> <h2>Version 1.4.0</h2> <ul><li>Added voice chat support for additional software. <ul><li>A list of software that supports voice chat can be found within the app by selecting \"Voice Chat\" from the main menu, and then selecting \"Supported Software\".</li></ul> </li><li>Other enhancements have been made to improve performance and usability.</li></ul> </div>"
         },
         {
             "version": "1.1.0",
             "label": "Ver. 1.1.0 [Released 09/12/17]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v11\" rel=\"1\"> <br> <h2>Version 1.1.0</h2> <ul><li>Voice chat will now continue when other apps are opened. (*1)</li><li>Voice chat will now continue during sleep mode. (*2)</li><li>Improved support for Bluetooth devices. (For Android devices only.)</li></ul> <br> <p><em>(*1) This excludes apps with audio output or apps that use the microphone.</em></p> <p><em>(*2) If the power-saving feature is activated on devices using Android 6.0 or later, voice chat may be interrupted after the device has entered sleep mode. To use voice chat during sleep mode, go to Other Settings &gt; Power Saving Settings in the app and deactivate battery optimisation on the Android device. For more details, please refer to the official website for your smart device.</em></p> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v11\" rel=\"2\"> <br> <h2>Version 1.1.0</h2> <ul><li>Voice chat will now continue when other apps are opened. (*1)</li><li>Voice chat will now continue during sleep mode. (*2)</li><li>Improved support for Bluetooth devices. (For Android devices only.)</li></ul> <br> <p><em>(*1) This excludes apps with audio output or apps that use the microphone.</em></p> <p><em>(*2) If the power-saving feature is activated on devices using Android 6.0 or later, voice chat may be interrupted after the device has entered sleep mode. To use voice chat during sleep mode, go to Other Settings &gt; Power Saving Settings in the app and deactivate battery optimisation on the Android device. For more details, please refer to the official website for your smart device.</em></p> </div>"
         }
     ],
-    "url": "https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Download-or-Update-the-Nintendo-Switch-Online-App-1520024.html"
+    "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch/How-to-Download-or-Update-the-Nintendo-Switch-Online-App-1520024.html"
 }

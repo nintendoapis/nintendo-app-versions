@@ -169,7 +169,11 @@
             "iPadPro11M4-iPadPro11M4",
             "iPadPro11M4Cellular-iPadPro11M4Cellular",
             "iPadPro13M4-iPadPro13M4",
-            "iPadPro13M4Cellular-iPadPro13M4Cellular"
+            "iPadPro13M4Cellular-iPadPro13M4Cellular",
+            "iPhone16-iPhone16",
+            "iPhone16Plus-iPhone16Plus",
+            "iPhone16Pro-iPhone16Pro",
+            "iPhone16ProMax-iPhone16ProMax"
         ],
         "trackCensoredName": "Nintendo Switch Parental Cont…",
         "trackContentRating": "17+",

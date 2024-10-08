@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.11.0",
+            "label": "Ver. 2.11.0 [Released 08/10/24]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v2110\" rel=\"1\"> <h2>Ver. 2.11.0</h2> <ul><li>Bug fixes have been implemented.</li></ul> </div>"
+        },
+        {
             "version": "2.10.1",
             "label": "Ver. 2.10.1 [Released 11/06/24]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v2101\" rel=\"1\"> <h2>Ver. 2.10.1</h2> <ul><li>Bug fixes have been implemented.</li></ul> </div>"

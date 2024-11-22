@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-90306d8b810b5627744f9e2e20d2e676a5d29012",
-    "build_id": "d-uNbEB2prOtlZVnhDH8r",
+    "revision": "lp1-f1e2b06144c06068bc1cb92fb2156c1f376b6fda",
+    "build_id": "7SX5tsyizl4SrGw6rj4n2",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "da46a886b3a6b49c2e0d06ca27a04b1b298ae764671fd65a73e59363ac1065f9",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/d-uNbEB2prOtlZVnhDH8r/_buildManifest.js",
+    "html_sha256": "6d84b3a467d58bf1d76cd3dad391e08da630db373c09601bb37bd33dc3085f31",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/7SX5tsyizl4SrGw6rj4n2/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Thu, 21 Nov 2024 11:31:09 GMT",
-        "etag": "W/\"30d5-1934e7d8448\""
+        "last-modified": "Fri, 22 Nov 2024 05:36:35 GMT",
+        "etag": "W/\"30d5-193525f42b8\""
     },
-    "build_manifest_hash_sha256": "3fb2f1f1cd719779779558314203d13f54ffe87db2c2424bd5ca7160b39c0713",
+    "build_manifest_hash_sha256": "c88fbb92d435f8dc9686b946061206a0a4367efb6a877ebd3844c960b6f482bd",
     "build_manifest": {
         "__rewrites": {
             "beforeFiles": [],
@@ -19,7 +19,7 @@
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
             "static/chunks/901-322e6a9f7a520b24.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -36,7 +36,7 @@
         ],
         "/auth/signin": [
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/375-c8466c136e1ea336.js",
             "static/chunks/8977-ced60c26857fe034.js",
             "static/css/7bf9183278fe8533.css",
@@ -49,7 +49,7 @@
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6978-71921b83d9f62366.js",
             "static/chunks/1889-112effe3dae6366d.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3485-d180b741d499123e.js",
             "static/css/4f62c3cfb4e4e36d.css",
@@ -65,7 +65,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -84,7 +84,7 @@
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6978-71921b83d9f62366.js",
             "static/chunks/1889-112effe3dae6366d.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3485-d180b741d499123e.js",
             "static/css/4f62c3cfb4e4e36d.css",
@@ -98,7 +98,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -113,7 +113,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/375-c8466c136e1ea336.js",
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/3485-d180b741d499123e.js",
@@ -126,7 +126,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -144,7 +144,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -162,7 +162,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -179,7 +179,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -196,7 +196,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -214,7 +214,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -235,12 +235,12 @@
         "/help/coop-organizer": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/coop-organizer-f38d2a1c337749a9.js"
+            "static/chunks/pages/help/coop-organizer-6b1c822cc0753bd1.js"
         ],
         "/help/coop-participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/coop-participant-4c34beb6f4898f9e.js"
+            "static/chunks/pages/help/coop-participant-daba8b5655598f00.js"
         ],
         "/help/coop-rule": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -300,7 +300,7 @@
         "/help/faq/bCJwJKxpy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/f42bd8fc47a7623d.css",
-            "static/chunks/pages/help/faq/bCJwJKxpy-acee245b3f7d26ef.js"
+            "static/chunks/pages/help/faq/bCJwJKxpy-6280b2d76486ed59.js"
         ],
         "/help/faq/eNHJCAzDy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -360,7 +360,7 @@
         "/help/participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/participant-6351a01d79b59f25.js"
+            "static/chunks/pages/help/participant-e25f581523b63961.js"
         ],
         "/help/requirements": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -371,7 +371,7 @@
         "/help/start": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/start-bcdc405929de2bf9.js"
+            "static/chunks/pages/help/start-64b06f01121e5947.js"
         ],
         "/manifest.webmanifest": [
             "static/chunks/pages/manifest.webmanifest-020dbbd24b69e5e4.js"
@@ -379,7 +379,7 @@
         "/notifications": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -406,7 +406,7 @@
         "/photo/new": [
             "static/chunks/252-0534b38d8a1e10dc.js",
             "static/css/9f954ddb13e126fa.css",
-            "static/chunks/pages/photo/new-ea37f3adfd1d14ca.js"
+            "static/chunks/pages/photo/new-78a3e0c0389990bc.js"
         ],
         "/report": [
             "static/chunks/7536-704ea95f2725ed8e.js",
@@ -417,7 +417,7 @@
         "/team/[teamId]": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -432,7 +432,7 @@
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -446,7 +446,7 @@
         "/team/[teamId]/tournaments": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -464,7 +464,7 @@
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6978-71921b83d9f62366.js",
             "static/chunks/1889-112effe3dae6366d.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
             "static/chunks/3485-d180b741d499123e.js",
@@ -481,7 +481,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -505,7 +505,7 @@
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6809-8c785d00dbbc802e.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -527,7 +527,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -548,7 +548,7 @@
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6978-71921b83d9f62366.js",
             "static/chunks/1889-112effe3dae6366d.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
             "static/chunks/3485-d180b741d499123e.js",
@@ -565,7 +565,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -583,7 +583,7 @@
             "static/chunks/7536-704ea95f2725ed8e.js",
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/375-c8466c136e1ea336.js",
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/3485-d180b741d499123e.js",
@@ -598,7 +598,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -620,7 +620,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -642,7 +642,7 @@
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
             "static/chunks/6809-8c785d00dbbc802e.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -664,7 +664,7 @@
             "static/chunks/901-322e6a9f7a520b24.js",
             "static/chunks/5044-99426ea81c719e08.js",
             "static/chunks/1467-f54280b3af390dbd.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/375-c8466c136e1ea336.js",
@@ -682,7 +682,7 @@
         "/user/[userId]": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -697,7 +697,7 @@
         "/user/[userId]/edit": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -710,7 +710,7 @@
         "/user/[userId]/hosted_tournaments": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -723,7 +723,7 @@
         "/user/[userId]/tournaments": [
             "static/chunks/7966-eaec513cdce184c7.js",
             "static/chunks/1604-405469425c682866.js",
-            "static/chunks/1861-5cfa0ff83e54d1d2.js",
+            "static/chunks/1861-53510f2359463afc.js",
             "static/chunks/3648-aca6fa9a73721d67.js",
             "static/chunks/3816-db1e2e4f22e1c693.js",
             "static/chunks/9423-49de3fdb640eb0a3.js",
@@ -816,7 +816,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-90306d8b810b5627744f9e2e20d2e676a5d29012"
+        "id": "lp1-f1e2b06144c06068bc1cb92fb2156c1f376b6fda"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",

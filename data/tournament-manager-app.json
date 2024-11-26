@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-f1e2b06144c06068bc1cb92fb2156c1f376b6fda",
-    "build_id": "7SX5tsyizl4SrGw6rj4n2",
+    "revision": "lp1-c07907ba243d063f7cda3a5c6fae1055a9eec69f",
+    "build_id": "NMPZRAe5MYvmm7f5Uwnpt",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "6d84b3a467d58bf1d76cd3dad391e08da630db373c09601bb37bd33dc3085f31",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/7SX5tsyizl4SrGw6rj4n2/_buildManifest.js",
+    "html_sha256": "d96ba34f3b123cb82935a9d56335340dcee7b236077ab05ba736b77d620a81ab",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/NMPZRAe5MYvmm7f5Uwnpt/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Fri, 22 Nov 2024 05:36:35 GMT",
-        "etag": "W/\"30d5-193525f42b8\""
+        "last-modified": "Tue, 26 Nov 2024 07:10:38 GMT",
+        "etag": "W/\"30d5-193674ecdb0\""
     },
-    "build_manifest_hash_sha256": "c88fbb92d435f8dc9686b946061206a0a4367efb6a877ebd3844c960b6f482bd",
+    "build_manifest_hash_sha256": "f24ff2cf55a7738f76bf40b69a0fe62e6638d5b3d735cf0129a6b9d442abed5a",
     "build_manifest": {
         "__rewrites": {
             "beforeFiles": [],
@@ -26,7 +26,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/2794-9409dc23865bb837.js",
-            "static/chunks/8289-529b67504f0f9a25.js",
+            "static/chunks/8289-242b92c6f67c81d7.js",
             "static/chunks/8497-1d49dd4bfcbf6c3c.js",
             "static/css/c8c089ff19ddb966.css",
             "static/chunks/pages/index-6ebbe74b42bff06a.js"
@@ -73,10 +73,10 @@
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/chunks/3485-d180b741d499123e.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/3464-74c795d67f21d651.js",
             "static/css/1d558e98f002f579.css",
-            "static/chunks/pages/coop_tournament/[coopTournamentId]-e3f6315ea4b548ee.js"
+            "static/chunks/pages/coop_tournament/[coopTournamentId]-f11bc31849bf7b63.js"
         ],
         "/coop_tournament/[coopTournamentId]/edit": [
             "static/chunks/7536-704ea95f2725ed8e.js",
@@ -105,7 +105,7 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/css/3322adf337e2c74c.css",
             "static/chunks/pages/coop_tournament/[coopTournamentId]/entrant_team-610e9ef1cd8eaffc.js"
         ],
@@ -119,7 +119,7 @@
             "static/chunks/3485-d180b741d499123e.js",
             "static/chunks/5753-9aba91c5227b2fc4.js",
             "static/css/97665423d595d0f3.css",
-            "static/chunks/pages/coop_tournament/[coopTournamentId]/entry-f053e7868e19dabf.js"
+            "static/chunks/pages/coop_tournament/[coopTournamentId]/entry-cd81b39f56cebc2a.js"
         ],
         "/coop_tournament/[coopTournamentId]/live": [
             "static/chunks/7966-eaec513cdce184c7.js",
@@ -133,9 +133,9 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
-            "static/chunks/7010-3cd086c8f6b2a4f8.js",
+            "static/chunks/7010-177883830130d519.js",
             "static/css/f1ec1024292845b9.css",
             "static/chunks/pages/coop_tournament/[coopTournamentId]/live-c060b20374f41685.js"
         ],
@@ -151,9 +151,9 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
-            "static/chunks/7010-3cd086c8f6b2a4f8.js",
+            "static/chunks/7010-177883830130d519.js",
             "static/css/3af8e859bccc1b1e.css",
             "static/chunks/pages/coop_tournament/[coopTournamentId]/live/preliminaries-0562777b4286746c.js"
         ],
@@ -169,10 +169,10 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
             "static/css/ee321004e048ab98.css",
-            "static/chunks/pages/coop_tournament/[coopTournamentId]/result-59f1b0789f0b16b6.js"
+            "static/chunks/pages/coop_tournament/[coopTournamentId]/result-64c678357015c809.js"
         ],
         "/coop_tournament/[coopTournamentId]/result/preliminaries": [
             "static/chunks/7966-eaec513cdce184c7.js",
@@ -186,7 +186,7 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
             "static/css/4c23f8257f98dfd0.css",
             "static/chunks/pages/coop_tournament/[coopTournamentId]/result/preliminaries-7d2fd0b4a2a4dced.js"
@@ -203,11 +203,11 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
             "static/chunks/5926-481548c5fe44554f.js",
             "static/css/b929a7f7dec6f28b.css",
-            "static/chunks/pages/coop_tournament/[coopTournamentId]/result/record-75ed878b9b263c65.js"
+            "static/chunks/pages/coop_tournament/[coopTournamentId]/result/record-d8ef1c7badcaa4df.js"
         ],
         "/coop_tournament/[coopTournamentId]/result/team_record": [
             "static/chunks/7966-eaec513cdce184c7.js",
@@ -221,7 +221,7 @@
             "static/chunks/8977-ced60c26857fe034.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/css/239cd9a53c3deb1c.css",
-            "static/chunks/8282-e88e3fb1bdbaf811.js",
+            "static/chunks/8282-773bded475b84dab.js",
             "static/chunks/6564-24061908a8613f6e.js",
             "static/chunks/5926-481548c5fe44554f.js",
             "static/css/b929a7f7dec6f28b.css",
@@ -235,12 +235,12 @@
         "/help/coop-organizer": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/coop-organizer-6b1c822cc0753bd1.js"
+            "static/chunks/pages/help/coop-organizer-3a3e212ba18eff66.js"
         ],
         "/help/coop-participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/coop-participant-daba8b5655598f00.js"
+            "static/chunks/pages/help/coop-participant-d40e063b6ef74c0f.js"
         ],
         "/help/coop-rule": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -300,7 +300,7 @@
         "/help/faq/bCJwJKxpy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/f42bd8fc47a7623d.css",
-            "static/chunks/pages/help/faq/bCJwJKxpy-6280b2d76486ed59.js"
+            "static/chunks/pages/help/faq/bCJwJKxpy-acee245b3f7d26ef.js"
         ],
         "/help/faq/eNHJCAzDy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -360,7 +360,7 @@
         "/help/participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/participant-e25f581523b63961.js"
+            "static/chunks/pages/help/participant-6351a01d79b59f25.js"
         ],
         "/help/requirements": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -371,7 +371,7 @@
         "/help/start": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/start-64b06f01121e5947.js"
+            "static/chunks/pages/help/start-2fa597670008b55a.js"
         ],
         "/manifest.webmanifest": [
             "static/chunks/pages/manifest.webmanifest-020dbbd24b69e5e4.js"
@@ -406,7 +406,7 @@
         "/photo/new": [
             "static/chunks/252-0534b38d8a1e10dc.js",
             "static/css/9f954ddb13e126fa.css",
-            "static/chunks/pages/photo/new-78a3e0c0389990bc.js"
+            "static/chunks/pages/photo/new-ea37f3adfd1d14ca.js"
         ],
         "/report": [
             "static/chunks/7536-704ea95f2725ed8e.js",
@@ -424,7 +424,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/2794-9409dc23865bb837.js",
-            "static/chunks/8289-529b67504f0f9a25.js",
+            "static/chunks/8289-242b92c6f67c81d7.js",
             "static/css/d2d2c905235227a8.css",
             "static/chunks/pages/team/[teamId]-c8ca54a73287a5ea.js"
         ],
@@ -453,7 +453,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/2794-9409dc23865bb837.js",
-            "static/chunks/8289-529b67504f0f9a25.js",
+            "static/chunks/8289-242b92c6f67c81d7.js",
             "static/css/72a1243ddf0cff06.css",
             "static/chunks/pages/team/[teamId]/tournaments-795564d29be90765.js"
         ],
@@ -689,7 +689,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/2794-9409dc23865bb837.js",
-            "static/chunks/8289-529b67504f0f9a25.js",
+            "static/chunks/8289-242b92c6f67c81d7.js",
             "static/chunks/8497-1d49dd4bfcbf6c3c.js",
             "static/css/d86c0ab863c74659.css",
             "static/chunks/pages/user/[userId]-fd6c7c70d56e6f6b.js"
@@ -730,7 +730,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/2794-9409dc23865bb837.js",
-            "static/chunks/8289-529b67504f0f9a25.js",
+            "static/chunks/8289-242b92c6f67c81d7.js",
             "static/css/e22de8fa6f4bfd46.css",
             "static/chunks/pages/user/[userId]/tournaments-68bd57da5aa2ce91.js"
         ],
@@ -816,7 +816,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-f1e2b06144c06068bc1cb92fb2156c1f376b6fda"
+        "id": "lp1-c07907ba243d063f7cda3a5c6fae1055a9eec69f"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",
@@ -834,28 +834,28 @@
         "EntrantTeamByInvitationCode_Query": "fda1f0dd8c64bea992d4ff55ef9e14424d5d9f88d659929029f6d3db9a833d82",
         "EntrantTeamByInvitationCode_useAcceptInvitation_Mutation": "8d30b01bcbb570c989d63eca6bf226a85405b999253a3fece0ab7674100bdbc1",
         "CoopEntrantTeamByInvitationCode_Query": "90546c2ba99589bda13649039d66e6918dd446a08f79cccae4db48d6b472731f",
-        "CoopEntrantTeamByInvitationCode_useAcceptInvitation_Mutation": "4a84f6a90a4b4f536d4d95c40f4566bc6f948321c81f41ba808bc9b2c770dcba",
+        "CoopEntrantTeamByInvitationCode_useAcceptInvitation_Mutation": "efeb0f6540950657da564b2e7d87040fb38c674cecfdec1cd22e001c64d70a40",
         "CoopEntrantTeamEdit_ChangeCaptain_Mutation": "e6cf6bf34111bf4e5769059b2d21d6ba2eab05233d46e9b3824d55d551deac54",
-        "CoopEntrantTeamEdit_LeaveCoopEntrantTeam_Mutation": "72bed5aee06ef32080cff3ddfa56d57705289fb3655c79578983506cab88894b",
+        "CoopEntrantTeamEdit_LeaveCoopEntrantTeam_Mutation": "dc9f01d15bcf6db65b5280599dcc31f7c3787d3d5202a8c58c15c72ace0f3d21",
         "CoopEntrantTeamEdit_WithdrawCoopEntrantTeamMembers_Mutation": "e41b957b215f8269e198b40d0031e316607c45accca06b8e9c03ff714a1578f2",
         "CoopEntrantTeamInviteQuery": "24f550f84d6cf639ea94c824b00544059e305508b33af2a15e206382bd9665b1",
         "CoopEntrantTeamInvite_SendCoopEntrantTeamInvitation_Mutation": "d1205a164bcd4cf40c05b51d468916662e2c5002edef455f65468b38961e0730",
-        "CoopEntrantTeamRoundStatusContent_RestoreCoopTournamentRoomMutation": "4ce4cd99c7f2514ee83ad9d27ad0433e989654ca733c2a1ff2bfc7057e836436",
-        "CoopNavigationBarFooter_cancelEntryMutation": "b853b59b89d6588e1897d2559ebf8bf15fec010e4ee5aa53f7bcd27e5f72aa79",
-        "CoopNavigationBarFooter_withdrawMutation": "49b7b72a17df28a7c48f66354e37df73956212586442a2fdb5f4a915ee0f4660",
-        "CoopNavigationBarQuery": "3ccc4bfbb72fe6bd9afeb6607fab3255361ec136f1229681c2cab31d5e01ada0",
-        "CoopTournamentPageLayout_CoopAutoRefetchQuery": "970f8376a65e8eb9f49a1b89901334f1ca5cc11435326656f97fe198e63042bd",
+        "CoopEntrantTeamRoundStatusContent_RestoreCoopTournamentRoomMutation": "d0969ef10356fb70508f2fc4c164f06841fb50598e167dc7280cecd77dadab1c",
+        "CoopNavigationBarFooter_cancelEntryMutation": "e79c8191554cd33970946e3bd16e6f8bef9661325bb15ea0f87f9ae83800cb22",
+        "CoopNavigationBarFooter_withdrawMutation": "3f98b449bf8be200034b832e62c3562a6f8d117c729229c4d9bd4dd0a746dfee",
+        "CoopNavigationBarQuery": "56766e84f44aa15843d33621447b28b71abbfb6f235e1f7ca5559c2426b21d6e",
+        "CoopTournamentPageLayout_CoopAutoRefetchQuery": "2f0213d0a9935d7c7edea5063bc30c56288ce99e1f7172d599c4839423eccff9",
         "CoopTournamentResult_ParticipateCertificateRefetch_Query": "6e832a7493180d43cc0f95565950e632c2ff44ab3171857cdd58d78f79291721",
         "CoopVisitorEntrantTeamRoundRecords_LazyQuery": "ae63297bd8cd29b27de3b2a6e090093459fafa9bab7d4484f0f27b635d1c293d",
-        "CoopVisitorReceivedPendingInvitations_acceptInvitation_Mutation": "ed97f98c4e686848947664dc41861d4b92b8595ccb2fddecdbb2b3bdea71f522",
-        "CoopVisitorReceivedPendingInvitations_declineInvitation_Mutation": "f8793714033a2f801cb290f31de03328d45a38dbe1c9df3fbea24a245c0286da",
-        "DebugChangeCoopTournamentStatus_aggregateCoopTournamentFinalsMutation": "d2fdac6e437e035e816ea5afde7f11e8dad1424469b9ea9196b552b7e8418202",
-        "DebugChangeCoopTournamentStatus_aggregateCoopTournamentPreliminariesMutation": "de7321b50bb63e7eef6c3fb6317498ff6648587030e71562df6cd67bb428c7dd",
-        "DebugChangeCoopTournamentStatus_finishCoopTournamentFinalsMutation": "a26106ef432d4658762a02d9d2cfa318705ea526f3a5f3963f548ebc6eaa86b1",
-        "DebugChangeCoopTournamentStatus_finishCoopTournamentPreliminariesMutation": "30cb77242b22f5b054a09f29025b8c08d6dc827efa391d33ca5f9b603e4988f2",
-        "DebugChangeCoopTournamentStatus_startCoopTournamentFinalsMutation": "9f9b604085bf42949833cceac26fd8af88d789491e81615f21d5cc92c8f90e75",
-        "DebugChangeCoopTournamentStatus_startCoopTournamentPreliminariesMutation": "cac9d6992c0de12987805baa2868a45ce369e26962f8c3f9c4afca848762f54e",
-        "AbortCoopTournamentButton_abortCoopTournamentMutation": "6ac65c307729a12cce1bf79e9b7edfc8a5b8ea4735222d08eee0553a29d7e147",
+        "CoopVisitorReceivedPendingInvitations_acceptInvitation_Mutation": "8d50d447e39a8fba603412969e7f6348acc24a111bfa0fb0782e88e89d819a0a",
+        "CoopVisitorReceivedPendingInvitations_declineInvitation_Mutation": "4f18ebded9229de47237385a902ed2f3af56e94e3e04164933643ca40bbb2c86",
+        "DebugChangeCoopTournamentStatus_aggregateCoopTournamentFinalsMutation": "f754a27f16316a51be2cebf6e40a98c0b3c8c2facd028be5047effd71d219eed",
+        "DebugChangeCoopTournamentStatus_aggregateCoopTournamentPreliminariesMutation": "3c2cbeed873cced41f566d67895982121ffa2b807ad3f91caea78e84a91e64cc",
+        "DebugChangeCoopTournamentStatus_finishCoopTournamentFinalsMutation": "70f4a00f90bf4598ddc486376ea02d9980feee37d77036ab0e4f69f8f410ffc3",
+        "DebugChangeCoopTournamentStatus_finishCoopTournamentPreliminariesMutation": "2f415c92bbe69468cc69341423bc505b62d8c239605ceec026f22fb46d6095eb",
+        "DebugChangeCoopTournamentStatus_startCoopTournamentFinalsMutation": "b36a22bcd05dcc9f3437385d765a926cfd9c493e87b00d9781efb75d74edcd1e",
+        "DebugChangeCoopTournamentStatus_startCoopTournamentPreliminariesMutation": "489b3e3bb66a68d7294e3a3d33e80d6bd58de8ef0a6a909a56c1407ee493b759",
+        "AbortCoopTournamentButton_abortCoopTournamentMutation": "9d9a47fb1244c4a2169e7b1252b90bd0843a38feb1aa7e454906f07285b2593e",
         "ChangeCoopTournamentTitleButton_changeCoopTournamentTitleMutation": "99005f7652285af8dcee1001a9ba01c5674141dc5364d890ce6e636074343b30",
         "CoopInviteSubHostModalQuery": "24323b7c12ed4032f8b04bab06feeedb1025f922d8f16c5660128ea24e09a100",
         "CoopInviteSubHostModal_AppendCoopSubHostsMutation": "e39a2322210320847b5e71765a55b36752c4179989d556d9d22dcb51892023ad",
@@ -868,8 +868,8 @@
         "edit_EditCoopTournamentQuery": "c2585684a9a87c8aad77f41f950c7d3964b4c1997573a1cf4b831f113525a30c",
         "entrantTeam_CoopTournamentEntrantTeamQuery": "145cc553da1ba9d9d440ea53ecc56294fac1e80c1e5f46a2adec25131d884028",
         "entry_CoopTournamentEntryQuery": "b84acddf81a9264d79cecf73e9cde138210c7e7bb556216038ce0c5cc35f90d1",
-        "useEntryCoopTournamentWithExistingTeamMutation_Mutation": "56c93077b3bc7fa28d1a2e6f5baac3ff93e9486c860aea2e6b2a66facb1ce39e",
-        "useEntryCoopTournamentWithNewTeamMutation_Mutation": "2b835242be10307d1abc896438d21c046d37de138893cf510f194cca5f63d341",
+        "useEntryCoopTournamentWithExistingTeamMutation_Mutation": "b46512645170575723abb886f6026fa289ec7e82f19d8617e84fd0af47cc3ebd",
+        "useEntryCoopTournamentWithNewTeamMutation_Mutation": "4d0e730a0af05b76f5f3d072da57faa7bed8bab4aeefc8aa01204e2af3eb044d",
         "live_CoopTournamentLiveScoreQuery": "391e0de5a7f52cd13c24b48fc761e4e7e11a91490fe0084b4a08784499d651d1",
         "preliminaries_CoopTournamentLiveScoreQuery": "66f2ba4d5cc22e9066dfb2a04a3043da00acb980806b2f42389724949e8c250b",
         "result_coopTournamentResultQuery": "e49f2354c4f4a21d6db4a62195446b50dc14c86c9a725bdb3949bc6fbe4e38dc",

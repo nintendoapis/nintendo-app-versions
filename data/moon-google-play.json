@@ -1,6 +1,6 @@
 {
-    "version": "1.21.0",
-    "updated_at": "Thu Jun 13 2024 06:56:10 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.22.0",
+    "updated_at": "Thu Nov 28 2024 07:15:05 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Switch Parental Cont…",
         "description": "As a parent, do you sometimes ask yourself questions like...\n\nDoes my child spend too much time playing games?\nWhat sorts of games does my child play?\nCan I restrict games according to my child's age?\n\nIf so, this might be just the app for you!\n\nNintendo Switch Parental Controls™ is a free app that allows you to easily monitor your child's use of the Nintendo Switch console. \n(Please note: A Nintendo Switch console with the latest available system version is required to use this app.)\n \nWith Nintendo Switch Parental Controls, you can:\n\n1. Monitor your child's play time on the console.\nSet a daily play time limit, which notifies your child on the console when time's up for the day. You can also check this app to see how long they've been playing. If necessary, you can also use the \"Suspend Software\" feature to make the console go into sleep mode when the set time is reached.\n\n2. Find out what games your child plays.\nNintendo Switch Parental Controls provides convenient reports that show you what video games have been played on the console recently and how much time was spent playing each day.\nView daily reports and monthly summaries of play activity. If you choose to receive push notifications, you'll be notified when a new monthly summary is available.\nThis will help you learn what games your child enjoys most.\n \n3. Set restrictions to ensure your child can play safely, no matter their age.\nEasily restrict features of the Nintendo Switch console as appropriate for your child. This includes restricting games above specific age ratings.\n\n\nAttention:\n● In order to use the Nintendo Switch Parental Controls app, a parent or guardian (aged 18 or above) needs to have a Nintendo Account.\n● You can set purchasing restrictions, including restrictions on purchasing products and services in Nintendo eShop, in the Nintendo Account settings.\n● In order to make use of all of the features and settings available in the Nintendo Switch Parental Controls app, all linked Nintendo Switch consoles need to be using the latest system version.",
@@ -20,8 +20,8 @@
         "priceText": "Free",
         "available": true,
         "offersIAP": false,
-        "androidVersion": "4.4",
-        "androidVersionText": "4.4",
+        "androidVersion": "8.0",
+        "androidVersionText": "8.0",
         "developer": "Nintendo Co., Ltd.",
         "developerId": "7277267556905944956",
         "developerEmail": "NintendoSwitch_ParentalControlsApp@mobile-support.nintendo.co.jp",
@@ -50,9 +50,9 @@
         "contentRating": "PEGI 3",
         "adSupported": false,
         "released": "1 Mar 2017",
-        "updated": 1718261770000,
-        "version": "1.21.0",
-        "recentChanges": "<br>Small improvements have been made.",
+        "updated": 1732778105000,
+        "version": "1.22.0",
+        "recentChanges": "<br>The required Android version has changed. You now need Android version 8.0 or later to use this app.",
         "comments": null,
         "appId": "com.nintendo.znma",
         "url": "https://play.google.com/store/apps/details?id=com.nintendo.znma&hl=en_GB&gl=GB"

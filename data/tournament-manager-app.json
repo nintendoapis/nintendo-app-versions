@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-170395e85087b9ceb9aee962a50f776812f03962",
-    "build_id": "zP0_UpLMtLMj22AqXZVzZ",
+    "revision": "lp1-88921a1cdd3cda112a36a50907f251ebd7ca3349",
+    "build_id": "3pfwlpUy0gy7z9qkwDJBO",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "1e781a6939ba1c0e73f4d80393c5a59ec256c435e6a8d2e3b7f349903237289b",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/zP0_UpLMtLMj22AqXZVzZ/_buildManifest.js",
+    "html_sha256": "ea6f45323dd5e1f178452be748002110713208b3a04f02f352bbc1072ba4c873",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/3pfwlpUy0gy7z9qkwDJBO/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Tue, 26 Nov 2024 09:51:23 GMT",
-        "etag": "W/\"30d5-19367e1f978\""
+        "last-modified": "Thu, 05 Dec 2024 12:04:29 GMT",
+        "etag": "W/\"30d5-19396b510c8\""
     },
-    "build_manifest_hash_sha256": "108229c027c6604b19be1b5f27bc830ead7709344101e4f7fdfc5d1118b1cf58",
+    "build_manifest_hash_sha256": "f24ff2cf55a7738f76bf40b69a0fe62e6638d5b3d735cf0129a6b9d442abed5a",
     "build_manifest": {
         "__rewrites": {
             "beforeFiles": [],
@@ -300,7 +300,7 @@
         "/help/faq/bCJwJKxpy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/f42bd8fc47a7623d.css",
-            "static/chunks/pages/help/faq/bCJwJKxpy-6280b2d76486ed59.js"
+            "static/chunks/pages/help/faq/bCJwJKxpy-acee245b3f7d26ef.js"
         ],
         "/help/faq/eNHJCAzDy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -360,7 +360,7 @@
         "/help/participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/participant-e25f581523b63961.js"
+            "static/chunks/pages/help/participant-6351a01d79b59f25.js"
         ],
         "/help/requirements": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -406,7 +406,7 @@
         "/photo/new": [
             "static/chunks/252-0534b38d8a1e10dc.js",
             "static/css/9f954ddb13e126fa.css",
-            "static/chunks/pages/photo/new-78a3e0c0389990bc.js"
+            "static/chunks/pages/photo/new-ea37f3adfd1d14ca.js"
         ],
         "/report": [
             "static/chunks/7536-704ea95f2725ed8e.js",
@@ -491,7 +491,7 @@
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
             "static/chunks/3485-d180b741d499123e.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/chunks/3464-74c795d67f21d651.js",
             "static/css/402f9e4ee52130b9.css",
@@ -514,7 +514,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/css/ae368ea24bfb7e57.css",
             "static/chunks/7062-ef72110421b68b9f.js",
@@ -536,7 +536,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/chunks/2082-b9bd6625e3252871.js",
             "static/css/720f92b67a996b01.css",
@@ -574,7 +574,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/css/e3bf9298a1363b2d.css",
             "static/chunks/pages/tournament/[tournamentId]/entrant_team-7e02e8463374e902.js"
@@ -607,7 +607,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/chunks/2386-21d9559b6327f6a4.js",
             "static/css/82bd8f58e6389ee5.css",
@@ -629,7 +629,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/css/75d83eb6753b600a.css",
             "static/chunks/pages/tournament/[tournamentId]/result/block-ee15fbdfe2211829.js"
@@ -651,7 +651,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/css/ae368ea24bfb7e57.css",
             "static/chunks/7062-ef72110421b68b9f.js",
@@ -673,7 +673,7 @@
             "static/css/27564b9111ace167.css",
             "static/chunks/9815-6cd1e7f66d7e2def.js",
             "static/chunks/886-d552c384e8eaa13f.js",
-            "static/css/9c8c9ab42013f074.css",
+            "static/css/68dc835ef7c1e6e5.css",
             "static/chunks/2381-8aca6ee575f91de2.js",
             "static/chunks/2082-b9bd6625e3252871.js",
             "static/css/720f92b67a996b01.css",
@@ -816,7 +816,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-170395e85087b9ceb9aee962a50f776812f03962"
+        "id": "lp1-88921a1cdd3cda112a36a50907f251ebd7ca3349"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",

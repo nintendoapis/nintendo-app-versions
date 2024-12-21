@@ -3,7 +3,7 @@ import stringify from 'json-stable-stringify';
 
 const url = new URL('https://itunes.apple.com/lookup');
 url.searchParams.append('id', process.argv[2]);
-url.searchParams.append('country', 'GB');
+url.searchParams.append('country', process.argv[3] ?? 'GB');
 
 const response = await fetch(url);
 const data = await response.json();

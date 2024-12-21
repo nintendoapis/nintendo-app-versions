@@ -19,6 +19,7 @@ const googleplay = JSON.parse(await fs.readFile(new URL('../data/' + app + '-goo
 // const nintendo_eu = JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-eu.json', import.meta.url), 'utf-8'));
 const nintendo_jp =
     app === 'bremen' ? null :
+    app === 'entry' ? null :
     JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-jp.json', import.meta.url), 'utf-8'));
 
 const known = await (async () => {

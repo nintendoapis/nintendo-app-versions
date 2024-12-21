@@ -1,7 +1,7 @@
 import * as fs from 'node:fs/promises';
 import fetch from 'node-fetch';
 
-/** @type {'splatnet3'|'nooklink'|'lhub'} */
+/** @type {'splatnet3'|'nooklink'|'lhub'|'tournament-manager'} */
 const app = process.argv[2];
 const app_info = {
     'splatnet3': ['SplatNet 3', 0xfefb55, 'https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808'],

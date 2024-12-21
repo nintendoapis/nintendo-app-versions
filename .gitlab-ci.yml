@@ -17,8 +17,10 @@ update-versions:
     - mkdir -p data
     - node scripts/fetch-itunes.js 1234806557 > data/coral-itunes.json
     - node scripts/fetch-itunes.js 1190074407 > data/moon-itunes.json
+    - node scripts/fetch-itunes.js 6466376604 > data/bremen-itunes.json
     - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znma > data/moon-google-play.json
+    - node scripts/fetch-google-play.js com.nintendo.znba > data/bremen-google-play.json
     - node scripts/fetch-nintendo-jp.js nintendo_switch_online_app > data/coral-nintendo-jp.json
     - node scripts/fetch-nintendo-jp.js nintendo_switch_parental_controls_app > data/moon-nintendo-jp.json
     - node scripts/fetch-nintendo-eu.js 1520024 > data/coral-nintendo-eu.json
@@ -26,6 +28,7 @@ update-versions:
 
     - DISCORD_WEBHOOK_MENTION="&1002674504570515476" node scripts/notify.js coral
     - DISCORD_WEBHOOK_MENTION="&1002674644874170398" node scripts/notify.js moon
+    - DISCORD_WEBHOOK_MENTION="&1319843921161097258" node scripts/notify.js bremen
 
     - node scripts/splatnet3.js > data/splatnet3-app.json
     - DISCORD_WEBHOOK_MENTION="&1024054290681184327" node scripts/notify-webapp.js splatnet3

@@ -4,14 +4,21 @@ import Turndown from 'turndown';
 
 const turndown = new Turndown();
 
-/** @type {'coral'|'moon'} */
+/** @type {'coral'|'moon'|'bremen'} */
 const app = process.argv[2];
-const app_name = app === 'moon' ? 'Nintendo Switch Parental Controls' : 'Nintendo Switch Online';
+const app_name =
+    app === 'coral' ? 'Nintendo Switch Online' :
+    app === 'moon' ? 'Nintendo Switch Parental Controls' :
+    app === 'bremen' ? 'Nintendo Music' :
+    app;
+const app_colour = app === 'moon' ? 16673321 : 15073298;
 
 const itunes = JSON.parse(await fs.readFile(new URL('../data/' + app + '-itunes.json', import.meta.url), 'utf-8'));
 const googleplay = JSON.parse(await fs.readFile(new URL('../data/' + app + '-google-play.json', import.meta.url), 'utf-8'));
 // const nintendo_eu = JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-eu.json', import.meta.url), 'utf-8'));
-const nintendo_jp = JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-jp.json', import.meta.url), 'utf-8'));
+const nintendo_jp =
+    app === 'bremen' ? null :
+    JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-jp.json', import.meta.url), 'utf-8'));
 
 const known = await (async () => {
     try {
@@ -35,7 +42,7 @@ if (!known.versions.includes(googleplay.version + '-android')) {
         googleplay.result.url, turndown.turndown(googleplay.result.recentChanges)]);
 }
 
-for (const version of nintendo_jp.versions) {
+for (const version of nintendo_jp?.versions ?? []) {
     const platform_ios = version.label.includes('iOS');
     const platform_android = version.label.includes('Android');
     const platforms = !platform_ios && !platform_android ? ['ios', 'android'] :
@@ -77,7 +84,7 @@ for (const [version, platform, source, url, release_notes] of new_versions) {
 
         const embed = {
             title: 'New ' + app_name + ' version detected',
-            color: app === 'moon' ? 16673321 : 15073298,
+            color: app_colour,
             author: {
                 name: 'nintendo-app-versions',
                 url: 'https://github.com/samuelthomas2774/nintendo-app-versions',

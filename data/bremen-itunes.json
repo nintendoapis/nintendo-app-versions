@@ -7,19 +7,19 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/a2/1c/c2a21cef-76d8-d3d1-b678-1d80be3faf55/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/a2/1c/c2a21cef-76d8-d3d1-b678-1d80be3faf55/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/a2/1c/c2a21cef-76d8-d3d1-b678-1d80be3faf55/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/f8/42/47f84205-a8a4-9504-abb9-abe0cf29ab9a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/f8/42/47f84205-a8a4-9504-abb9-abe0cf29ab9a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/f8/42/47f84205-a8a4-9504-abb9-abe0cf29ab9a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znba",
         "contentAdvisoryRating": "4+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2024-12-18T04:31:05Z",
+        "currentVersionReleaseDate": "2025-03-05T01:02:15Z",
         "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● iOS version 16.0 or higher is required to use this app.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "46233600",
+        "fileSizeBytes": "42187776",
         "formattedPrice": "Free",
         "genreIds": [
             "6011"
@@ -51,7 +51,7 @@
         "primaryGenreId": 6011,
         "primaryGenreName": "Music",
         "releaseDate": "2024-10-30T07:00:00Z",
-        "releaseNotes": "・ We've fixed an issue that was preventing this app from starting properly on some iPad devices.\n・ We've fixed some issues to allow for a smoother experience when using this app.",
+        "releaseNotes": "・ An optional automatic volume adjustment feature has been added, which can be enabled to reduce volume variations between tracks. If you prefer the volume levels as they are, the feature can be disabled in the settings for this app.\n・ We've fixed some issues to allow for a smoother experience when using this app.",
         "screenshotUrls": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/34/6c/c2346c13-a6d4-420e-af08-d84e78e4ca49/9027d45d-acd4-4a68-a61d-10262703c33b_000_iphone6Plus_en-GB_@bc980caa2b53dcee199f254c5e1ecd637f6b2592@.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/c7/84/aec7842f-0bdf-280d-d106-7cca6c10dace/001_iphone6Plus_en-GB_@7b0c25acfae59cd4359eb7976ef10928b8310a0a@.png/392x696bb.png",
@@ -179,8 +179,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-music/id6466376604?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.0.3",
+        "version": "1.1.0",
         "wrapperType": "software"
     },
-    "version": "1.0.3"
+    "version": "1.1.0"
 }

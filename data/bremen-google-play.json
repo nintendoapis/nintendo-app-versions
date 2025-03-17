@@ -1,6 +1,6 @@
 {
-    "version": "1.1.0",
-    "updated_at": "Mon Mar 03 2025 08:12:18 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.1.1",
+    "updated_at": "Fri Mar 14 2025 08:08:54 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Music",
         "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● Android version 9.0 or higher is required to use this app.\n\nNintendo Account Agreement: https://accounts.nintendo.com/term_chooser/eula\n\n© Nintendo",
@@ -53,9 +53,9 @@
         "contentRating": "PEGI 3",
         "adSupported": true,
         "released": "7 Oct 2024",
-        "updated": 1740989538000,
-        "version": "1.1.0",
-        "recentChanges": "<br>・ An optional automatic volume adjustment feature has been added, which can be enabled to reduce volume variations between tracks. If you prefer the volume levels as they are, the feature can be disabled in the settings for this app.<br>・ We&#39;ve fixed some issues to allow for a smoother experience when using this app.",
+        "updated": 1741939734000,
+        "version": "1.1.1",
+        "recentChanges": "<br>We&#39;ve fixed some issues to allow for a smoother experience when using this app.",
         "comments": null,
         "appId": "com.nintendo.znba",
         "url": "https://play.google.com/store/apps/details?id=com.nintendo.znba&hl=en_GB&gl=GB"

@@ -172,7 +172,13 @@
             "iPhone16ProMax-iPhone16ProMax",
             "iPadMiniA17Pro-iPadMiniA17Pro",
             "iPadMiniA17ProCellular-iPadMiniA17ProCellular",
-            "iPhone16e-iPhone16e"
+            "iPhone16e-iPhone16e",
+            "iPadA16-iPadA16",
+            "iPadA16Cellular-iPadA16Cellular",
+            "iPadAir11M3-iPadAir11M3",
+            "iPadAir11M3Cellular-iPadAir11M3Cellular",
+            "iPadAir13M3-iPadAir13M3",
+            "iPadAir13M3Cellular-iPadAir13M3Cellular"
         ],
         "trackCensoredName": "Nintendo Switch Online",
         "trackContentRating": "12+",

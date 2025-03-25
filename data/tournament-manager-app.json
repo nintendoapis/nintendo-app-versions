@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-c32ce988f1940b4028bcc57b5bde02aee9bbf934",
-    "build_id": "tDb9EPFcB_56aIw8pcu5s",
+    "revision": "lp1-3c85b0954260fd2e9462aaf695e61c75092c4829",
+    "build_id": "f4jIMDf_AkWNrChEL7k7F",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "1745d47288f374bf107509a5b4d61c9a3826114ac31bf4aff70e6bf8744a73f0",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/tDb9EPFcB_56aIw8pcu5s/_buildManifest.js",
+    "html_sha256": "696d3911cfbcf678a1776b8ee520f42bed750e1e2c9d43c140e3acd0032eadd7",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/f4jIMDf_AkWNrChEL7k7F/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Tue, 04 Mar 2025 06:59:44 GMT",
-        "etag": "W/\"30d4-1955ff40b00\""
+        "last-modified": "Mon, 24 Mar 2025 01:22:56 GMT",
+        "etag": "W/\"30d4-195c5bee180\""
     },
-    "build_manifest_hash_sha256": "4a30b10318aee7ac5462e17491d3d4be843e8029a028fe76c6fd6321037578e7",
+    "build_manifest_hash_sha256": "26074548cd2c1efcd423743041bafd2be2e87eaaf39310483968ff9a98374b62",
     "build_manifest": {
         "__rewrites": {
             "beforeFiles": [],
@@ -300,7 +300,7 @@
         "/help/faq/bCJwJKxpy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/f42bd8fc47a7623d.css",
-            "static/chunks/pages/help/faq/bCJwJKxpy-6280b2d76486ed59.js"
+            "static/chunks/pages/help/faq/bCJwJKxpy-acee245b3f7d26ef.js"
         ],
         "/help/faq/eNHJCAzDy": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -360,7 +360,7 @@
         "/help/participant": [
             "static/chunks/2071-c93363bfb42b6d95.js",
             "static/css/73cc64ffe22f60a5.css",
-            "static/chunks/pages/help/participant-e25f581523b63961.js"
+            "static/chunks/pages/help/participant-6351a01d79b59f25.js"
         ],
         "/help/requirements": [
             "static/chunks/2071-c93363bfb42b6d95.js",
@@ -406,7 +406,7 @@
         "/photo/new": [
             "static/chunks/252-0534b38d8a1e10dc.js",
             "static/css/9f954ddb13e126fa.css",
-            "static/chunks/pages/photo/new-78a3e0c0389990bc.js"
+            "static/chunks/pages/photo/new-ea37f3adfd1d14ca.js"
         ],
         "/report": [
             "static/chunks/7536-704ea95f2725ed8e.js",
@@ -816,7 +816,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-c32ce988f1940b4028bcc57b5bde02aee9bbf934"
+        "id": "lp1-3c85b0954260fd2e9462aaf695e61c75092c4829"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",

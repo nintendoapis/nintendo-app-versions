@@ -1,6 +1,7 @@
 {
     "versions": [
         "2.2.4-ios",
-        "2.2.4-android"
+        "2.2.4-android",
+        "2.3.0-android"
     ]
 }

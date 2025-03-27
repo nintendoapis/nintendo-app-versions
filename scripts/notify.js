@@ -11,6 +11,7 @@ const app_name =
     app === 'moon' ? 'Nintendo Switch Parental Controls' :
     app === 'bremen' ? 'Nintendo Music' :
     app === 'entry' ? 'My Nintendo' :
+    app === 'aquavast' ? 'Nintendo Today!' :
     app;
 const app_colour = app === 'moon' ? 16673321 : 15073298;
 
@@ -20,6 +21,7 @@ const googleplay = JSON.parse(await fs.readFile(new URL('../data/' + app + '-goo
 const nintendo_jp =
     app === 'bremen' ? null :
     app === 'entry' ? null :
+    app === 'aquavast' ? null :
     JSON.parse(await fs.readFile(new URL('../data/' + app + '-nintendo-jp.json', import.meta.url), 'utf-8'));
 
 const known = await (async () => {

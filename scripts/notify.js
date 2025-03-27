@@ -4,7 +4,7 @@ import Turndown from 'turndown';
 
 const turndown = new Turndown();
 
-/** @type {'coral'|'moon'|'bremen'} */
+/** @type {'coral'|'moon'|'bremen'|'entry'|'aquavast'} */
 const app = process.argv[2];
 const app_name =
     app === 'coral' ? 'Nintendo Switch Online' :
@@ -37,13 +37,14 @@ if (!known.versions.includes(itunes.result.version + '-ios')) {
     console.log('New version detected on iTunes', itunes.result.version);
     known.versions.push(itunes.result.version + '-ios');
     new_versions.push([itunes.result.version, 'iOS', 'iTunes',
-        itunes.result.trackViewUrl, itunes.result.releaseNotes]);
+        itunes.result.trackViewUrl, itunes.result.releaseNotes ?? itunes.result.description]);
 }
 if (!known.versions.includes(googleplay.version + '-android')) {
     console.log('New version detected on Google Play', googleplay.version);
     known.versions.push(googleplay.version + '-android');
     new_versions.push([googleplay.version, 'Android', 'Google Play',
-        googleplay.result.url, turndown.turndown(googleplay.result.recentChanges)]);
+        googleplay.result.url,
+        turndown.turndown(googleplay.result.recentChanges ?? googleplay.result.descriptionHTML)]);
 }
 
 for (const version of nintendo_jp?.versions ?? []) {

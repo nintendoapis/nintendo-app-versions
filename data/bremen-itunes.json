@@ -1,38 +1,33 @@
 {
     "result": {
         "advisories": [
-            "Frequent/Intense Cartoon or Fantasy Violence"
         ],
         "appletvScreenshotUrls": [
         ],
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/8d/8d/3b8d8d98-c22f-c205-8e42-59898a7ed7b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/8d/8d/3b8d8d98-c22f-c205-8e42-59898a7ed7b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/8d/8d/3b8d8d98-c22f-c205-8e42-59898a7ed7b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
-        "bundleId": "com.nintendo.znca",
-        "contentAdvisoryRating": "12+",
+        "bundleId": "com.nintendo.znba",
+        "contentAdvisoryRating": "4+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2024-12-03T02:01:56Z",
-        "description": "The Nintendo Switch Online app is designed to help enhance your online gameplay experience on Nintendo Switch™. With this app, you can use voice chat while gaming, see whether your friends are online and use game-specific services!\nGame-specific services are currently available for Animal Crossing: New Horizons, Super Smash Bros. Ultimate, Splatoon 2 and Splatoon 3.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ An introduction to game-specific services\n\n　・ Splatoon 3\n　　　・ View the online status of friends who play Splatoon 3\n　　　・ View your battle logs and Salmon Run stats\n　　　・ Check stage schedules\n\n　・ Animal Crossing: New Horizons\n　　　・ Send custom designs created in Animal Crossing games on Nintendo 3DS to Animal Crossing: New Horizons\n　　　・ Use your smart device to send messages that appear in-game\n　　　・ View the online status of your Best Friends\n\n　・ Super Smash Bros. Ultimate\n　　　・ View posted videos\n　　　・ Queue downloads of user-created stages to play them in your copy of the game\n　　　・ Receive notifications about upcoming events\n\n　・ Splatoon 2\n　　　・ View your battle and Salmon Run stats\n　　　・ Check leaderboards and map schedules\n\n◆ Checking the online status of friends\n\nYou can use your smart device to check whether your friends are online. You'll also be able to check what games your online friends are playing, and even send friend requests from within this app!\n*You will need to use your Nintendo Switch console to accept friend requests and configure other friend settings.\n\n◆ Using voice chat while gaming\n\nWhen playing online in supported games, you can use voice chat with your friends via this app. How you use voice chat depends on the game and mode you're using - for example, when you split into teams in Splatoon 3, you can choose to use voice chat just with your team members so that friends on the other team won't know your next move.\n\nAttention:\n● A Nintendo Switch console and supported software are required to use this app's services.\n● A paid membership to Nintendo Switch Online is required to play online in some Nintendo Switch software and to use some of this app's features.\n● You must have a Nintendo Account for ages 13 and up in order to use some of this app's features, including voice chat.\n● Permanent internet connection required for use.\n● May contain advertisements and product placement.\n● iOS version 15.0 or higher is required to use this app.\n\nQR Code is a registered trademark of DENSO WAVE INCORPORATED in JAPAN and other countries.",
+        "currentVersionReleaseDate": "2025-03-17T01:02:23Z",
+        "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● iOS version 16.0 or higher is required to use this app.\n\n© Nintendo",
         "features": [
-            "iosUniversal"
         ],
-        "fileSizeBytes": "46242816",
+        "fileSizeBytes": "42204160",
         "formattedPrice": "Free",
         "genreIds": [
-            "6016"
+            "6011"
         ],
         "genres": [
-            "Entertainment"
+            "Music"
         ],
         "ipadScreenshotUrls": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c5/4d/c3/c54dc315-25da-91b6-9831-4df6a28bb1c7/17cb91cb-4333-4570-a12c-f84507fd9de3_000_ipadPro_en-GB_@279b8f95f799f0a1042238e2f004a91f70494b59@.png/576x768bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/4f/dc/14/4fdc142a-854e-3559-5baa-6a312214b3f1/81c4dd51-2085-49f9-8175-0df290f85504_001_ipadPro_en-GB_@b8e26fbcb91399493f6fee98761e685da694e6a4@.png/576x768bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/be/d2/df/bed2dfc7-01cd-56a2-a560-f7118cb1c279/46d5dec3-8fc8-4d8a-a582-f9c09a1f5068_002_ipadPro_en-GB_@a3c543438604255908d33b1c187addc30036a574@.png/576x768bb.png"
         ],
         "isGameCenterEnabled": false,
         "isVppDeviceBasedLicensingEnabled": true,
@@ -51,19 +46,22 @@
             "ES",
             "ZH"
         ],
-        "minimumOsVersion": "15.0",
+        "minimumOsVersion": "16.0",
         "price": 0,
-        "primaryGenreId": 6016,
-        "primaryGenreName": "Entertainment",
-        "releaseDate": "2017-07-19T00:57:14Z",
-        "releaseNotes": "Various issues are now resolved.",
+        "primaryGenreId": 6011,
+        "primaryGenreName": "Music",
+        "releaseDate": "2024-10-30T07:00:00Z",
+        "releaseNotes": "We've fixed some issues to allow for a smoother experience when using this app.",
         "screenshotUrls": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/fd/38/ea/fd38eafc-75a3-28be-d66b-710de0350b8b/86572c8d-845e-4f2a-88c9-567ecaf4eccc_000_iphone6Plus_en-GB_@930a8b62882a37de9971d79d934fcaae6d58548c@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b9/8e/b9/b98eb945-3929-14fd-2308-e0fae988b663/de0107f7-fa68-41a5-8801-95588cfdc098_001_iphone6Plus_en-GB_@cff42fc71c7662c9c135ea71a759b20f5eb9efbd@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/0f/ee/d8/0feed89a-715b-84ad-f676-5d2aaf0fbf2b/4a30aae0-c06f-4019-842b-447f6767407a_002_iphone6Plus_en-GB_@3ad8547c13ed974698023b7e8a1bd4abccff7915@.png/392x696bb.png"
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/34/6c/c2346c13-a6d4-420e-af08-d84e78e4ca49/9027d45d-acd4-4a68-a61d-10262703c33b_000_iphone6Plus_en-GB_@bc980caa2b53dcee199f254c5e1ecd637f6b2592@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/c7/84/aec7842f-0bdf-280d-d106-7cca6c10dace/001_iphone6Plus_en-GB_@7b0c25acfae59cd4359eb7976ef10928b8310a0a@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/d3/1e/4dd31e31-e849-e361-4414-c0752226f62b/002_iphone6Plus_en-GB_@d264d268c8e9ff9efacada9c50a5d8a20896573b@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/98/91/5a9891c4-9962-e2e2-3403-fa71dadbf9d1/290ee78b-ff0c-466c-af15-57837f670892_003_iphone6Plus_en-GB_@0f0a034cbd678281e8f3d3bc5f02f02b16bee4d7@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/ee/0b/37ee0be5-8c0b-6e75-fd4b-d5d506048282/e3c89992-1e37-42ab-bbb1-5c7d8a44ef0c_004_iphone6Plus_en-GB_@2399ec2104be7e6373758520a1d862c05410095a@.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/53/d1/8253d17b-9ea7-bab1-941d-fa6b414a952b/88dfb859-f61b-4a4e-88f0-6fd8b738b1cb_005_iphone6Plus_en-GB_@c5807d934b9f722e69cd3a6b6daaa729b821c99f@.png/392x696bb.png"
         ],
         "sellerName": "Nintendo Co., Ltd.",
-        "sellerUrl": "https://www.nintendo.co.uk",
+        "sellerUrl": "https://www.nintendo.com/en-gb/",
         "supportedDevices": [
             "iPhone5s-iPhone5s",
             "iPadAir-iPadAir",
@@ -180,15 +178,15 @@
             "iPadAir13M3-iPadAir13M3",
             "iPadAir13M3Cellular-iPadAir13M3Cellular"
         ],
-        "trackCensoredName": "Nintendo Switch Online",
-        "trackContentRating": "12+",
-        "trackId": 1234806557,
-        "trackName": "Nintendo Switch Online",
-        "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-online/id1234806557?uo=4",
+        "trackCensoredName": "Nintendo Music",
+        "trackContentRating": "4+",
+        "trackId": 6466376604,
+        "trackName": "Nintendo Music",
+        "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-music/id6466376604?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "2.12.0",
+        "version": "1.1.1",
         "wrapperType": "software"
     },
-    "version": "2.12.0"
+    "version": "1.1.1"
 }

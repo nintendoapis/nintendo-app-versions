@@ -6,6 +6,10 @@ const data = await googleplay.app({
     country: 'GB',
 });
 
+if (data.released.match(/^[a-z]+ \d+, \d+$/i)) {
+    throw new Error('Google Play returned data not matching requested language');
+}
+
 const result = {
     version: data.version,
     updated_at: new Date(data.updated).toString(),

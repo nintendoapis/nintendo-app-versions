@@ -22,14 +22,25 @@
         "offersIAP": false,
         "androidVersion": "9",
         "androidVersionText": "9",
+        "androidMaxVersion": "VARY",
         "developer": "Nintendo Co., Ltd.",
         "developerId": "7277267556905944956",
         "developerEmail": "ml-znsa@nintendo.co.jp",
         "developerAddress": "京都府京都市南区上鳥羽鉾立町11-1",
+        "developerLegalName": "NINTENDO CO., LTD.",
+        "developerLegalEmail": "nintendo.smartdevice@gmail.com",
+        "developerLegalAddress": "11-1, KAMITOBAHOKODATECHO, MINAMI-KU, KYOTO, 京都府 601-8116, Japan",
+        "developerLegalPhoneNumber": "+81 50-1722-6997",
         "privacyPolicy": "https://accounts.nintendo.com/term_chooser/privacy_policy",
         "developerInternalID": "7277267556905944956",
         "genre": "Lifestyle",
         "genreId": "LIFESTYLE",
+        "categories": [
+            {
+                "name": "Lifestyle",
+                "id": "LIFESTYLE"
+            }
+        ],
         "icon": "https://play-lh.googleusercontent.com/ZrT9ASJTZbJ-vtH4GTuRagRdWl1UeLGJ_-Whiip7znGomBKhHGX-JuYgRsd2pCcCcssD",
         "headerImage": "https://play-lh.googleusercontent.com/_mVkABMWMNZIyE-FCcX6wq_Kh5Pp6x-nOm_dvND2tI0BXkV2atfH-mtHbLwf926a8A",
         "screenshots": [
@@ -49,6 +60,9 @@
         "updated": 1741598639000,
         "version": "1.0.0",
         "comments": null,
+        "preregister": false,
+        "earlyAccessEnabled": false,
+        "isAvailableInPlayPass": false,
         "appId": "com.nintendo.znsa",
         "url": "https://play.google.com/store/apps/details?id=com.nintendo.znsa&hl=en_GB&gl=GB"
     }

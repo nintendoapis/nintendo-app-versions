@@ -22,15 +22,26 @@
         "offersIAP": false,
         "androidVersion": "8.0",
         "androidVersionText": "8.0",
+        "androidMaxVersion": "VARY",
         "developer": "Nintendo Co., Ltd.",
         "developerId": "7277267556905944956",
         "developerEmail": "NintendoSwitch_NintendoSwitchOnlineApp@mobile-support.nintendo.co.jp",
         "developerWebsite": "https://www.nintendo.com/regionselector/",
         "developerAddress": "京都府京都市南区上鳥羽鉾立町11-1",
+        "developerLegalName": "NINTENDO CO., LTD.",
+        "developerLegalEmail": "nintendo.smartdevice@gmail.com",
+        "developerLegalAddress": "11-1, KAMITOBAHOKODATECHO, MINAMI-KU, KYOTO, 京都府 601-8116, Japan",
+        "developerLegalPhoneNumber": "+81 50-1722-6997",
         "privacyPolicy": "https://accounts.nintendo.com/term_chooser/privacy_policy",
         "developerInternalID": "7277267556905944956",
         "genre": "Entertainment",
         "genreId": "ENTERTAINMENT",
+        "categories": [
+            {
+                "name": "Entertainment",
+                "id": "ENTERTAINMENT"
+            }
+        ],
         "icon": "https://play-lh.googleusercontent.com/ac_PFh09W8C2f3rlXNC_vskiNyWDqG2M5aWe6vlbKfVkW8mqNFG3NyaTukC_PC6vJoQ",
         "headerImage": "https://play-lh.googleusercontent.com/4dgYKqYScl3OEl8F-tPtKKOUIbgT64ICES3EGf0ZCaTkHeqT4r-tmznR8e6KGglbtA",
         "screenshots": [
@@ -48,6 +59,9 @@
         "version": "2.12.0",
         "recentChanges": "<br>Various issues are now resolved.",
         "comments": null,
+        "preregister": false,
+        "earlyAccessEnabled": false,
+        "isAvailableInPlayPass": false,
         "appId": "com.nintendo.znca",
         "url": "https://play.google.com/store/apps/details?id=com.nintendo.znca&hl=en_GB&gl=GB"
     }

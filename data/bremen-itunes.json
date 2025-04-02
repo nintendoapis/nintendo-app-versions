@@ -7,19 +7,19 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/86/4b/04864bde-4c3c-6e8c-480d-3174a58119e5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znba",
         "contentAdvisoryRating": "4+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-04-02T02:00:31Z",
+        "currentVersionReleaseDate": "2025-03-17T01:02:23Z",
         "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● iOS version 16.0 or higher is required to use this app.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "42187776",
+        "fileSizeBytes": "42204160",
         "formattedPrice": "Free",
         "genreIds": [
             "6011"
@@ -185,8 +185,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-music/id6466376604?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.1.2",
+        "version": "1.1.1",
         "wrapperType": "software"
     },
-    "version": "1.1.2"
+    "version": "1.1.1"
 }

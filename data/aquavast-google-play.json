@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "updated_at": "Mon Mar 10 2025 09:23:59 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.0.2",
+    "updated_at": "Fri Apr 04 2025 09:50:45 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Today!",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n◆ Daily Updates\nGet updates on Nintendo Switch 2 news plus game info, videos, comics, and more every day.\n\n◆ Event Schedule\nCheck the schedule to learn about Nintendo Direct presentations, game releases, in-game events, and more.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 9.0 or later.\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
@@ -49,7 +49,6 @@
             "https://play-lh.googleusercontent.com/_UR_NET3ijwuQNIZVBR5fK9fK4TZvGNN7W_IJ48SKBNOaF5G4_L9yjfLIG73o717aMQ",
             "https://play-lh.googleusercontent.com/-XjFj76OCnSeWtCdXLtGM4RJj66D9y7DilB1Va5RiJ-zIld1IDAVrxL7g4ynuumtXW4",
             "https://play-lh.googleusercontent.com/N4l5RLwQObXnPBf902xJMbL4yjGgTNynSc8ooOC7hqpyruG6ztIBu6M8GPHO5aelO-pk",
-            "https://play-lh.googleusercontent.com/Jz-z8VYy7gTt2S0REEe56-VAGr3PCPEaMM5Q_F1CF2AJyrPIOtPQQt7dt7DqC4ROXbk",
             "https://play-lh.googleusercontent.com/fNl_4jI1NNc7_OtCM2QimEM12quw-qNGByCCbAsYSBLi7_goMuVv3Kw3HEhWRYELKUg",
             "https://play-lh.googleusercontent.com/p8WojyJGd7XqTspBYlxV-pXd7dohlMfojMlXpFzjIZt2MbjS944P6CmK-XG_8Y8AM00"
         ],
@@ -57,8 +56,9 @@
         "contentRatingDescription": "Parental guidance recommended",
         "adSupported": false,
         "released": "10 Mar 2025",
-        "updated": 1741598639000,
-        "version": "1.0.0",
+        "updated": 1743760245000,
+        "version": "1.0.2",
+        "recentChanges": "We&#39;ve fixed a few issues to make it easier for you to use.",
         "comments": null,
         "preregister": false,
         "earlyAccessEnabled": false,

@@ -1,6 +1,6 @@
 {
-    "version": "1.0.3",
-    "updated_at": "Mon Apr 14 2025 06:45:40 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.0.4",
+    "updated_at": "Wed Apr 30 2025 03:25:37 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Today!",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n◆ Daily Updates\nGet updates on Nintendo Switch 2 news plus game info, videos, comics, and more every day.\n\n◆ Event Schedule\nCheck the schedule to learn about Nintendo Direct presentations, game releases, in-game events, and more.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 9.0 or later.\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
@@ -56,8 +56,8 @@
         "contentRatingDescription": "Parental guidance recommended",
         "adSupported": false,
         "released": "10 Mar 2025",
-        "updated": 1744613140000,
-        "version": "1.0.3",
+        "updated": 1745983537000,
+        "version": "1.0.4",
         "recentChanges": "We&#39;ve fixed a few issues to make it easier for you to use.",
         "comments": null,
         "preregister": false,

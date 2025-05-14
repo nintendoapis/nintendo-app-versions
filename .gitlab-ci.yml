@@ -43,7 +43,7 @@ update-versions:
     - node scripts/tournamentmanager.js > data/tournament-manager-app.json
     - DISCORD_WEBHOOK_MENTION="&1174547361742200943" node scripts/notify-webapp.js tournament-manager
 
-    - NODE_EXTRA_CA_CERTS=./nintendo-ca-g3.pem node scripts/lhub.js > data/lhub-app.json
+    - NODE_EXTRA_CA_CERTS=./nintendo-ca-g4.pem node scripts/lhub.js > data/lhub-app.json
     - DISCORD_WEBHOOK_MENTION="&1131060995637399582" node scripts/notify-webapp.js lhub
 
     - git add data/* || true

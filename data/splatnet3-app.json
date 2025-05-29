@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "6.0.0-9253fd84",
+    "web_app_ver": "6.0.0-bbd7c576",
     "version": "6.0.0",
-    "revision": "9253fd8440ba0cf511a7bb4c406a086f94f12e47",
+    "revision": "bbd7c576df99b71f703a45b3c60af0d84f36b410",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,24 +11,24 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament/api/app/bootstrap",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "9253fd8440ba0cf511a7bb4c406a086f94f12e47",
+        "REACT_APP_REVISION": "bbd7c576df99b71f703a45b3c60af0d84f36b410",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "0e7a53b09c7401037e5aaab9d5b99a06e80052ee5c3c4f3611b273d5e6288f70",
+    "html_sha256": "e1fcd28dab4bb9b6fc36acb32fe8e018d1f572850c59496fc88dc98055aed484",
     "html_headers": {
-        "last-modified": "Thu, 21 Nov 2024 01:43:58 GMT",
-        "etag": "\"5760d71e143f78c3a17bd1c50a9997b5\"",
-        "x-amz-version-id": "ajFBARTkU39EdbzkA1uqsUI60cVhXlvW"
+        "last-modified": "Thu, 29 May 2025 01:27:18 GMT",
+        "etag": "\"1bab7f78130b2d38d3da21cc1d5b253a\"",
+        "x-amz-version-id": "jxIxGjoXQO6r_X.MBI4IeyTGHIj.RdjG"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.1fc3e0ab.js",
-    "script_sha256": "7c7cd1f012a189ab7fd6601765b76e4dce7db48e6e38e2d8eedeb3b4ac134bed",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.6ba9ec8a.js",
+    "script_sha256": "f46b8859e3fc8ccfbe487f975714ae828cb275227b1a6d8de61b878ad8db0f63",
     "script_headers": {
-        "last-modified": "Thu, 21 Nov 2024 01:43:59 GMT",
-        "etag": "\"202bd3467147139c94e7e9f7d9dd91ac\"",
-        "x-amz-version-id": "8Z3eKfjJNgPkQl9r.nPL5KV_MAGEFBhQ"
+        "last-modified": "Thu, 29 May 2025 01:27:19 GMT",
+        "etag": "\"565e4c986ccd2655664fed1165616891\"",
+        "x-amz-version-id": "hMoZxlajF_gnN6vhAHuTnV51ilbWWDAq"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",

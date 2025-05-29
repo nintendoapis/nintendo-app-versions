@@ -7,19 +7,19 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/08/d7/9108d751-2db0-12f4-e9d0-b234650c3506/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/eb/2e/80eb2e3b-4dad-81e7-3b20-5fbffddf47fa/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/eb/2e/80eb2e3b-4dad-81e7-3b20-5fbffddf47fa/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/eb/2e/80eb2e3b-4dad-81e7-3b20-5fbffddf47fa/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znba",
         "contentAdvisoryRating": "4+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-04-02T02:00:31Z",
-        "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● iOS version 16.0 or higher is required to use this app.\n\n© Nintendo",
+        "currentVersionReleaseDate": "2025-05-29T02:32:30Z",
+        "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...and more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 5, 10, 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Sleep timer\nAllows you to set a time limit after which playback will stop.\nYou can use it when you want to set how long you'd like to listen to music, such as before going to sleep.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● iOS version 16.0 or higher is required to use this app.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "42187776",
+        "fileSizeBytes": "42863616",
         "formattedPrice": "Free",
         "genreIds": [
             "6011"
@@ -51,14 +51,8 @@
         "primaryGenreId": 6011,
         "primaryGenreName": "Music",
         "releaseDate": "2024-10-30T07:00:00Z",
-        "releaseNotes": "We've fixed some issues to allow for a smoother experience when using this app.",
+        "releaseNotes": "・ A sleep timer has been added. This feature lets you set a time limit after which playback will stop. You can use it to set how long you'd like to listen to music before going to sleep.\n・ The following updates have been made to the Extend To... feature:\n　・ Extend To... settings now apply to entire playlists.\n　・ Tracks can now be extended to 5 or 10 minutes in addition to the existing options.\n・ We've fixed some issues to allow for a smoother experience when using this app.",
         "screenshotUrls": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/34/6c/c2346c13-a6d4-420e-af08-d84e78e4ca49/9027d45d-acd4-4a68-a61d-10262703c33b_000_iphone6Plus_en-GB_@bc980caa2b53dcee199f254c5e1ecd637f6b2592@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/c7/84/aec7842f-0bdf-280d-d106-7cca6c10dace/001_iphone6Plus_en-GB_@7b0c25acfae59cd4359eb7976ef10928b8310a0a@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/d3/1e/4dd31e31-e849-e361-4414-c0752226f62b/002_iphone6Plus_en-GB_@d264d268c8e9ff9efacada9c50a5d8a20896573b@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/98/91/5a9891c4-9962-e2e2-3403-fa71dadbf9d1/290ee78b-ff0c-466c-af15-57837f670892_003_iphone6Plus_en-GB_@0f0a034cbd678281e8f3d3bc5f02f02b16bee4d7@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/ee/0b/37ee0be5-8c0b-6e75-fd4b-d5d506048282/e3c89992-1e37-42ab-bbb1-5c7d8a44ef0c_004_iphone6Plus_en-GB_@2399ec2104be7e6373758520a1d862c05410095a@.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/53/d1/8253d17b-9ea7-bab1-941d-fa6b414a952b/88dfb859-f61b-4a4e-88f0-6fd8b738b1cb_005_iphone6Plus_en-GB_@c5807d934b9f722e69cd3a6b6daaa729b821c99f@.png/392x696bb.png"
         ],
         "sellerName": "Nintendo Co., Ltd.",
         "sellerUrl": "https://www.nintendo.com/en-gb/",
@@ -185,8 +179,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-music/id6466376604?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.1.2",
+        "version": "1.2.0",
         "wrapperType": "software"
     },
-    "version": "1.1.2"
+    "version": "1.2.0"
 }

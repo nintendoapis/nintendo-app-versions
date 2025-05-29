@@ -1,29 +1,29 @@
 {
     "result": {
         "advisories": [
+            "Infrequent/Mild Sexual Content and Nudity",
             "Infrequent/Mild Profanity or Crude Humour",
-            "Infrequent/Mild Cartoon or Fantasy Violence",
             "Infrequent/Mild Horror/Fear Themes",
-            "Infrequent/Mild Sexual Content and Nudity"
+            "Infrequent/Mild Cartoon or Fantasy Violence"
         ],
         "appletvScreenshotUrls": [
         ],
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/e5/f7/ede5f7f4-b944-1c5f-6f31-b8ebced94091/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/e5/f7/ede5f7f4-b944-1c5f-6f31-b8ebced94091/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/e5/f7/ede5f7f4-b944-1c5f-6f31-b8ebced94091/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znsa",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-05-01T04:57:53Z",
-        "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n\n◆ Daily Updates\nGet updates on Nintendo Switch 2 news plus game info, videos, comics, and more every day.\n\n\n◆ Event Schedule\nCheck the schedule to learn about Nintendo Direct presentations, game releases, in-game events, and more.\n\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires iOS 16.0 or later.\n\n\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
+        "currentVersionReleaseDate": "2025-05-29T05:59:09Z",
+        "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires iOS 16.0 or later.\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "205197312",
+        "fileSizeBytes": "209797120",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -53,7 +53,7 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2025-03-27T07:00:00Z",
-        "releaseNotes": "We've fixed a few issues to make it easier for you to use.",
+        "releaseNotes": "■ Linking with the Calendar app\nLink the in-app calendar with your Calendar app to see scheduled Nintendo events, like game release dates, alongside your personal events.\n\n■ Favorites\nSet content as a favorite by tapping the Favorite button. You can filter your News and Browsing History to display only your favorites.\n\n■ You can now zoom in on images.",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -181,8 +181,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-today/id6736725704?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.0.4",
+        "version": "1.1",
         "wrapperType": "software"
     },
-    "version": "1.0.4"
+    "version": "1.1"
 }

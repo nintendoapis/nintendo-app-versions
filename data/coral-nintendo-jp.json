@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "3.0.1",
+            "label": "Ver. 3.0.1 ［2025.5.29］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>アプリをリニューアルしました。</li>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">『Nintendo Switch Online』から『Nintendo Switch App』に変わりました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">デザインをアップデートしました。</span></p>\n          <li>Nintendo Switch 2 に対応しました。</li>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「アルバム」に保存されている画面写真や動画をアプリに転送することができます。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「ゲームチャット」の招待を受け取ることができます。</span></p>\n          <li>フレンド機能でできることが増えました。</li>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">アプリからフレンドを追加できます。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">フレンドがオンラインになったときに通知を受け取れます。</span></p>\n          <li>その他、機能の改善や不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "2.12.0",
             "label": "Ver. 2.12.0 ［2024.12.3］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "2.11.0",

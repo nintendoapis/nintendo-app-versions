@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.0.0",
+            "label": "Ver. 2.0.0 ［2025.5.29］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>Nintendo Switch 2 に対応しました。</li>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">Nintendo Switch 2 と連携できるようになりました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「ゲームチャット」の設定を追加しました。お子さまのチャット相手の管理や、ビデオ通話の許可ができます。</span></p>\n          <li>みまもり設定でできることが増えました。</li>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「1日にあそぶ時間」の延長ができるようになりました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">1日にあそびはじめられる時間が変更できるようになりました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「あそんだ記録」で確認できる情報が増えました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">「おしらせ」を追加しました。お子さまをみまもるヒントが確認できるようになりました。</span></p>\n            <p class=\"c-note--s\"><span class=\"c-note__icon\">-</span><span class=\"c-note__text\">Nintendo Switch 2 / Nintendo Switchを8台まで連携できるようになりました。</span></p>\n          <li>その他、機能の改善やデザインのアップデートを行いました。</li>\n        </ul>"
+        },
+        {
             "version": "1.23.0",
             "label": "Ver. 1.23.0 ［2024.12.17］（Androidのみ）",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "1.22.0",

@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "3.0.1",
+            "label": "Ver. 3.0.1 [Released 29/05/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v301\" rel=\"1\"> <h2>Ver. 3.0.1</h2> <ul><li>The app name has changed from Nintendo Switch Online to Nintendo Switch App.</li><li>Nintendo Switch 2 consoles are now supported. <ul><li>Screenshots and videos saved in your console's album can be uploaded to the app.</li><li>You can receive GameChat invitations.</li></ul> </li><li> More friend features are now available in the app.` <ul><li>You can add friends via the app.</li><li>You can receive a notification in the app when a friend comes online.</li></ul> </li><li>Other small updates have also been made.</li></ul> </div>"
+        },
+        {
             "version": "2.12.0",
             "label": "Ver. 2.12.0 [Released 03/12/24]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v2120\" rel=\"1\"> <h2>Ver. 2.12.0</h2> <ul><li>Bug fixes have been implemented.</li></ul> </div>"
@@ -136,5 +141,5 @@
             "release_notes_html": "<div class=\"collapse\" id=\"v11\" rel=\"2\"> <br> <h2>Version 1.1.0</h2> <ul><li>Voice chat will now continue when other apps are opened. (*1)</li><li>Voice chat will now continue during sleep mode. (*2)</li><li>Improved support for Bluetooth devices. (For Android devices only.)</li></ul> <br> <p><em>(*1) This excludes apps with audio output or apps that use the microphone.</em></p> <p><em>(*2) If the power-saving feature is activated on devices using Android 6.0 or later, voice chat may be interrupted after the device has entered sleep mode. To use voice chat during sleep mode, go to Other Settings &gt; Power Saving Settings in the app and deactivate battery optimisation on the Android device. For more details, please refer to the official website for your smart device.</em></p> </div>"
         }
     ],
-    "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch/How-to-Download-or-Update-the-Nintendo-Switch-Online-App-1520024.html"
+    "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch/How-to-Download-or-Update-the-Nintendo-Switch-App-1520024.html"
 }

@@ -2,24 +2,24 @@
     "result": {
         "advisories": [
             "Infrequent/Mild Sexual Content and Nudity",
+            "Infrequent/Mild Cartoon or Fantasy Violence",
             "Infrequent/Mild Profanity or Crude Humour",
-            "Infrequent/Mild Horror/Fear Themes",
-            "Infrequent/Mild Cartoon or Fantasy Violence"
+            "Infrequent/Mild Horror/Fear Themes"
         ],
         "appletvScreenshotUrls": [
         ],
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5c/03/9b5c03e0-06e9-eb15-6258-59b8eb49a9db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/14/0e/ee140e42-678a-1320-3556-e5987ce74d7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/14/0e/ee140e42-678a-1320-3556-e5987ce74d7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/14/0e/ee140e42-678a-1320-3556-e5987ce74d7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znsa",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-05-29T05:59:09Z",
+        "currentVersionReleaseDate": "2025-06-03T08:16:58Z",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires iOS 16.0 or later.\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
         "features": [
         ],
@@ -53,7 +53,7 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2025-03-27T07:00:00Z",
-        "releaseNotes": "■ Linking with the Calendar app\nLink the in-app calendar with your Calendar app to see scheduled Nintendo events, like game release dates, alongside your personal events.\n\n■ Favorites\nSet content as a favorite by tapping the Favorite button. You can filter your News and Browsing History to display only your favorites.\n\n■ You can now zoom in on images.",
+        "releaseNotes": "We've fixed a few issues to make it easier for you to use.",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -181,8 +181,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-today/id6736725704?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "1.1",
+        "version": "1.1.1",
         "wrapperType": "software"
     },
-    "version": "1.1"
+    "version": "1.1.1"
 }

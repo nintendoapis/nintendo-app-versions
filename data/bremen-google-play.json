@@ -1,6 +1,6 @@
 {
-    "version": "1.2.0",
-    "updated_at": "Fri May 23 2025 07:51:29 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.2.1",
+    "updated_at": "Mon Jun 09 2025 07:40:21 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Music",
         "description": "Nintendo Music is here! You can listen to music from your favourite series, including Super Mario and Animal Crossing, any time.\nA Nintendo Switch Online membership is required to use this app.\n\n◆ Featuring music from:\n・ Pikmin 4\n・ Pokémon Scarlet and Pokémon Violet\n・ Splatoon 3\n・ Animal Crossing: New Horizons\n・ Kirby Star Allies\n・ Mario Kart 8 Deluxe\n・ The Legend of Zelda: Breath of the Wild\n・ Metroid Prime\n・ Fire Emblem: The Blazing Blade\n・ Donkey Kong Country\n...And more!\nPlease note that some music from the full soundtracks may not be included.\n\n◆ Extended playback\nYou can extend the length of a supported track to keep listening to it, for example when you're working or studying!\nTracks can be extended to 5, 10, 15, 30 or 60 minutes.\n\n◆ Listen offline\nDownload tracks and enjoy them even when you're not connected to the internet.\n\n◆ Play music in the background\nYou can keep playing music when the screen is off or when you're using other apps.\n\n◆ Sleep timer\nAllows you to set a time limit after which playback will stop.\nYou can use it when you want to set how long you'd like to listen to music, such as before going to sleep.\n\n◆ Create playlists\nOrganise your favourite tracks into playlists.\n\nAttention:\n● A Nintendo Switch Online membership is required to use this app.\n● A Nintendo Account is required.\n● Android version 9.0 or higher is required to use this app.\n\nNintendo Account Agreement: https://accounts.nintendo.com/term_chooser/eula\n\n© Nintendo",
@@ -54,9 +54,9 @@
         "contentRating": "PEGI 3",
         "adSupported": true,
         "released": "7 Oct 2024",
-        "updated": 1747986689000,
-        "version": "1.2.0",
-        "recentChanges": "<br>・ A sleep timer has been added. This feature lets you set a time limit after which playback will stop. You can use it to set how long you&#39;d like to listen to music before going to sleep.<br>・ The following updates have been made to the Extend To... feature:<br>　・ Extend To... settings now apply to entire playlists.<br>　・ Tracks can now be extended to 5 or 10 minutes in addition to the existing options.<br>・ We&#39;ve fixed some issues to allow for a smoother experience when using this app.",
+        "updated": 1749454821000,
+        "version": "1.2.1",
+        "recentChanges": "<br>We&#39;ve fixed some issues to allow for a smoother experience when using this app.",
         "comments": null,
         "preregister": false,
         "earlyAccessEnabled": false,

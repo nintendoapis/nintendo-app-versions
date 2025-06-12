@@ -113,7 +113,8 @@ async function extractRelayGraphqlRequestModulesFromJs(name, url, formatted_js) 
     for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{64})"/gi)) {
         console.warn('Found GraphQL query module', url.pathname, match.index, match[1]);
 
-        const end_index = formatted_js.indexOf('\n        },', match.index) + 1;
+        const end_index = (formatted_js.indexOf('\n        },', match.index) + 1) ||
+            (formatted_js.indexOf('\n        }\n    }', match.index) + 1);
         const end_line_index = formatted_js.lastIndexOf('\n', end_index) + 1;
         const end_line = formatted_js.substr(end_line_index, formatted_js.indexOf('\n', end_index) - end_line_index);
         const indent = end_line.match(/^\s*/)[0];
@@ -140,14 +141,24 @@ async function extractRelayGraphqlRequestModulesFromJs(name, url, formatted_js) 
             formatted_js.substr(start_index, end_line_index - start_index) +
             '//' + end_line;
 
-        if (typeof query === 'function' && query.toString().replaceAll(/\n/g, '').match(/^\s*function(\s+[0-9A-Za-z_]+)?\s*\(\)\s*\{\s*return\s+[0-9A-Za-z_]+\s*;?\s*}\s*$/)) {
+        if (typeof query === 'function' && (
+            query.toString().replaceAll(/\n/g, '').match(/^\s*function(\s+[0-9A-Za-z_]+)?\s*\(\)\s*\{\s*return\s+[0-9A-Za-z_]+\s*;?\s*}\s*$/) ||
+            query.toString().match(/^\(\)\s*=>\s*[0-9A-Za-z_]+\s*$/)
+        )) {
             const result = query.call(null);
+
+            if (result?.params) {
+                const query = result;
+                graphql_queries.push({...data, query, data: query.params, t: 1});
+
+                continue;
+            }
 
             if (result?.metadata?.refetch?.operation) {
                 console.warn('GraphQL query module is refetch operation', url.pathname, match.index, match[1]);
 
                 const query = result.metadata.refetch.operation;
-                graphql_queries.push({...data, query, data: query.params});
+                graphql_queries.push({...data, query, data: query.params, t: 2});
 
                 continue;
             }
@@ -158,7 +169,7 @@ async function extractRelayGraphqlRequestModulesFromJs(name, url, formatted_js) 
             continue;
         }
 
-        graphql_queries.push({...data, query, data: query.params});
+        graphql_queries.push({...data, query, data: query.params, t: 0});
     }
 }
 

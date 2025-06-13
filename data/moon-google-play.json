@@ -1,6 +1,6 @@
 {
-    "version": "2.1.0",
-    "updated_at": "Wed Jun 04 2025 01:49:55 GMT+0000 (Coordinated Universal Time)",
+    "version": "2.1.1",
+    "updated_at": "Thu Jun 12 2025 02:05:10 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Switch Parental Cont…",
         "description": "Nintendo Switch Parental Controls™ is a free app that allows you to easily monitor your child's use of the Nintendo Switch 2 or Nintendo Switch console. \n(Please note: A Nintendo Switch 2 or Nintendo Switch console is required to use this app.)\n\n◆ Set a daily play time limit\nYou can set how long you'd like your child to be able to play for each day. It's possible to choose different settings for each day of the week, and you can also set it so that the game on the console is suspended as soon as the play time limit is reached.\n\n◆ Manage your child's GameChat settings\nIf you choose to allow your child to use GameChat, you can manage which friends they can chat with and decide whether they can use video chat.\nNote: The GameChat feature can only be used on Nintendo Switch 2 consoles.\n\n◆ View your child's play activity\nYou can easily check which games your child plays and for how long. You'll also receive a monthly overview of their gameplay activity.\n\n◆ Set restrictions based on your child's age\nYou can choose to restrict the games your child can play and the features they can use based on their age.\n \nAttention:\n● In order to use the Nintendo Switch Parental Controls app, a parent or guardian (aged 18 or above) needs to have a Nintendo Account.\n● You can set purchasing restrictions, including restrictions on purchasing products and services in Nintendo eShop, in the Nintendo Account settings.\n● In order to make use of all of the features and settings available in the Nintendo Switch Parental Controls app, all linked Nintendo Switch 2 and Nintendo Switch consoles need to be using the latest system version.\n● Please see support.nintendo.com for details about the GameChat feature.",
@@ -61,8 +61,8 @@
         "contentRating": "PEGI 3",
         "adSupported": false,
         "released": "1 Mar 2017",
-        "updated": 1749001795000,
-        "version": "2.1.0",
+        "updated": 1749693910000,
+        "version": "2.1.1",
         "recentChanges": "<br>Small improvements have been made.",
         "comments": null,
         "preregister": false,

@@ -2,8 +2,8 @@
     "versions": [
         {
             "version": "2.1.1",
-            "label": "Ver. 2.1.1 ［2025.6.11］（iOSのみ）",
-            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "label": "Ver. 2.1.1 ［iOS:2025.6.11］［Android:2025.6.13］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
         },
         {
             "version": "2.1.0",

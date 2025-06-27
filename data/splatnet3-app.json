@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "10.0.0-88706e32",
+    "web_app_ver": "10.0.0-cba84fcd",
     "version": "10.0.0",
-    "revision": "88706e3241aee3367858fd9f6ebe1ecbbd632f65",
+    "revision": "cba84fcdf8ec8c0595413131a9e98975244bbdef",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,24 +11,24 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament/api/app/bootstrap",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "88706e3241aee3367858fd9f6ebe1ecbbd632f65",
+        "REACT_APP_REVISION": "cba84fcdf8ec8c0595413131a9e98975244bbdef",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "0c5c90dd5b19a1cc200718afdf43e8fd80a482efad1364ba57795d3dda845991",
+    "html_sha256": "4bd06e9351f0c7259462d9eb00f31aee7a908591db6c5eecd8b2ec2497cd19fd",
     "html_headers": {
-        "last-modified": "Thu, 12 Jun 2025 01:17:53 GMT",
-        "etag": "\"2ca2020457d2165a8162c1fad64f3333\"",
-        "x-amz-version-id": "wC0j2A66084FVQyoZbRoO99RQAW0Uyis"
+        "last-modified": "Fri, 27 Jun 2025 01:39:13 GMT",
+        "etag": "\"247977ad0aa084e994a8e6ab10b8735a\"",
+        "x-amz-version-id": "fpScvAIicKKYqQzbU4c2xYBN3rYUtzO5"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.4bdad577.js",
-    "script_sha256": "ffcf6a6e3ac1afe9fe35babb48430eb8d672cee913237e08b71c0d54b4b420c4",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.22107388.js",
+    "script_sha256": "bcab6386092ab69e31871a2a7c4d8855084deeea00f48069d09c4d6d7b68716b",
     "script_headers": {
-        "last-modified": "Thu, 12 Jun 2025 01:17:54 GMT",
-        "etag": "\"d1c2675821d71f213d57f07539de7c08\"",
-        "x-amz-version-id": "gUn1uoSUwkMUOHtWk7YXgdc3YXiLe1iM"
+        "last-modified": "Fri, 27 Jun 2025 01:39:14 GMT",
+        "etag": "\"cb7749358e202fe3fb059778ef35817c\"",
+        "x-amz-version-id": "O8APg9sdGJ_XEdEA3YvbBxlmX_l1zQNK"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",
@@ -122,7 +122,7 @@
         "StageRecordsRefetchQuery": "25dbf592793a590b6f8cfb0a62823aa02429b406a590333627d8ea703b190dfd",
         "StageScheduleQuery": "4d18c17431b591452e7baab6e29d98dcf1bdc5eebe3a7b693d768e80c0d5ccef",
         "WeaponCollectionRefetchQuery": "2c759023cc7ea32b7ebddd6fd9b7995313cf08442b2f1f7285a766e75822b40a",
-        "WeaponQuery": "6b8db227bbe479401875e509a95c3183931e708ec222a824f8d4157cebea4584",
+        "WeaponQuery": "a329d22727dbec795dcfa1fa93804756a62542dc0a96dfb94c0f710068a2eb38",
         "WeaponRankingDetailQuery": "a9c97b7c1a9f73e30f51935a2562b48b1f47cc0bf008996473b632b9d2c62cc9",
         "WeaponRankingDetail_Ranking_RefetchQuery": "64ebddb0a5541bc97b1891f503c1e5b5caafae25554dbe5694bc624568701c42",
         "WeaponRanking_PastSeasonRankings_PaginationQuery": "24b6799f488be053a7983240c59b992aee949d881e70549c496df9cc4c1b82cf",

@@ -2,8 +2,8 @@
     "versions": [
         {
             "version": "3.0.3",
-            "label": "Ver. 3.0.3 [Released 03/06/25]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v301\" rel=\"1\"> <h2>Ver. 3.0.1</h2> <ul><li>The app name has changed from Nintendo Switch Online to Nintendo Switch App.</li><li>Nintendo Switch 2 consoles are now supported. <ul><li>Screenshots and videos saved in your console's album can be uploaded to the app.</li><li>You can receive GameChat invitations.</li></ul> </li><li> More friend features are now available in the app.` <ul><li>You can add friends via the app.</li><li>You can receive a notification in the app when a friend comes online.</li></ul> </li><li>Other small updates have also been made.</li></ul> </div>"
+            "label": "Ver. 3.0.3 [Released 03/07/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v303\" rel=\"1\"> <h2>Ver. 3.0.3</h2> <ul><li>When sharing screenshots on social media, images will now appear in the order they're selected in the app. (For iOS devices only.) </li><li>Other improvements and bug fixes have also been made.</li></ul> </div>"
         },
         {
             "version": "3.0.1",

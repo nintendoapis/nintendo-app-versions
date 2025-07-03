@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "3.0.3",
+            "label": "Ver. 3.0.3 ［2025.7.3］",
+            "release_notes_html": "<h4 class=\"c-heading-lv4 u-spc-lv6\"><span class=\"c-heading-lv4__text\">iOS版の更新内容</span></h4>"
+        },
+        {
             "version": "3.0.2",
             "label": "Ver. 3.0.2 ［iOS:2025.6.11］［Android:2025.6.3］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "3.0.1",

@@ -1,6 +1,6 @@
 {
-    "version": "1.1.0",
-    "updated_at": "Wed May 21 2025 02:49:07 GMT+0000 (Coordinated Universal Time)",
+    "version": "1.2.0",
+    "updated_at": "Fri Jul 11 2025 06:51:13 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Today!",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, and more.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 9.0 or later.\n\nPlease note: this app's content currently uses U.S. English but may be updated to feature British English in the future.\n\n© Nintendo",
@@ -58,9 +58,9 @@
         "contentRatingDescription": "Parental guidance recommended",
         "adSupported": false,
         "released": "10 Mar 2025",
-        "updated": 1747795747000,
-        "version": "1.1.0",
-        "recentChanges": "■ Linking with the Google Calendar app<br>Link the in-app calendar with your Google Calendar app to see scheduled Nintendo events, like game release dates, alongside your personal events.<br><br>■ Favorites<br>Set content as a favorite by tapping the Favorite button. You can filter your News and Browsing History to display only your favorites.<br><br>■ You can now zoom in on images.",
+        "updated": 1752216673000,
+        "version": "1.2.0",
+        "recentChanges": "■Added daily notifications<br>You can now receive notifications for the news and content updates delivered to your home screen, once a day during a specified time slot.<br>Choose from morning, daytime, evening, and night.<br> <br>■Added picture-in-picture video<br>Video content can now be displayed on top of the home screen or other apps.<br>You can watch videos while doing something else.",
         "comments": null,
         "preregister": false,
         "earlyAccessEnabled": false,

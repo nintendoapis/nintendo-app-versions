@@ -1,8 +1,8 @@
 {
     "result": {
         "advisories": [
-            "Infrequent/Mild Sexual Content and Nudity",
             "Infrequent/Mild Cartoon or Fantasy Violence",
+            "Infrequent/Mild Sexual Content and Nudity",
             "Infrequent/Mild Horror/Fear Themes",
             "Infrequent/Mild Profanity or Crude Humour"
         ],

@@ -1,7 +1,7 @@
 {
-    "web_app_ver": "10.0.0-cba84fcd",
+    "web_app_ver": "10.0.0-cbc2cdc4",
     "version": "10.0.0",
-    "revision": "cba84fcdf8ec8c0595413131a9e98975244bbdef",
+    "revision": "cbc2cdc4ece7a66b1cd28f8148daec0b6804da0a",
     "app_env": {
         "NODE_ENV": "production",
         "PUBLIC_URL": "",
@@ -11,24 +11,24 @@
         "REACT_APP_NEW_PARAM_1": "https://c.nintendo.com/splatoon3-tournament/api/app/bootstrap",
         "REACT_APP_ROOM_CREATOR_REQUEST_PARAM": "",
         "REACT_APP_ENABLE_DEVELOPMENT_ENDPOINTS": "false",
-        "REACT_APP_REVISION": "cba84fcdf8ec8c0595413131a9e98975244bbdef",
+        "REACT_APP_REVISION": "cbc2cdc4ece7a66b1cd28f8148daec0b6804da0a",
         "REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID": "G-TV5JW4W575",
         "REACT_APP_USE_PERSISTED_QUERY": "1",
         "REACT_APP_ROOM_CREATOR_API_ORIGIN": "https://api.lp1.usagi.srv.nintendo.net"
     },
     "html_url": "https://api.lp1.av5ja.srv.nintendo.net/",
-    "html_sha256": "4bd06e9351f0c7259462d9eb00f31aee7a908591db6c5eecd8b2ec2497cd19fd",
+    "html_sha256": "29f915c00a3057a5bf80c2407dda12779904f36a384ea0d11c56a435345d16d7",
     "html_headers": {
-        "last-modified": "Fri, 27 Jun 2025 01:39:13 GMT",
-        "etag": "\"247977ad0aa084e994a8e6ab10b8735a\"",
-        "x-amz-version-id": "fpScvAIicKKYqQzbU4c2xYBN3rYUtzO5"
+        "last-modified": "Thu, 04 Sep 2025 01:53:42 GMT",
+        "etag": "\"7757a8b4c82666b17ce7e57fbd815086\"",
+        "x-amz-version-id": "YW4UPnk2O3cW7ugnRvr0JQoO77q87u1E"
     },
-    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.22107388.js",
-    "script_sha256": "bcab6386092ab69e31871a2a7c4d8855084deeea00f48069d09c4d6d7b68716b",
+    "script_url": "https://api.lp1.av5ja.srv.nintendo.net/static/js/main.a40b74d4.js",
+    "script_sha256": "56b7991036efd358e229888dc5d45362af39a02a960444f6499956a5f32a30e4",
     "script_headers": {
-        "last-modified": "Fri, 27 Jun 2025 01:39:14 GMT",
-        "etag": "\"cb7749358e202fe3fb059778ef35817c\"",
-        "x-amz-version-id": "O8APg9sdGJ_XEdEA3YvbBxlmX_l1zQNK"
+        "last-modified": "Thu, 04 Sep 2025 01:53:43 GMT",
+        "etag": "\"74f12d1f3538919688e2addeb3aca7a1\"",
+        "x-amz-version-id": "ZJBMspP2vVTyJa0UU48KEoH4ZWZxNS_F"
     },
     "graphql_queries": {
         "SupportButton_SupportChallengeMutation": "3165b76878d09ea55a7194e675397a5e030a2a89b98a0e81af77e346c625c4fd",
@@ -102,8 +102,8 @@
         "MyOutfitsRefetchQuery": "565bc1f16c0a5088d41b203775987c70756296747ba905c3e1c0ce8f3f27f925",
         "myOutfitCommonDataEquipmentsQuery": "45a4c343d973864f7bb9e9efac404182be1d48cf2181619505e9b7cd3b56a6e8",
         "myOutfitCommonDataFilteringConditionQuery": "ac20c44a952131cb0c9d00eda7bc1a84c1a99546f0f1fc170212d5a6bb51a426",
-        "PhotoAlbumQuery": "62383a0595fab69bf49a2a6877bc47acc081bfa065cb2eae28aa881980bb30b2",
-        "PhotoAlbumRefetchQuery": "0819c222d0b68fbcc7706f60b98e797da7d1fce637b45b3bdadca1ccdb692c86",
+        "PhotoAlbumQuery": "903bd1344473a7221867315d0d897ac36604f52064b62a9510a394f2e62fa9c8",
+        "PhotoAlbumRefetchQuery": "572baf921fa87dfd63eb6d7a753062d2fc567d16523253ebf6678fe2886a22dd",
         "ReplayQuery": "3af48164d1176e8a88fb5321f5fb2daf9dde00b314170f1848a30e1825fc828e",
         "ReplayUploadedReplayListRefetchQuery": "1e42b2238c385b5db29717b98d0df5934c75e8807545091d97200127ed1ecef0",
         "SettingQuery": "8473b5eb2c2048f74eb48b0d3e9779f44febcf3477479625b4dc23449940206b",

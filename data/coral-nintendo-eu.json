@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "3.1.0",
+            "label": "Ver. 3.1.0 [Released 08/09/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v310\" rel=\"1\"> <h2>Ver. 3.1.0</h2> <ul><li>Small improvements have been made.</li></ul> </div>"
+        },
+        {
             "version": "3.0.3",
             "label": "Ver. 3.0.3 [Released 03/07/25]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v303\" rel=\"1\"> <h2>Ver. 3.0.3</h2> <ul><li>When sharing screenshots on social media, images will now appear in the order they're selected in the app. (For iOS devices only.) </li><li>Other improvements and bug fixes have also been made.</li></ul> </div>"

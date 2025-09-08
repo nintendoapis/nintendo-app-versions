@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "3.1.0",
+            "label": "Ver. 3.1.0 ［2025.9.8］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "3.0.3",
             "label": "Ver. 3.0.3 ［2025.7.3］",
             "release_notes_html": "<h4 class=\"c-heading-lv4 u-spc-lv6\"><span class=\"c-heading-lv4__text\">iOS版の更新内容</span></h4>"

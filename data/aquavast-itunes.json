@@ -174,7 +174,11 @@
             "iPadAir11M3-iPadAir11M3",
             "iPadAir11M3Cellular-iPadAir11M3Cellular",
             "iPadAir13M3-iPadAir13M3",
-            "iPadAir13M3Cellular-iPadAir13M3Cellular"
+            "iPadAir13M3Cellular-iPadAir13M3Cellular",
+            "iPhone17Pro-iPhone17Pro",
+            "iPhone17ProMax-iPhone17ProMax",
+            "iPhone17-iPhone17",
+            "iPhoneAir-iPhoneAir"
         ],
         "trackCensoredName": "Nintendo Today!",
         "trackContentRating": "12+",

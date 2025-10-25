@@ -23,7 +23,7 @@ update-versions:
     - node scripts/fetch-google-play.js com.nintendo.znca > data/coral-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znma > data/moon-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znba > data/bremen-google-play.json
-    - node scripts/fetch-google-play.js com.nintendo.znej > data/entry-google-play.json
+    - node scripts/fetch-google-play.js com.nintendo.znej JP > data/entry-google-play.json
     - node scripts/fetch-google-play.js com.nintendo.znsa > data/aquavast-google-play.json
     - node scripts/fetch-nintendo-jp.js nintendo_switch_online_app > data/coral-nintendo-jp.json
     - node scripts/fetch-nintendo-jp.js nintendo_switch_parental_controls_app > data/moon-nintendo-jp.json

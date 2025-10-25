@@ -1,18 +1,18 @@
 {
-    "version": "5.2.0",
-    "revision": "b414d0ba",
+    "version": "5.2.5",
+    "revision": "9ac47da9",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
-        "VERSION": "5.2.0",
-        "GIT_COMMIT_HASH": "b414d0ba",
+        "VERSION": "5.2.5",
+        "GIT_COMMIT_HASH": "9ac47da9",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "cvNAQctchnS6xJrlE-uFp",
+    "build_id": "ZZqWI0_Lh2LMDoYDFfnUy",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -25,7 +25,7 @@
             "static/chunks/390-77a77b7197222d01.js",
             "static/chunks/493-8d7a61b99fdb0d45.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-cee61fcc54d1e7e1.js"
+            "static/chunks/pages/index-f9842b3fd1451040.js"
         ],
         "/_error": [
             "static/chunks/pages/_error-c4943e3fddc4ea95.js"
@@ -86,5 +86,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "d1377c79150de97cd95d5b016115c9ceb9c30cc5cafa629bdbb846edca56d925"
+    "html_sha256": "56b802edf4f9c952e662f1fb03e157750bff3a0d111bb2b725b77da3c86276b6"
 }

@@ -16,9 +16,9 @@
         "histogram": null,
         "price": 0,
         "free": true,
-        "currency": "GBP",
+        "currency": "JPY",
         "priceText": "Free",
-        "available": false,
+        "available": true,
         "offersIAP": false,
         "androidVersion": "9",
         "androidVersionText": "9",
@@ -59,15 +59,17 @@
             "https://play-lh.googleusercontent.com/D2KvdyKAPViTp1wo4Rh-PCdlkjqnt380uRJJOOzN7DjEwjk2W-Vvf2en7Q6I-hS62su3",
             "https://play-lh.googleusercontent.com/AGaAy_r_5cSmnPeAtwDqhcdE65jxi4AmlOh6-d1VsEwXG3-buZH1ruuZUtmMckT4q7U"
         ],
-        "contentRating": "PEGI 3",
+        "contentRating": "Rated for 3+",
         "adSupported": false,
+        "released": "5 Mar 2020",
         "updated": 1741942396000,
         "version": "2.3.0",
+        "recentChanges": "・使い勝手の改善を行いました。<br>・不具合の修正を行いました。<br>・Android 対応バージョンを変更しました。このアプリを使用するには、Android 9.0以降のバージョンのOSをインストールした端末が必要です。",
         "comments": null,
         "preregister": false,
         "earlyAccessEnabled": false,
         "isAvailableInPlayPass": false,
         "appId": "com.nintendo.znej",
-        "url": "https://play.google.com/store/apps/details?id=com.nintendo.znej&hl=en_GB&gl=GB"
+        "url": "https://play.google.com/store/apps/details?id=com.nintendo.znej&hl=en_GB&gl=JP"
     }
 }

@@ -10,7 +10,7 @@ const app_name =
     app === 'coral' ? 'Nintendo Switch Online' :
     app === 'moon' ? 'Nintendo Switch Parental Controls' :
     app === 'bremen' ? 'Nintendo Music' :
-    app === 'entry' ? 'My Nintendo' :
+    app === 'entry' ? 'Nintendo Store' :
     app === 'aquavast' ? 'Nintendo Today!' :
     app;
 const app_colour = app === 'moon' ? 16673321 : 15073298;

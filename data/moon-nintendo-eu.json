@@ -29,6 +29,16 @@
             "version": "1.11.0",
             "label": "Ver. 1.11.0 [Released 19/07/17]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v11\" rel=\"1\"> <br> <h2>Version 1.11.0</h2> <p>In order to use these features, you will need to update the Nintendo Switch system version to 3.0.0 or later.</p> <ul><li>User play time can now be viewed in more detail. <ul><li>You can now view information about time and software played separately for each Nintendo Switch user, as well as time not spent playing games such as using the HOME Menu. ( Games that don’t have the user selection sequence will be displayed as “No user selected”.)</li><li>You can view the times when Parental Controls were temporarily disabled.</li><li>You can check what software was downloaded, and you will receive a push notification on your smart device when new software is downloaded on the console.</li></ul> </li><li>Monthly summaries now have more detailed information. <ul><li>You can view information such as the number of days and amount of time played for each user. </li><li>In addition to viewing how many days the console was used in a month, you can now check the amount of time as well.</li><li>”Versus last month” has been added so you can compare the time played this month with the previous month.</li><li>”Share” button was added for you to share monthly summaries among family members.</li></ul> </li><li>\"Disable Alarms for Today” has been added in the settings. <ul><li>This feature disables all alarms on the console for the rest of the day and can be used when you want to let your child play for longer than normal on special occasions such as their birthday or on a holiday. (Enabling this will show the active time in “Time Played”.)</li></ul> </li></ul> </div>"
+        },
+        {
+            "version": null,
+            "label": "\n\t\t\t\t\t\t\t\t\tVer todas las regiones\n\t\t\t\t\t\t\t\t",
+            "release_notes_html": ""
+        },
+        {
+            "version": null,
+            "label": "\n\t\t\t\t\t\t\t\t\tVer todas las regiones\n\t\t\t\t\t\t\t\t",
+            "release_notes_html": ""
         }
     ],
     "url": "https://www.nintendo.com/en-gb/Support/Parental-Controls/How-to-Download-or-Update-the-Nintendo-Switch-Parental-Controls-Smart-Device-App-1497986.html"

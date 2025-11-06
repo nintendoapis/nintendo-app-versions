@@ -1,13 +1,13 @@
 {
     "result": {
         "advisories": [
-            "無制限のWebアクセス"
+            "Unrestricted Web Access"
         ],
         "appletvScreenshotUrls": [
         ],
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
-        "artistViewUrl": "https://apps.apple.com/jp/developer/nintendo-co-ltd/id1062496488?uo=4",
+        "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/cf/21/a6cf2150-2c37-b954-cafe-cd82633df0e1/AppIconProd-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/cf/21/a6cf2150-2c37-b954-cafe-cd82633df0e1/AppIconProd-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/cf/21/a6cf2150-2c37-b954-cafe-cd82633df0e1/AppIconProd-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
@@ -15,21 +15,21 @@
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znej",
         "contentAdvisoryRating": "17+",
-        "currency": "JPY",
+        "currency": "GBP",
         "currentVersionReleaseDate": "2025-11-05T05:02:08Z",
-        "description": "『Nintendo Store』は、ゲーム機本体や周辺機器、ソフト、グッズが見つかる任天堂の公式ストアアプリです。アプリのご利用は無料です。\n※アプリの名前が『My Nintendo』から 『Nintendo Store』に変わりました。\n\n◆マイニンテンドーストアでお買いもの\nNintendo Switch 2 / Nintendo Switch本体や周辺機器、ソフト、グッズ、ストア限定商品など、マイニンテンドーストアならではの商品が盛りだくさん。\n※このアプリからマイニンテンドーストアに進むことができます。\n\n◆最新のゲーム情報をチェック\nNintendo Switch 2 / Nintendo Switchのソフトやイベント、グッズなどの様々なニュースをお届けします。\n\n◆セール開始にすぐ気づける\n気になった商品を「ほしいものリスト」に入れておくと、 セールになったときに通知でおしらせします。\n\n◆あそんだ記録を確認\nNintendo Switch 2 / Nintendo Switchであそんだ記録を確認できます。 2020年2月末までにニンテンドー3DSとWii Uであそんだソフトの記録も表示できます。\n※ニンテンドー3DSとWii Uの記録を見るには、ニンテンドーアカウントとニンテンドーネットワークIDの連携が必要です。 \n\n◆お店やイベントでチェックイン\n任天堂オフィシャルストアや任天堂関連のイベントにチェックインすると、特典がもらえる場合があります。チェックインした記録はこのアプリで確認できます。\n\n【ご注意】\n●ご利用にはインターネット接続が必要です。通信料がかかる場合があります。\n●ご利用にはiOS 16.0以降のバージョンのOSをインストールした端末が必要です。\n●一部の機能をご利用いただくには、ニンテンドーアカウントのログインが必要です。",
+        "description": "Nintendo Store is a free app for browsing Nintendo consoles, accessories, games and merchandise. Here are some of the things you can do with the app!\n\n◆ Shop on My Nintendo Store\nYou can use this app to check out Nintendo Switch 2/Nintendo Switch consoles, as well as all sorts of other products, then jump directly to My Nintendo Store to make purchases.\n\n◆ Get notified about sales right away\nYou can choose to receive notifications when products on your Wish List go on sale.\n\n◆ Check your play activity\nYou can check your play activity on Nintendo Switch 2/Nintendo Switch. If you have a Nintendo 3DS system or Wii U console, you can also check your old play activity up to the end of February, 2020!\nNote: Your Nintendo Network ID must be linked to your Nintendo Account in order for you to be able to see Nintendo 3DS and Wii U play activity.\n\n◆ Check in at events\nYou can use the app to check in at official Nintendo stores and events and earn any related rewards! You can view your check-in activity in the app.\n\n◆ Hear about the latest Nintendo products and activities\nYou can receive news about Nintendo games, merchandise, events and more!\n\nNotes:\n● Persistent internet and compatible smart device required. Data charges may apply. \n● iOS 16 or later is required to use this app.\n● A Nintendo Account is required to use some of this app's features.\n● May contain advertisement.",
         "features": [
             "iosUniversal"
         ],
         "fileSizeBytes": "45092864",
-        "formattedPrice": "無料",
+        "formattedPrice": "Free",
         "genreIds": [
             "6024",
             "6016"
         ],
         "genres": [
-            "ショッピング",
-            "エンターテインメント"
+            "Shopping",
+            "Entertainment"
         ],
         "ipadScreenshotUrls": [
         ],
@@ -50,8 +50,8 @@
         "price": 0,
         "primaryGenreId": 6024,
         "primaryGenreName": "Shopping",
-        "releaseDate": "2020-04-21T07:00:00Z",
-        "releaseNotes": "公式ストアアプリとして、デザインをリニューアルしました。\nアプリの名前が『My Nintendo』から 『Nintendo Store』になりました。\n\n■主な変更点\n・アプリのホームタブが「ストア」になりました。\n・「さがす」タブが新しく追加されて、カテゴリーや絞り込みから商品を検索しやすくなりました。\n・「ほしいものリスト」タブが新しく追加されました。\n・「チェックイン」と「最近のきろく」をマイページに移動しました。\n・ニュースの「きになる」機能を削除しました。\n・アプリの配信国が増えました。\n\nその他、機能の改善や不具合の修正を行いました。",
+        "releaseDate": "2025-11-04T08:00:00Z",
+        "releaseNotes": "The app has been released!",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -180,7 +180,7 @@
         "trackContentRating": "17+",
         "trackId": 1495746988,
         "trackName": "Nintendo Store",
-        "trackViewUrl": "https://apps.apple.com/jp/app/nintendo-store/id1495746988?uo=4",
+        "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-store/id1495746988?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
         "version": "3.0.0",

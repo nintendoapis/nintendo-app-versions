@@ -16,7 +16,7 @@
         "histogram": null,
         "price": 0,
         "free": true,
-        "currency": "JPY",
+        "currency": "GBP",
         "priceText": "Free",
         "available": true,
         "offersIAP": false,
@@ -55,9 +55,9 @@
             "https://play-lh.googleusercontent.com/jc2OwMoN3QcCmJcVrwhOX5hq34oBAVVGS80J2apewq8N75gasnqZoWBNEeKDrLC_nQ",
             "https://play-lh.googleusercontent.com/CSlDIp_gBDrxOf_6uunP0_cmHqKK9sQDfIk3DIETIrfjqi8yXIizo3knRZQQsthDfNA"
         ],
-        "contentRating": "Rated for 3+",
+        "contentRating": "PEGI 3",
         "adSupported": false,
-        "released": "5 Mar 2020",
+        "released": "1 Oct 2025",
         "updated": 1761531005000,
         "version": "3.0.1",
         "recentChanges": "<br>The app has been released!",
@@ -66,6 +66,6 @@
         "earlyAccessEnabled": false,
         "isAvailableInPlayPass": false,
         "appId": "com.nintendo.znej",
-        "url": "https://play.google.com/store/apps/details?id=com.nintendo.znej&hl=en_GB&gl=JP"
+        "url": "https://play.google.com/store/apps/details?id=com.nintendo.znej&hl=en_GB&gl=GB"
     }
 }

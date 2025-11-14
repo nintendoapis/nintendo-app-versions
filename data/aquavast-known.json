@@ -24,6 +24,7 @@
         "2.0.2-android",
         "2.0.2-ios",
         "2.0.10-ios",
-        "2.0.10-android"
+        "2.0.10-android",
+        "2.1.0-android"
     ]
 }

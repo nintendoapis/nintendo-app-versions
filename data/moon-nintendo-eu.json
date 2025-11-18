@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.2.2",
+            "label": "Ver. 2.2.2 [Released 18/11/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v222\" rel=\"1\"> <h2>Version 2.2.2</h2> <ul><li>Small improvements have been made.</li><li>Additionally, the supported iOS versions have changed. iOS version 16.0 or higher is now required to use this app.</li></ul> </div>"
+        },
+        {
             "version": "2.0.0",
             "label": "Ver. 2.0.0 [Released 29/05/25]  ",
-            "release_notes_html": "<div class=\"collapse\" id=\"v200\" rel=\"1\"> <h2>Version 2.0.0</h2> <p><strong>Nintendo Switch 2 consoles can now be linked.</strong></p> <ul><li>GameChat settings have been added. You can manage your child's chat partners and video chat usage.</li></ul> <p><strong>More features have been added.</strong></p> <ul><li>You can extend the play time limit.</li><li>You can now set a time from which gameplay on a linked console is allowed each day.</li><li>You can view more info under \"Play Activity\".</li><li>Alerts provide hints for supervising gameplay.</li><li>You can now link up to eight Nintendo Switch 2/Nintendo Switch consoles.</li></ul> <p>Other improvements have also been made.</p> </div>"
+            "release_notes_html": "<div class=\"collapse\" id=\"v200\" rel=\"1\"> <h2>Version 2.0.0</h2> <p><strong>Nintendo Switch 2 consoles can now be linked.</strong></p> <ul><li>GameChat settings have been added. You can manage your child's chat partners and video chat usage. </li></ul> <p><strong>More features have been added.</strong></p> <ul><li>You can extend the play time limit.</li><li>You can now set a time from which gameplay on a linked console is allowed each day.</li><li>You can view more info under \"Play Activity\".</li><li>Alerts provide hints for supervising gameplay.</li><li>You can now link up to eight Nintendo Switch 2/Nintendo Switch consoles.</li></ul> <p>Other improvements have also been made.</p> </div>"
         },
         {
             "version": "1.22.0",

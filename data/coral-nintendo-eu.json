@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "3.2.0",
+            "label": "Ver. 3.2.0 [Released 27/11/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v320\" rel=\"1\"> <h2>Ver. 3.2.0</h2> <ul><li>Changed minimum OS version. <ul><li>iOS version 16.0 or later is required to use this application.</li><li>Android OS version 9.0 or later is required to use this application.</li></ul> </li><li>The notification you receive when a friend comes online has now been updated to include the name of the software they're using, if applicable.</li><li>You can now send friend requests to users you chatted with in a GameChat session.</li><li>You can now copy the hashtags for a software title. This can be done from the details for a screenshot or video.</li><li>You can now create a Nintendo Switch App album in the iOS photos app. If you want to use this feature, you'll need to enable it from Settings in this app.</li><li>Fixed an issue that sometimes caused the order of screenshots and videos to change when downloading multiple at a time.</li><li>Other small bug fixes have also been made.</li></ul> </div>"
+        },
+        {
             "version": "3.1.0",
             "label": "Ver. 3.1.0 [Released 08/09/25]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v310\" rel=\"1\"> <h2>Ver. 3.1.0</h2> <ul><li>Small improvements have been made.</li></ul> </div>"

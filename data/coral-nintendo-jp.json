@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "3.2.0",
+            "label": "Ver. 3.2.0 ［2025.11.27］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>アプリの動作環境をiOS 16/Android 9以上に変更しました。</li>\n          <li>フレンドがオンラインになったときの通知にソフト名が表示されるようになりました。</li>\n          <li>いっしょにゲームチャットをしたユーザーにフレンド申請を送れるようになりました。</li>\n          <li>ソフトのハッシュタグをコピーできるようになりました。ハッシュタグのコピーは画面写真や動画の詳細情報からできます。</li>\n          <li>iOSの写真アプリに『Nintendo Switch App』アルバムを作成できるようになりました。本アプリ内の設定からアルバムの作成を有効\nにできます（iOSのみ）。</li>\n          <li>画面写真や動画をまとめてダウンロードしたときに順序が入れ替わることがある問題を修正しました。</li>\n          <li>その他、不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "3.1.0",
             "label": "Ver. 3.1.0 ［2025.9.8］",
-            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>機能の改善と、不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "3.0.3",

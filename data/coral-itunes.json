@@ -8,20 +8,20 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/47/36/0b473640-4a03-1716-0822-c3cb3b806d0c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/47/36/0b473640-4a03-1716-0822-c3cb3b806d0c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/47/36/0b473640-4a03-1716-0822-c3cb3b806d0c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/0a/35/d00a351f-da74-cfc1-63e5-a7c0ed9c56cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/0a/35/d00a351f-da74-cfc1-63e5-a7c0ed9c56cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/0a/35/d00a351f-da74-cfc1-63e5-a7c0ed9c56cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znca",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-09-08T02:01:58Z",
+        "currentVersionReleaseDate": "2025-11-27T03:02:16Z",
         "description": "The Nintendo Switch App is designed to help enhance your online gameplay experience on Nintendo Switch™ 2 and Nintendo Switch. With this app, you can use friend features and game-specific services even when you're not playing! You can also view and share screenshots and videos uploaded from your console.\n\n◆ Check friends' online status\n\nYou can check whether your friends are online and see what games they're playing. You can also choose to receive a notification in the app when a friend comes online.\n\n◆ Use your smart device to add friends\n\nYou can add friends via their friend code or a QR Code even when you're not using your console.\n\n◆ View your screenshots and videos\n\nYou can upload screenshots and videos saved in your console's album to the app, then view, save and share them.\n\n◆ Game-specific services\n\nYou can access various features designed to enhance your online experience for supported games.\n\nCurrently, game-specific services are available for these games:\n\n　・ The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition and The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition\n　　　・ Receive voice guidance to help you reach locations you haven't visited yet\n　　　・ Share schematics and items via QR Codes\n　　　・ And more!\n\n　・ Splatoon 3\n　　　・ View the online status of friends playing the game\n　　　・ View your battle and Salmon Run stats\n　　　・ View upcoming stage schedules\n　　　・ And more!\n\n　・ Animal Crossing: New Horizons\n　　　・ Send custom designs created in Animal Crossing games on Nintendo 3DS to Animal Crossing: New Horizons\n　　　・ Use your smart device to send messages that appear in-game\n　　　・ View the online status of your Best Friends\n　　　・ And more!\n\n　・ Super Smash Bros. Ultimate\n　　　・ View posted images and videos\n　　　・ Queue downloads of user-created stages to play them in your copy of the game\n　　　・ Receive notifications about upcoming events\n　　　・ And more!\n\n　・ Splatoon 2\n　　　・ Check leaderboards and map schedules\n　　　・ View your battle and Salmon Run stats\n　　　・ And more!\n\nAttention:\n● A Nintendo Switch 2/Nintendo Switch console and supported software are required to use the service.\n● A paid membership to Nintendo Switch Online is required to use some of the features of this app.\n● You must have a Nintendo Account for ages 13 and up in order to use some of this app's features.\n● Permanent internet connection required for use.\n● May contain advertisements and product placement.\n● Please see support.nintendo.com for details about the GameChat feature.\n\nQR Code is a registered trademark of DENSO WAVE INCORPORATED in JAPAN and other countries.",
         "features": [
             "iosUniversal"
         ],
-        "fileSizeBytes": "44454912",
+        "fileSizeBytes": "42388480",
         "formattedPrice": "Free",
         "genreIds": [
             "6016"
@@ -48,12 +48,12 @@
             "ES",
             "ZH"
         ],
-        "minimumOsVersion": "15.0",
+        "minimumOsVersion": "16.0",
         "price": 0,
         "primaryGenreId": 6016,
         "primaryGenreName": "Entertainment",
         "releaseDate": "2017-07-19T00:57:14Z",
-        "releaseNotes": "Small improvements have been made.",
+        "releaseNotes": "・ The app's device compatibility has changed. It's now compatible with devices running iOS 16 and later.\n・ The notification you receive when a friend comes online has now been updated to include the name of the software they're using, if applicable.\n・ You can now send friend requests to users you chatted with in a GameChat session.\n・ You can now copy the hashtags for a software title. This can be done from the details for a screenshot or video.\n・ You can now create a Nintendo Switch App album in the iOS photos app. If you want to use this feature, you'll need to enable it from Settings in this app.\n・ Fixed an issue that sometimes caused the order of screenshots and videos to change when downloading multiple at a time.\n・ Other small bug fixes have also been made.",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -185,8 +185,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-app/id1234806557?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "3.1.0",
+        "version": "3.2.0",
         "wrapperType": "software"
     },
-    "version": "3.1.0"
+    "version": "3.2.0"
 }

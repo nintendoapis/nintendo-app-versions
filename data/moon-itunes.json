@@ -178,7 +178,11 @@
             "iPhone17Pro-iPhone17Pro",
             "iPhone17ProMax-iPhone17ProMax",
             "iPhone17-iPhone17",
-            "iPhoneAir-iPhoneAir"
+            "iPhoneAir-iPhoneAir",
+            "iPadPro11M5-iPadPro11M5",
+            "iPadPro11M5Cellular-iPadPro11M5Cellular",
+            "iPadPro13M5-iPadPro13M5",
+            "iPadPro13M5Cellular-iPadPro13M5Cellular"
         ],
         "trackCensoredName": "Nintendo Switch Parental Cont…",
         "trackContentRating": "17+",

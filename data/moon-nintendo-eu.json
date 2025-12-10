@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.3.0",
+            "label": "Ver. 2.3.0 [Released 10/12/25]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v230\" rel=\"1\"> <h2>Version 2.3.0</h2> <ul><li>The app now supports dark mode. The app will automatically change to dark mode based on your smart device's settings.</li><li>\"1hr\" can now be selected under \"Extend the Play Time Limit for the Day\".</li><li> It's now possible to set individual play start times for each day of the week under \"Detailed Bedtime Settings\". </li><li> It's now possible to change the display order in the list of supervised consoles. </li><li> Other small improvements have also been made. </li></ul> </div>"
+        },
+        {
             "version": "2.2.2",
             "label": "Ver. 2.2.2 [Released 18/11/25]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v222\" rel=\"1\"> <h2>Version 2.2.2</h2> <ul><li>Small improvements have been made.</li><li>Additionally, the supported iOS versions have changed. iOS version 16.0 or higher is now required to use this app.</li></ul> </div>"

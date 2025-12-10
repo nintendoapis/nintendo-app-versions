@@ -8,20 +8,20 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/d1/c6/95d1c62c-89f8-4d1c-89b3-e69c20e06b94/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/d1/c6/95d1c62c-89f8-4d1c-89b3-e69c20e06b94/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/d1/c6/95d1c62c-89f8-4d1c-89b3-e69c20e06b94/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/65/dd/be65dde9-b7b6-0963-5285-200dcdeb0505/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/65/dd/be65dde9-b7b6-0963-5285-200dcdeb0505/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/65/dd/be65dde9-b7b6-0963-5285-200dcdeb0505/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znma",
         "contentAdvisoryRating": "17+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2025-11-18T02:01:57Z",
+        "currentVersionReleaseDate": "2025-12-10T02:31:44Z",
         "description": "Nintendo Switch Parental Controls™ is a free app that allows you to easily monitor your child's use of the Nintendo Switch 2 or Nintendo Switch console. \n(Please note: A Nintendo Switch 2 or Nintendo Switch console is required to use this app.)\n\n◆ Set a daily play time limit\nYou can set how long you'd like your child to be able to play for each day. It's possible to choose different settings for each day of the week, and you can also set it so that the game on the console is suspended as soon as the play time limit is reached.\n\n◆ Manage your child's GameChat settings\nIf you choose to allow your child to use GameChat, you can manage which friends they can chat with and decide whether they can use video chat.\nNote: The GameChat feature can only be used on Nintendo Switch 2 consoles.\n\n◆ View your child's play activity\nYou can easily check which games your child plays and for how long. You'll also receive a monthly overview of their gameplay activity.\n\n◆ Set restrictions based on your child's age\nYou can choose to restrict the games your child can play and the features they can use based on their age.\n \nAttention:\n● In order to use the Nintendo Switch Parental Controls app, a parent or guardian (aged 18 or above) needs to have a Nintendo Account.\n● You can set purchasing restrictions, including restrictions on purchasing products and services in Nintendo eShop, in the Nintendo Account settings.\n● In order to make use of all of the features and settings available in the Nintendo Switch Parental Controls app, all linked Nintendo Switch 2 and Nintendo Switch consoles need to be using the latest system version.\n● Please see support.nintendo.com for details about the GameChat feature.",
         "features": [
             "iosUniversal"
         ],
-        "fileSizeBytes": "84199424",
+        "fileSizeBytes": "83025920",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -55,7 +55,7 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2017-03-02T02:30:52Z",
-        "releaseNotes": "・ iOS device compatibility has changed. iOS version 16.0 or later is now required to use this app.\n・ Other small feature improvements and bug fixes have also been made.",
+        "releaseNotes": "・ The app now supports dark mode. The app will automatically change to dark mode based on your smart device's settings.\n・ \"1hr\" can now be selected under \"Extend the Play Time Limit for the Day\".\n・ It's now possible to set individual play start times for each day of the week under \"Detailed Bedtime Settings\".\n・ It's now possible to change the display order in the list of supervised consoles.\n・ Other small improvements have also been made.",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -191,8 +191,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-switch-parental-cont/id1190074407?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "2.2.2",
+        "version": "2.3.0",
         "wrapperType": "software"
     },
-    "version": "2.2.2"
+    "version": "2.3.0"
 }

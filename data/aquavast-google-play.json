@@ -3,8 +3,8 @@
     "updated_at": "Tue Dec 02 2025 01:08:25 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Today!",
-        "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, Splatoon, Pikmin, and Kirby.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 9.0 or later.\n\n© Nintendo",
-        "descriptionHTML": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.<br><br>◆ Animated Calendar<br>Keep track of the date with an animated calendar! Choose from themes featuring Super Mario, The Legend of Zelda, Animal Crossing, Splatoon, Pikmin, and Kirby.<br><br>◆ Daily Updates<br>Get updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.<br><br>◆ Event Schedule<br>Keep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.<br><br>◆ Customise Your Home Screen<br>Add a calendar widget featuring art from your favourite Nintendo game series.<br><br>[Terms of Use]<br>Nintendo Account and persistent internet connection required. Data charges may apply.<br>Requires Android 9.0 or later.<br><br>© Nintendo",
+        "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar featuring your choice of characters.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 9.0 or later.\n\nNintendo Account Agreement\nhttps://accounts.nintendo.com/term_chooser/eula\n\n© Nintendo",
+        "descriptionHTML": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.<br><br>◆ Animated Calendar<br>Keep track of the date with an animated calendar featuring your choice of characters.<br><br>◆ Daily Updates<br>Get updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.<br><br>◆ Event Schedule<br>Keep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.<br><br>◆ Customise Your Home Screen<br>Add a calendar widget featuring art from your favourite Nintendo game series.<br><br>[Terms of Use]<br>Nintendo Account and persistent internet connection required. Data charges may apply.<br>Requires Android 9.0 or later.<br><br>Nintendo Account Agreement<br>https://accounts.nintendo.com/term_chooser/eula<br><br>© Nintendo",
         "summary": "Nintendo fun, delivered daily!",
         "installs": "1,000,000+",
         "minInstalls": 1000000,
@@ -41,16 +41,16 @@
             }
         ],
         "icon": "https://play-lh.googleusercontent.com/ZrT9ASJTZbJ-vtH4GTuRagRdWl1UeLGJ_-Whiip7znGomBKhHGX-JuYgRsd2pCcCcssD",
-        "headerImage": "https://play-lh.googleusercontent.com/feGlX1gr8sTSNnGl9hjNkKcj4wUsi2QLt1x6GvZ0zWgeIVdaHsiqdaMGY9-R2Km1eEwu95kJCncsTu-m5qqL",
+        "headerImage": "https://play-lh.googleusercontent.com/wjH2HU3gOCz4L3P2Xh1mDvqLU0VbTLgkSbHlWk-DXTBIA34AXfSpMRuBmCitZAoqQkMT-f07qJlrmD1sCEdrKss",
         "screenshots": [
             "https://play-lh.googleusercontent.com/oW_9mLjDtsQYzoJ9orpY4zD5iNTNnsI3yBAjBhucTYIKGIzklDhY7NYDW5HAI_rZ8neQq0m2sTvbUVkd3Ydl1w",
-            "https://play-lh.googleusercontent.com/3ikaXVkZWOvgCsaKbIeYSqH49fhELRC890BhbhZJuit72zgeFafWyfrMG5w9RVoCiBCm3dUIsY_z46z4dWU1we0",
-            "https://play-lh.googleusercontent.com/JEMfRiKO0h9s_I1pLm8r34FJVfqrQb2k7QdnY5J9N26QbZbz_lzZbisMItdP6OZiBKAX9EX23RpS_QWNOaFK",
-            "https://play-lh.googleusercontent.com/E_VX516f_fXJCVG9-3ijkAfIJpP1vHjXh2w-w6qU1AGo-jOcTQ6i-bRrc66u-pvpqNHhiERtlfm_4cIFo3q0hHE",
+            "https://play-lh.googleusercontent.com/9Dy2EZzeLEjwAI3gGySPGdHOfpoPfMFWunH2HnfjemqgqDLzA2nzIOV2fJ1TweGdfp0vKHx-FuGtJyFSIQWV3A",
+            "https://play-lh.googleusercontent.com/robhM4s8zRhogOVbhdz4hvcefJxToQxdw-MACeIhZizHdyf5ZZfcz-a9Vdr4iRJkSMEdZ4V7QHyOaMLBDEuVPg",
+            "https://play-lh.googleusercontent.com/Qf_ewN97g3Z-GApjxheGHGZEhE1F8QB5BFuf4VoamUnQIs-klXyWC5fQ5AB0p9NeLyRITru647yj_CIb2Whe7g",
             "https://play-lh.googleusercontent.com/RxuGOhTwFZQhvR2SXKKmD8HbUm-JrIv8Yaxxs_h98ZQIbrgAm42Doa8iV7EWu5r3b0pD7LtFGEkwOw4AimlM",
             "https://play-lh.googleusercontent.com/ljkMCrD1TW6vde3EofzYO6awOyEEOuSmvKHJ8e1-VFUuBq_CzfF-c14keQq6x3ERJatzLvN17YL8M50fI9o8Rw",
             "https://play-lh.googleusercontent.com/DvxAw4qIQuCGPDGIWvPwDsYQBrU_1_OhvvxAz52vNpIyZ6DTpmU7quuiKhYtOVRRFj9zxSfhIwPludAXGCsTgg",
-            "https://play-lh.googleusercontent.com/CdZjSb04qrx-PJIOV4Yj3NRB9VzDPhQwxomTMAIR7tYA2lR0W26Q8lnwIll8y8f7YJweOb5In8y0YzAZdMTcVg"
+            "https://play-lh.googleusercontent.com/16fOq11bwLqo877rX3a0Cxq7adtZgsU-_t1GvwPFsVc7kX_eLzM2ywHqlDm-3BcPN3qfDajnG5fRSY6-eAf6hA"
         ],
         "contentRating": "Parental guidance",
         "contentRatingDescription": "Parental guidance recommended",

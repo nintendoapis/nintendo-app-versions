@@ -1,18 +1,18 @@
 {
     "version": "5.5.0",
-    "revision": "eee94597",
+    "revision": "a26b7ca7",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
         "VERSION": "5.5.0",
-        "GIT_COMMIT_HASH": "eee94597",
+        "GIT_COMMIT_HASH": "a26b7ca7",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "IQjjDmpZsVfMHIQarCh5O",
+    "build_id": "qe1k73x2KDF8ySYeVQ1m3",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -23,9 +23,9 @@
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/694-be3e0a05fb346b55.js",
             "static/chunks/390-77a77b7197222d01.js",
-            "static/chunks/493-e7d27ff2e5eebfcc.js",
+            "static/chunks/493-2e8b542b25a18aeb.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-135e7a1c25cb4ed0.js"
+            "static/chunks/pages/index-c2119830375b8e4e.js"
         ],
         "/_error": [
             "static/chunks/pages/_error-c4943e3fddc4ea95.js"
@@ -33,41 +33,41 @@
         "/gift/revival/[categoryKey]": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-77a77b7197222d01.js",
-            "static/chunks/493-e7d27ff2e5eebfcc.js",
-            "static/chunks/pages/gift/revival/[categoryKey]-bccbe8690e0f1776.js"
+            "static/chunks/493-2e8b542b25a18aeb.js",
+            "static/chunks/pages/gift/revival/[categoryKey]-ba9f79c158f34668.js"
         ],
         "/guide/[name]": [
             "static/chunks/659-f5263f59792dcb0c.js",
-            "static/chunks/pages/guide/[name]-69747bcf956e5f85.js"
+            "static/chunks/pages/guide/[name]-92b92d06cdf39b64.js"
         ],
         "/icon-collection": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-77a77b7197222d01.js",
-            "static/chunks/pages/icon-collection-b5d58ccb26f1d140.js"
+            "static/chunks/pages/icon-collection-0320bc85555d50ed.js"
         ],
         "/icon-collection/parts": [
-            "static/chunks/pages/icon-collection/parts-e5f559f772d6a492.js"
+            "static/chunks/pages/icon-collection/parts-cbb0eee9bd1045b8.js"
         ],
         "/icon-share/[id]": [
-            "static/chunks/pages/icon-share/[id]-cc2605365b09382d.js"
+            "static/chunks/pages/icon-share/[id]-0215911ba76aa089.js"
         ],
         "/license": [
-            "static/chunks/pages/license-83e72333f6d2648e.js"
+            "static/chunks/pages/license-8dccfaa0ee8356d3.js"
         ],
         "/mission": [
-            "static/chunks/pages/mission-c6c3519c261c1edc.js"
+            "static/chunks/pages/mission-dcfb11c3255d7eff.js"
         ],
         "/mission-history": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-77a77b7197222d01.js",
-            "static/chunks/pages/mission-history-82fff3ffacd54358.js"
+            "static/chunks/pages/mission-history-42def576106c2c8d.js"
         ],
         "/point-detail": [
-            "static/chunks/pages/point-detail-3d583e2f1fd2f686.js"
+            "static/chunks/pages/point-detail-4883e96c99307b9a.js"
         ],
         "/[category]/detail/[id]": [
             "static/chunks/659-f5263f59792dcb0c.js",
-            "static/chunks/pages/[category]/detail/[id]-67091a01207f4c4f.js"
+            "static/chunks/pages/[category]/detail/[id]-a6330f2bc3812583.js"
         ],
         "sortedPages": [
             "/",
@@ -86,5 +86,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "3516c6787ba05fea6d87baa7301ea8037c98c95c82bff0604acd857cd254fb8f"
+    "html_sha256": "a4ccbf2e5d0439d130672bffa98129eaeb836a8d05bb8822ef7ba0fc19cd0a61"
 }

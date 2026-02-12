@@ -1,29 +1,29 @@
 {
     "result": {
         "advisories": [
-            "Infrequent/Mild Profanity or Crude Humour",
             "Infrequent/Mild Cartoon or Fantasy Violence",
             "Infrequent/Mild Sexual Content and Nudity",
-            "Infrequent/Mild Horror/Fear Themes"
+            "Infrequent/Mild Horror/Fear Themes",
+            "Infrequent/Mild Profanity or Crude Humour"
         ],
         "appletvScreenshotUrls": [
         ],
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/eb/8f/1deb8f74-e269-d7b7-40d3-7ac515677f8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/eb/8f/1deb8f74-e269-d7b7-40d3-7ac515677f8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/eb/8f/1deb8f74-e269-d7b7-40d3-7ac515677f8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/5f/68/615f68c6-ec39-760e-775b-0afba47dfb8f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/5f/68/615f68c6-ec39-760e-775b-0afba47dfb8f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/5f/68/615f68c6-ec39-760e-775b-0afba47dfb8f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znsa",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2026-01-20T01:01:40Z",
+        "currentVersionReleaseDate": "2026-02-12T01:01:19Z",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar featuring your choice of characters.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires iOS 16.0 or later.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "200266752",
+        "fileSizeBytes": "203244544",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -55,7 +55,7 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2025-03-27T07:00:00Z",
-        "releaseNotes": "Now available in Argentina, Israel, Saudi Arabia and the United Arab Emirates.",
+        "releaseNotes": "■ Added a new size to the calendar widget.\nWe've added a compact size equivalent to four icons to the daily rotating calendar widgets, featuring characters from series such as Mario, The Legend of Zelda, Animal Crossing and Pikmin.",
         "screenshotUrls": [
         ],
         "sellerName": "Nintendo Co., Ltd.",
@@ -191,8 +191,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-today/id6736725704?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "2.3",
+        "version": "2.4",
         "wrapperType": "software"
     },
-    "version": "2.3"
+    "version": "2.4"
 }

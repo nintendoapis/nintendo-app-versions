@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.4.0",
+            "label": "Ver. 2.4.0 ［2026.3.24］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>ゲーム機で「みまもり設定の暗証番号」の入力に成功したことが、本アプリの「あそんだ記録」で確認できるようになりました。<br>また、通知設定の「暗証番号の入力」をONにすると、暗証番号の入力に成功したタイミングで通知を受け取れます。</li>\n          <li>その他、機能の改善と不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "2.3.2",
             "label": "Ver. 2.3.2 ［2026.1.8］（Androidのみ）",
-            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>機能の改善と、不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "2.3.1",

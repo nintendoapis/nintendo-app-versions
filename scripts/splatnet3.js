@@ -78,7 +78,7 @@ for (const url of script_urls) {
     for (const match of formatted_js.matchAll(/\bid: "([0-9a-f]{64})"/gi)) {
         console.warn('Found GraphQL query module', js_url.pathname, match.index, match[1]);
 
-        const end_index = formatted_js.indexOf('\n            },', match.index) + 1;
+        const end_index = formatted_js.indexOf('\n                },', match.index) + 1;
         const end_line_index = formatted_js.lastIndexOf('\n', end_index) + 1;
         const end_line = formatted_js.substr(end_line_index, formatted_js.indexOf('\n', end_index) - end_line_index);
         const indent = end_line.match(/^\s*/)[0];

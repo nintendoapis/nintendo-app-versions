@@ -181,7 +181,12 @@
             "iPadPro11M5-iPadPro11M5",
             "iPadPro11M5Cellular-iPadPro11M5Cellular",
             "iPadPro13M5-iPadPro13M5",
-            "iPadPro13M5Cellular-iPadPro13M5Cellular"
+            "iPadPro13M5Cellular-iPadPro13M5Cellular",
+            "iPhone17e-iPhone17e",
+            "iPadAir11M4-iPadAir11M4",
+            "iPadAir11M4Cellular-iPadAir11M4Cellular",
+            "iPadAir13M4-iPadAir13M4",
+            "iPadAir13M4Cellular-iPadAir13M4Cellular"
         ],
         "trackCensoredName": "Nintendo Switch App",
         "trackContentRating": "12+",

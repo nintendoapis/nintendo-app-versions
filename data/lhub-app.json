@@ -1,18 +1,18 @@
 {
-    "version": "5.8.0",
-    "revision": "5be49f56",
+    "version": "5.9.0",
+    "revision": "0f13c0df",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
-        "VERSION": "5.8.0",
-        "GIT_COMMIT_HASH": "5be49f56",
+        "VERSION": "5.9.0",
+        "GIT_COMMIT_HASH": "0f13c0df",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "jb6ALIUziGl2QzPS0j03e",
+    "build_id": "NRsBzHpuIhFoUVpr95xl8",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -21,53 +21,53 @@
         },
         "/": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
-            "static/chunks/694-900376720948dd41.js",
+            "static/chunks/694-d218f79dbb06344c.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-c2336e2f9fb16fcf.js",
+            "static/chunks/493-c5249885dfd927e6.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-18a96432a92e2d92.js"
+            "static/chunks/pages/index-dc3ab2815af79d61.js"
         ],
         "/_error": [
-            "static/chunks/pages/_error-ebb97ade1077afff.js"
+            "static/chunks/pages/_error-98c3d034646b84e3.js"
         ],
         "/gift/revival/[categoryKey]": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-c2336e2f9fb16fcf.js",
-            "static/chunks/pages/gift/revival/[categoryKey]-7cd93508f5c11c35.js"
+            "static/chunks/493-c5249885dfd927e6.js",
+            "static/chunks/pages/gift/revival/[categoryKey]-1e5798edcf9356b1.js"
         ],
         "/guide/[name]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/guide/[name]-cb05735e7ec52c7e.js"
+            "static/chunks/pages/guide/[name]-867598b9e81c759c.js"
         ],
         "/icon-collection": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/icon-collection-25da28746cf59fce.js"
+            "static/chunks/pages/icon-collection-3d55784fe87c78da.js"
         ],
         "/icon-collection/parts": [
-            "static/chunks/pages/icon-collection/parts-3dd1540ebb220d4e.js"
+            "static/chunks/pages/icon-collection/parts-12c2d4c365d5b49a.js"
         ],
         "/icon-share/[id]": [
-            "static/chunks/pages/icon-share/[id]-70eada892366107a.js"
+            "static/chunks/pages/icon-share/[id]-2fe1cf0027be97d5.js"
         ],
         "/license": [
-            "static/chunks/pages/license-9c9ec0f46b1dd254.js"
+            "static/chunks/pages/license-41eb89ad0ba7f087.js"
         ],
         "/mission": [
-            "static/chunks/pages/mission-351c6556f06849f4.js"
+            "static/chunks/pages/mission-0ab1bc521635715d.js"
         ],
         "/mission-history": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/mission-history-a08323fbe1f7843e.js"
+            "static/chunks/pages/mission-history-d36d713217e4290d.js"
         ],
         "/point-detail": [
-            "static/chunks/pages/point-detail-47671de6acd3bd00.js"
+            "static/chunks/pages/point-detail-47711684994a6488.js"
         ],
         "/[category]/detail/[id]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/[category]/detail/[id]-5c6ba03f5e95d530.js"
+            "static/chunks/pages/[category]/detail/[id]-5add500a49ce2670.js"
         ],
         "sortedPages": [
             "/",
@@ -86,5 +86,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "3b7b1a9f71052cd071a45e3520de7f5470c9166682a1a86328e5264ccf50bd41"
+    "html_sha256": "3ca84ca6c04725b483d5c8122ce3594337988371528b0578ad10e3b0cc52f375"
 }

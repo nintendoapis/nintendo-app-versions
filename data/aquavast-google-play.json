@@ -1,6 +1,6 @@
 {
-    "version": "3.1.2",
-    "updated_at": "Wed Apr 01 2026 09:58:30 GMT+0000 (Coordinated Universal Time)",
+    "version": "3.1.3",
+    "updated_at": "Fri Apr 03 2026 06:32:09 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Today!",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar featuring your choice of characters.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires Android 10.0 or later.\n\nNintendo Account Agreement\nhttps://accounts.nintendo.com/term_chooser/eula\n\n© Nintendo",
@@ -56,8 +56,8 @@
         "contentRatingDescription": "Parental guidance recommended",
         "adSupported": false,
         "released": "10 Mar 2025",
-        "updated": 1775037510000,
-        "version": "3.1.2",
+        "updated": 1775197929000,
+        "version": "3.1.3",
         "recentChanges": "Special content is being rolled out for The Super Mario Galaxy Movie, including digital Collectible Cards that can be collected daily and a digital photo frame that can be used when checking in at cinemas.<br>*Excluding some countries/regions and cinemas",
         "comments": null,
         "preregister": false,

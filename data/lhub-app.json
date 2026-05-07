@@ -1,18 +1,18 @@
 {
     "version": "5.9.0",
-    "revision": "e4299b43",
+    "revision": "4b079f24",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
         "VERSION": "5.9.0",
-        "GIT_COMMIT_HASH": "e4299b43",
+        "GIT_COMMIT_HASH": "4b079f24",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "20945mMtPX-kqNX5LBdCk",
+    "build_id": "3VZnmnfESe33Xq3Ug7bTw",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -21,53 +21,53 @@
         },
         "/": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
-            "static/chunks/694-d218f79dbb06344c.js",
+            "static/chunks/694-900376720948dd41.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-b1a86e977f582bb5.js",
+            "static/chunks/493-313e892525e8c9d2.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-e68914fdf4aaa14a.js"
+            "static/chunks/pages/index-0e675939cee3af4d.js"
         ],
         "/_error": [
-            "static/chunks/pages/_error-dca9f280538d1b60.js"
+            "static/chunks/pages/_error-ebb97ade1077afff.js"
         ],
         "/gift/revival/[categoryKey]": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-b1a86e977f582bb5.js",
-            "static/chunks/pages/gift/revival/[categoryKey]-2bd8a1756faccbd7.js"
+            "static/chunks/493-313e892525e8c9d2.js",
+            "static/chunks/pages/gift/revival/[categoryKey]-d5dfb347402fbd9d.js"
         ],
         "/guide/[name]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/guide/[name]-867598b9e81c759c.js"
+            "static/chunks/pages/guide/[name]-c86651dbafed6aa2.js"
         ],
         "/icon-collection": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/icon-collection-ed2dbcb9d875502a.js"
+            "static/chunks/pages/icon-collection-c70ecf975ad7218f.js"
         ],
         "/icon-collection/parts": [
-            "static/chunks/pages/icon-collection/parts-68bfce03d1e24ccd.js"
+            "static/chunks/pages/icon-collection/parts-d9b4f7344cbbac1e.js"
         ],
         "/icon-share/[id]": [
-            "static/chunks/pages/icon-share/[id]-2fe1cf0027be97d5.js"
+            "static/chunks/pages/icon-share/[id]-8ab0a43c638bed7a.js"
         ],
         "/license": [
-            "static/chunks/pages/license-bcdd6920879984d4.js"
+            "static/chunks/pages/license-af254bb5c6320862.js"
         ],
         "/mission": [
-            "static/chunks/pages/mission-35d3e6b46a0699c2.js"
+            "static/chunks/pages/mission-4cb23cc8f3c71be2.js"
         ],
         "/mission-history": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/mission-history-005d70a4e34bfac2.js"
+            "static/chunks/pages/mission-history-897d3af06d568579.js"
         ],
         "/point-detail": [
-            "static/chunks/pages/point-detail-cc2d5ea5cf50ac75.js"
+            "static/chunks/pages/point-detail-fd50f2af4c189c4e.js"
         ],
         "/[category]/detail/[id]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/[category]/detail/[id]-0c42f1bf7a7d2c90.js"
+            "static/chunks/pages/[category]/detail/[id]-1d5feb53d74116d4.js"
         ],
         "sortedPages": [
             "/",
@@ -86,5 +86,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "6970af1e35d80daeefad36c32dd59ab0711f90024dd4c4ac32b2e9dfc7f306d3"
+    "html_sha256": "3a543a0ba783c23fdb468e489402bcd9e9614c89141f667de3c5a6259808aac8"
 }

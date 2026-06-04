@@ -1,20 +1,21 @@
 import * as fs from 'node:fs/promises';
 import fetch from 'node-fetch';
 
-/** @type {'splatnet3'|'nooklink'|'lhub'|'tournament-manager'} */
+/** @type {'splatnet3'|'nooklink'|'lhub'|'tournament-manager'|'bremen'} */
 const app = process.argv[2];
 const app_info = {
     'splatnet3': ['SplatNet 3', 0xfefb55, 'https://s.nintendo.com/av5ja-lp1/znca/game/4834290508791808'],
     'nooklink': ['NookLink', 0x6cc1fe, 'https://dpl.sd.lp1.acbaa.srv.nintendo.net/znca/game/4953919198265344'],
     'lhub': ['Nintendo Switch Online applet', 0xe60012, null],
     'tournament-manager': ['Splatoon 3 Tournament Manager', 0xfefb55, 'https://c.nintendo.com/splatoon3-tournament/'],
+    'bremen': ['Nintendo Music', 0xf2121c, 'https://music.nintendo.com/'],
 };
 const app_name = app_info[app]?.[0] ?? null;
 const app_colour = app_info[app]?.[1] ?? null;
 const app_url = app_info[app]?.[2] ?? null;
 
 const web = JSON.parse(await fs.readFile(new URL('../data/' + app + '-app.json', import.meta.url), 'utf-8'));
-const revision = 'revision' in web ? web.version + '-' + web.revision : web.version;
+const revision = web.version && web.revision ? web.version + '-' + web.revision : web.version ?? web.revision ?? null;
 
 const known = await (async () => {
     try {
@@ -25,7 +26,7 @@ const known = await (async () => {
 })();
 const new_versions = [];
 
-if (!known.versions.includes(revision + '-web')) {
+if (revision && !known.versions.includes(revision + '-web')) {
     const other_revisions = web.version ?
         known.versions.filter(v => v.startsWith(web.version + '-') && v.endsWith('-web')) : [];
 

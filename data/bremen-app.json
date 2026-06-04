@@ -1,12 +1,12 @@
 {
     "html_url": "https://music.nintendo.com/en-US/",
-    "html_sha256": "1780964bb7235ad0973fcf1b1625eedab45a2ac1c76f1ca6b877c75e27eea1a5",
+    "html_sha256": "b4eedecd663cbaa0c7b3f0e9214a2f0987ec4933f2a5c0d68cb4de1883081199",
     "script_urls": [
         "https://music.nintendo.com/_next/static/chunks/52774a7f-94ed4bac03c71664.js",
         "https://music.nintendo.com/_next/static/chunks/4bd1b696-7582cc80c7bc3de8.js",
         "https://music.nintendo.com/_next/static/chunks/a615c3c1-71e044364e16b39d.js",
-        "https://music.nintendo.com/_next/static/chunks/1901-2ad6e30b3985db1a.js",
-        "https://music.nintendo.com/_next/static/chunks/main-app-7e33d10abf7262a9.js",
+        "https://music.nintendo.com/_next/static/chunks/1901-28c87fbefb5d9123.js",
+        "https://music.nintendo.com/_next/static/chunks/main-app-8f872db74043cb02.js",
         "https://music.nintendo.com/_next/static/chunks/f58c171e-a7fb9e90ce0cd63e.js",
         "https://music.nintendo.com/_next/static/chunks/aaea2bcf-8348f6cc1076a55f.js",
         "https://music.nintendo.com/_next/static/chunks/3904-ef2c3660a0b35db9.js",
@@ -23,177 +23,177 @@
         "https://music.nintendo.com/_next/static/chunks/9632-f1bfa83f5fe89b3b.js",
         "https://music.nintendo.com/_next/static/chunks/6157-53d4dc29b907257c.js",
         "https://music.nintendo.com/_next/static/chunks/7373-23130103d6a924bf.js",
-        "https://music.nintendo.com/_next/static/chunks/app/%5Blang%5D/layout-fec4a4e2c349c95b.js",
+        "https://music.nintendo.com/_next/static/chunks/app/%5Blang%5D/layout-843cb72fc22e762c.js",
         "https://music.nintendo.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
-        "https://music.nintendo.com/_next/static/chunks/webpack-099782428128dfb4.js"
+        "https://music.nintendo.com/_next/static/chunks/webpack-52c0080b118143d9.js"
     ],
     "script_headers": [
         {
             "url": "https://music.nintendo.com/_next/static/chunks/52774a7f-94ed4bac03c71664.js",
             "sha256": "bda00f6750bece6fa8ea9997a6514e0d62b3c50cc970fa75eda69d57ef296ac7",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/4bd1b696-7582cc80c7bc3de8.js",
             "sha256": "cc5b115efaabf74f4c6d7f8cddb5cc2bb198031f8dfd001792b97a7245d43d91",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/a615c3c1-71e044364e16b39d.js",
             "sha256": "d48a6591601da963d2d074a426114b1d6b60b13d1e7dc718c9e0296453da8aea",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
-            "url": "https://music.nintendo.com/_next/static/chunks/1901-2ad6e30b3985db1a.js",
-            "sha256": "53d4e8b4cdc44fc5283af240b8e23b8bc8fb2204c92c29ef848750e0923e4880",
+            "url": "https://music.nintendo.com/_next/static/chunks/1901-28c87fbefb5d9123.js",
+            "sha256": "9536ee120749d928b748f4b1e2c3bc4096bf0984406a5c1c4fc17b57783910d9",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
-            "url": "https://music.nintendo.com/_next/static/chunks/main-app-7e33d10abf7262a9.js",
-            "sha256": "dcfd4e0d895ce1fecce9621a687a70cad771c7b344de01e313a0a624211ecb60",
+            "url": "https://music.nintendo.com/_next/static/chunks/main-app-8f872db74043cb02.js",
+            "sha256": "04b6fd01a48f28b490ee5440632f420b5cccd837ae28ac8ce2546eef0cb6924a",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/f58c171e-a7fb9e90ce0cd63e.js",
             "sha256": "c60c971c9e42737cdba08e318015e9aa0c93ce7018bfd531bbf96d64ae619387",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/aaea2bcf-8348f6cc1076a55f.js",
             "sha256": "5ef00b48841ae027b03fd79d5580bebef67d91ccb5e2cc1093fa5efaaab26579",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/3904-ef2c3660a0b35db9.js",
             "sha256": "ed5b0bbd2e86802554f90d08ede379d48fd569feb44f93b0109a7194588db5d4",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/1064-cde84c26f03c6852.js",
             "sha256": "9f04443699db09a080d0ef1003fead2f848aaec2ca8c23e27461b558dbb2f280",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/5183-36a2cb6c30ac9a8b.js",
             "sha256": "298aaa229694d5634b47a90d96ee64da574864a0becffe99f538d664911c1dfe",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/app/%5Blang%5D/page-933cf471603f5d31.js",
             "sha256": "ae6821637ea778516669b1cc7c8523a5d4fe1f4c1b0a292483fa6b4fe87e4213",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/1257-5bd98a0a58657455.js",
             "sha256": "9faf40394a3f91eeb1e77c8d168d12ad6cd1518b1269c211f5a4768166243335",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/1192-3dbaa3936dd275a7.js",
             "sha256": "ef9e9dcafec5e74618624c021e87e7001537b996d9b18cd638ab3340f276de17",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/7817-d28aac7504c887fe.js",
             "sha256": "103126708b93456f26c8ec6a40978e5dbaf074484d62b0f81b43ff8b32f11435",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/4624-ea0edb20b5b99f37.js",
             "sha256": "c8f5a031973892fcc37d60b180c5bc2006c26944db438dbc6359269630c9ca56",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/1158-b8de853868a4f0fc.js",
             "sha256": "ed053a67fd1f048ab23ce95872e0219bcef7bdb1dc6fe6e5733ca4b97e52fdc4",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/9128-d4ebe0ae9d3cd6fd.js",
             "sha256": "fe743b36b432c089aa72d737f1dbb5e17847317dbbd6bde990171c58fe271e18",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/3529-ab29c45ae05dd157.js",
             "sha256": "f270718d6e47fe26b40f840be287d223583bb729358921ac4b621d494d61198b",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/9632-f1bfa83f5fe89b3b.js",
             "sha256": "6e807db58616fbb7f931068def7ef127c56d44b03b237f0e7385d61a72c33bdd",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/6157-53d4dc29b907257c.js",
             "sha256": "bc52c19f646061c02ecf84f05d66f6bfa4163a856507c8e4a5d832ffefac6065",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/7373-23130103d6a924bf.js",
             "sha256": "66217d742a657e4326a3efca704599b7456dff5cbcb8729bc850064ee65374d8",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
-            "url": "https://music.nintendo.com/_next/static/chunks/app/%5Blang%5D/layout-fec4a4e2c349c95b.js",
-            "sha256": "fb8bb5fe85cf69e84b856e9abe045b8aa711ffb23179590d2485320841bdcbbc",
+            "url": "https://music.nintendo.com/_next/static/chunks/app/%5Blang%5D/layout-843cb72fc22e762c.js",
+            "sha256": "00ceeb6ed94edfdad11559b646b9110026024245cb77ed2e5e59a39441fbeef3",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
             "url": "https://music.nintendo.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
             "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         },
         {
-            "url": "https://music.nintendo.com/_next/static/chunks/webpack-099782428128dfb4.js",
-            "sha256": "80f9d58f3e6fd0a92c1f7862f75e013c5d4c82bf637ce1a40fd6e8d6ef8bbf98",
+            "url": "https://music.nintendo.com/_next/static/chunks/webpack-52c0080b118143d9.js",
+            "sha256": "b9e70131a754a46de17f2db2ca1f6ab171d52b39735bfdf95c5249eb239fa6c5",
             "headers": {
-                "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+                "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
             }
         }
     ],
@@ -283,10 +283,10 @@
         "widevineLicenseUrl": "https://api.m.nintendo.com/license/widevine/licenses",
         "sentryDsn": "https://ee78aad04f33d5b6d143d0865db04378@o760844.ingest.us.sentry.io/4511172774330368"
     },
-    "app_env_script_url": "https://music.nintendo.com/_next/static/chunks/main-app-7e33d10abf7262a9.js",
-    "app_env_script_sha256": "dcfd4e0d895ce1fecce9621a687a70cad771c7b344de01e313a0a624211ecb60",
+    "app_env_script_url": "https://music.nintendo.com/_next/static/chunks/main-app-8f872db74043cb02.js",
+    "app_env_script_sha256": "04b6fd01a48f28b490ee5440632f420b5cccd837ae28ac8ce2546eef0cb6924a",
     "app_env_script_headers": {
-        "last-modified": "Mon, 01 Jun 2026 04:02:36 GMT"
+        "last-modified": "Thu, 04 Jun 2026 07:32:18 GMT"
     },
-    "revision": "dcfd4e0d-2026-06-01"
+    "revision": "04b6fd01-2026-06-04"
 }

@@ -1,14 +1,14 @@
 {
-    "revision": "lp1-cb9cf04042a09f4b5946d882f697c1bad9a712ae",
-    "build_id": "eBiZn9G8bYxewmn9fStjy",
+    "revision": "lp1-320451032a6fcb82712ffe5a8490762240a7e9d0",
+    "build_id": "dbtB-ItIScQo3cimO9ALq",
     "html_url": "https://c.nintendo.com/splatoon3-tournament/?lang=en-GB",
-    "html_sha256": "8bb56182b0637e867a94342ee2e0940546ee0f5b100daca1d13fa98133b0eb29",
-    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/eBiZn9G8bYxewmn9fStjy/_buildManifest.js",
+    "html_sha256": "0bb3f5fc5587ac70793e336385913b09e8552927d26157487cfec73ac67c81c6",
+    "build_manifest_url": "https://c.nintendo.com/splatoon3-tournament/_next/static/dbtB-ItIScQo3cimO9ALq/_buildManifest.js",
     "build_manifest_headers": {
-        "last-modified": "Thu, 26 Feb 2026 02:44:27 GMT",
-        "etag": "W/\"39cf-19c97d556f8\""
+        "last-modified": "Fri, 22 May 2026 07:14:04 GMT",
+        "etag": "W/\"39cf-19e4e88ba60\""
     },
-    "build_manifest_hash_sha256": "710bcbf2f91c8b4ad66b010e2d266b8aa48a332f673d97891c35bb234cba016b",
+    "build_manifest_hash_sha256": "b04796781f6355046829431d701fc2f0cad35c8c89cad615e6f51eafdec54db8",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -74,8 +74,8 @@
             "static/chunks/8651-7861fa553668e5ac.js",
             "static/chunks/119-c58a95b5463b3eb2.js",
             "static/css/cb03264d3923b9c7.css",
-            "static/chunks/4405-ecb8904f795d73c1.js",
-            "static/chunks/9327-e8fee452af65e645.js",
+            "static/chunks/4405-b389e5bd044e7b9c.js",
+            "static/chunks/9327-93f5c0b8d5cd6b82.js",
             "static/css/bcdaa7b1db7ec4d7.css",
             "static/chunks/pages/coop_tournament-2c489a1793a6094f.js"
         ],
@@ -119,8 +119,8 @@
             "static/chunks/8651-7861fa553668e5ac.js",
             "static/chunks/119-c58a95b5463b3eb2.js",
             "static/css/cb03264d3923b9c7.css",
-            "static/chunks/4405-ecb8904f795d73c1.js",
-            "static/chunks/9327-e8fee452af65e645.js",
+            "static/chunks/4405-b389e5bd044e7b9c.js",
+            "static/chunks/9327-93f5c0b8d5cd6b82.js",
             "static/css/0fb8c9f7717ce6a3.css",
             "static/chunks/pages/coop_tournament/[coopTournamentId]/edit-6c6086d187aac396.js"
         ],
@@ -369,158 +369,158 @@
             "static/chunks/pages/coop_tournament_search/result-edf4223b70791227.js"
         ],
         "/help": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/5392094926b9d44d.css",
             "static/chunks/pages/help-48f1c4a46e947191.js"
         ],
         "/help/coop-organizer": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/coop-organizer-88acb9f6b1a728d0.js"
         ],
         "/help/coop-participant": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/coop-participant-f3d4a2e5e655115e.js"
         ],
         "/help/coop-rule": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/coop-rule-73ace8a6d81cccb3.js"
         ],
         "/help/faq": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq-c33572e967a93b2a.js"
         ],
         "/help/faq/BgCWuVXDA": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/BgCWuVXDA-b2c152f777fbdadc.js"
         ],
         "/help/faq/HVbnW6q9f": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/HVbnW6q9f-6d0cedb1d6fda5ad.js"
         ],
         "/help/faq/JLEHeaPJK": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/JLEHeaPJK-01af367af8fbf74a.js"
         ],
         "/help/faq/PEKxHDkoe": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/PEKxHDkoe-9c2055ace051daef.js"
         ],
         "/help/faq/RMefMHqsf": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/RMefMHqsf-f8944f4b0f048651.js"
         ],
         "/help/faq/TkqQQFwtl": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/TkqQQFwtl-19e1e3f870c78d84.js"
         ],
         "/help/faq/UCXxEkTWb": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/UCXxEkTWb-884932e7766fec8f.js"
         ],
         "/help/faq/UgVKPKZe": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/UgVKPKZe-43b463e0183eeee1.js"
         ],
         "/help/faq/aHdjbSpjW": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/aHdjbSpjW-c069bf5234f08fd1.js"
         ],
         "/help/faq/ajWVeAJDF": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/ajWVeAJDF-0e7d99f8a21d7895.js"
         ],
         "/help/faq/bCJwJKxpy": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/bCJwJKxpy-024ca6ea06c2dd5c.js"
         ],
         "/help/faq/eNHJCAzDy": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/eNHJCAzDy-8b114821792c5275.js"
         ],
         "/help/faq/fRTDaBetz": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/fRTDaBetz-324154b6b8ee2e41.js"
         ],
         "/help/faq/irKSUrbsD": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/irKSUrbsD-b9cd06c454638af2.js"
         ],
         "/help/faq/pui43OC32": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/pui43OC32-b264e84b3482eefc.js"
         ],
         "/help/faq/qHzqy6HY6": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/qHzqy6HY6-6e8c53a0ebeec986.js"
         ],
         "/help/faq/rPQyaqVZH": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/rPQyaqVZH-3317a3ab53e8e4cc.js"
         ],
         "/help/faq/vRKsJzmzN": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/vRKsJzmzN-c6441e184894e13d.js"
         ],
         "/help/faq/wBZQ2TGoa": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/wBZQ2TGoa-180d56319a281b74.js"
         ],
         "/help/faq/yBQwm4nM3": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/faq/yBQwm4nM3-aba07f76dd0a25d4.js"
         ],
         "/help/guideline": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/c247d4839b954687.css",
             "static/chunks/pages/help/guideline-a9cf73dbfeea658b.js"
         ],
         "/help/mypage": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/mypage-f8cb5267e3309de4.js"
         ],
         "/help/organizer": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/organizer-db42816b7b49aa17.js"
         ],
         "/help/participant": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/participant-c844f3efef7afe72.js"
         ],
         "/help/requirements": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/chunks/8970-d9365170d14152ce.js",
             "static/css/70475f35af60b07f.css",
             "static/chunks/pages/help/requirements-d4215b10502cd16c.js"
         ],
         "/help/start": [
-            "static/chunks/640-290a49679c5d3aac.js",
+            "static/chunks/640-a39009e91a109c2e.js",
             "static/css/865bd08d8c3bbf7f.css",
             "static/chunks/pages/help/start-0059738f9c3e05a4.js"
         ],
@@ -642,8 +642,8 @@
             "static/chunks/8651-7861fa553668e5ac.js",
             "static/chunks/119-c58a95b5463b3eb2.js",
             "static/css/cb03264d3923b9c7.css",
-            "static/chunks/4405-ecb8904f795d73c1.js",
-            "static/chunks/9721-aecd6ff4f2357522.js",
+            "static/chunks/4405-b389e5bd044e7b9c.js",
+            "static/chunks/9721-3f5ce31d61c67d01.js",
             "static/css/7c64911911295f58.css",
             "static/chunks/pages/tournament-76b5ae9f34e15598.js"
         ],
@@ -669,7 +669,7 @@
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/chunks/8651-7861fa553668e5ac.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/chunks/1284-663ed9cb083b7ed6.js",
             "static/chunks/4546-7e6db3f7c68aeaf0.js",
             "static/css/4d2e04fdd971ec41.css",
@@ -696,9 +696,9 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/css/5155029fc31ece9b.css",
-            "static/chunks/4616-be16417e1b74fc8e.js",
+            "static/chunks/4616-e87022407e949e18.js",
             "static/chunks/pages/tournament/[tournamentId]/board-d79b6812e9f8367e.js"
         ],
         "/tournament/[tournamentId]/board/table": [
@@ -721,7 +721,7 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/chunks/9932-32cb30b1b12462f2.js",
             "static/css/03e3dbc0e40ec9c0.css",
             "static/chunks/pages/tournament/[tournamentId]/board/table-65d18da141c3310a.js"
@@ -737,8 +737,8 @@
             "static/chunks/8651-7861fa553668e5ac.js",
             "static/chunks/119-c58a95b5463b3eb2.js",
             "static/css/cb03264d3923b9c7.css",
-            "static/chunks/4405-ecb8904f795d73c1.js",
-            "static/chunks/9721-aecd6ff4f2357522.js",
+            "static/chunks/4405-b389e5bd044e7b9c.js",
+            "static/chunks/9721-3f5ce31d61c67d01.js",
             "static/css/966b45066a338a77.css",
             "static/chunks/pages/tournament/[tournamentId]/edit-aa05115be7dd37de.js"
         ],
@@ -762,7 +762,7 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/css/768e7547d9cd8739.css",
             "static/chunks/pages/tournament/[tournamentId]/entrant_team-08bc7e8df36c8b6b.js"
         ],
@@ -800,7 +800,7 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/chunks/6528-de0d7975104f71be.js",
             "static/css/e00af8882ddea5ae.css",
             "static/chunks/pages/tournament/[tournamentId]/result-ec3d7900eef53fa3.js"
@@ -825,7 +825,7 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/css/896430c373e9f2f6.css",
             "static/chunks/pages/tournament/[tournamentId]/result/block-ee9c0f339ced34ef.js"
         ],
@@ -850,9 +850,9 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/css/5155029fc31ece9b.css",
-            "static/chunks/4616-be16417e1b74fc8e.js",
+            "static/chunks/4616-e87022407e949e18.js",
             "static/chunks/pages/tournament/[tournamentId]/result/board-a1f1f394bbd20e66.js"
         ],
         "/tournament/[tournamentId]/result/table": [
@@ -875,7 +875,7 @@
             "static/chunks/8841-38c4c01c219605b7.js",
             "static/chunks/6879-c7af4ebff2baf64e.js",
             "static/css/d8387216c999ecaf.css",
-            "static/chunks/2581-fc1c3d260ccd284d.js",
+            "static/chunks/2581-9945b39b0bf758c6.js",
             "static/chunks/9932-32cb30b1b12462f2.js",
             "static/css/03e3dbc0e40ec9c0.css",
             "static/chunks/pages/tournament/[tournamentId]/result/table-1d85efc9f97ecb21.js"
@@ -1105,7 +1105,7 @@
     },
     "app_url": null,
     "sentry_release": {
-        "id": "lp1-cb9cf04042a09f4b5946d882f697c1bad9a712ae"
+        "id": "lp1-320451032a6fcb82712ffe5a8490762240a7e9d0"
     },
     "graphql_queries": {
         "AppHeaderLoginUserIconQuery": "3c5f627114bba678385161604f535f35167017ad37417c5aba3cff8285b0f09b",

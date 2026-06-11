@@ -55,6 +55,7 @@
         "3.2.2-android",
         "3.2.2-ios",
         "3.2.10-ios",
-        "3.2.10-android"
+        "3.2.10-android",
+        "3.3.0-android"
     ]
 }

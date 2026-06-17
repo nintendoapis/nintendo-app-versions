@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "2.5.0",
+            "label": "Ver. 2.5.0 [Released 16/06/26]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v250\" rel=\"1\"> <h2>Version 2.5.0</h2> <p><strong>iOS only:</strong></p> <p>Small improvements have been made.</p> </div>"
+        },
+        {
             "version": "2.4.0",
             "label": "Ver. 2.4.0 [Released 24/03/26]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v240\" rel=\"1\"> <h2>Version 2.4.0</h2> <ul><li>If the Parental Controls PIN is successfully entered on a console, you can now check this information under \"Play Activity\" in this app. Additionally, if you enable PIN entry notifications in the notification settings, you'll receive a push notification when the PIN is entered on the console.</li><li>Other small feature improvements and bug fixes have also been made.</li></ul> </div>"

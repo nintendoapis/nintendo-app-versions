@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": "3.4.1",
+            "label": "Ver. 3.4.1 [Released 29/06/26]  ",
+            "release_notes_html": "<div class=\"collapse\" id=\"v341\" rel=\"1\"> <h2>Ver. 3.4.1 (For iOS devices only)</h2> <ul><li>Various issues are now resolved.</li></ul> </div>"
+        },
+        {
             "version": "3.4.0",
             "label": "Ver. 3.4.0 [Released 10/06/26]  ",
             "release_notes_html": "<div class=\"collapse\" id=\"v340\" rel=\"1\"> <h2>Ver. 3.4.0</h2> <ul><li>Small improvements have been made.</li></ul> </div>"

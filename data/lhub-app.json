@@ -1,18 +1,18 @@
 {
     "version": "6.1.0",
-    "revision": "660cff02",
+    "revision": "a8c6f7e7",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
         "VERSION": "6.1.0",
-        "GIT_COMMIT_HASH": "660cff02",
+        "GIT_COMMIT_HASH": "a8c6f7e7",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "vrAA4X3vv7TYMM0yUZR9S",
+    "build_id": "aC_feyihY_9K4fh_V02Zb",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -23,10 +23,10 @@
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/284-38c9d956184418d6.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-efe8b46cd551813f.js",
+            "static/chunks/493-4ded43bbf9789029.js",
             "static/chunks/131-9279556cb620a7e3.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-714e27a4b6b22acd.js"
+            "static/chunks/pages/index-908fc1083fde3edd.js"
         ],
         "/_error": [
             "static/chunks/pages/_error-c63aad3b28df857c.js"
@@ -49,12 +49,12 @@
         "/gift/revival/[categoryKey]": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-efe8b46cd551813f.js",
+            "static/chunks/493-4ded43bbf9789029.js",
             "static/chunks/pages/gift/revival/[categoryKey]-b1cf6e9c50440c77.js"
         ],
         "/guide/[name]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/guide/[name]-0f956597049b018c.js"
+            "static/chunks/pages/guide/[name]-9a7ca9c124dc9451.js"
         ],
         "/icon-collection": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
@@ -106,5 +106,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "e210771ab3462f3ee4a5cfb899371c302397956d4c416cceb298c6fdbc10a23d"
+    "html_sha256": "90268a28506015d69955f6ca4354170d93e017b5b31c4408bf8935263c58cde2"
 }

@@ -2,8 +2,8 @@
     "versions": [
         {
             "version": "3.4.1",
-            "label": "Ver. 3.4.1 ［2026.6.29］（iOSのみ）",
-            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
+            "label": "Ver. 3.4.1 ［iOS:2026.6.29］［Android:2026.8.3］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>不具合の修正を行いました。</li>\n        </ul>"
         },
         {
             "version": "3.4.0",

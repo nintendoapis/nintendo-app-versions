@@ -62,6 +62,7 @@
         "3.3.10-ios",
         "3.3.11-android",
         "3.4.0-android",
-        "v3.4.0-ios"
+        "v3.4.0-ios",
+        "4.0.0-android"
     ]
 }

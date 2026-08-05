@@ -11,19 +11,19 @@
         "artistId": 1062496488,
         "artistName": "Nintendo Co., Ltd.",
         "artistViewUrl": "https://apps.apple.com/gb/developer/nintendo-co-ltd/id1062496488?uo=4",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/ad/cb/e0adcb7c-5a65-96d5-38fc-97ad4f9d5adf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/ad/cb/e0adcb7c-5a65-96d5-38fc-97ad4f9d5adf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/ad/cb/e0adcb7c-5a65-96d5-38fc-97ad4f9d5adf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/d4/ee/d9d4eefa-ab56-45b5-164d-b1121bf91cc0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/d4/ee/d9d4eefa-ab56-45b5-164d-b1121bf91cc0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/d4/ee/d9d4eefa-ab56-45b5-164d-b1121bf91cc0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
         "averageUserRating": null,
         "averageUserRatingForCurrentVersion": null,
         "bundleId": "com.nintendo.znsa",
         "contentAdvisoryRating": "12+",
         "currency": "GBP",
-        "currentVersionReleaseDate": "2026-07-06T02:02:15Z",
+        "currentVersionReleaseDate": "2026-08-05T01:01:32Z",
         "description": "Nintendo Today! is an app that brings you daily updates from Nintendo based on what you like.\n\n◆ Animated Calendar\nKeep track of the date with an animated calendar featuring your choice of characters.\n\n◆ Daily Updates\nGet updates on all things Nintendo – including Nintendo Switch 2 news, game info, videos, comics, and more – every day.\n\n◆ Event Schedule\nKeep up with Nintendo-related events, including game releases. Link with the Google Calendar app to display your own events as well.\n\n◆ Customise Your Home Screen\nAdd a calendar widget featuring art from your favourite Nintendo game series.\n\n[Terms of Use]\nNintendo Account and persistent internet connection required. Data charges may apply.\nRequires iOS 16.0 or later.\n\n© Nintendo",
         "features": [
         ],
-        "fileSizeBytes": "217364480",
+        "fileSizeBytes": "212019200",
         "formattedPrice": "Free",
         "genreIds": [
             "6012",
@@ -55,8 +55,16 @@
         "primaryGenreId": 6012,
         "primaryGenreName": "Lifestyle",
         "releaseDate": "2025-03-27T07:00:00Z",
-        "releaseNotes": "We've fixed a few issues to make it easier for you to use.",
+        "releaseNotes": "The Fire Emblem theme has been added.",
         "screenshotUrls": [
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/d8/ba/98d8ba0b-8ae4-e8be-b6f5-8cd512b7c94e/en-GB_1.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/e3/49/99e34944-8a09-7c82-d3d7-2c443dbcc575/en-GB_2.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/c4/96/25c4964f-c443-035c-54c0-7f339c52feea/en-GB_3.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/c2/20/f6c2206d-7ace-c1a7-f2a7-d6130f8197cd/en-GB_4.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/9d/b4/149db433-635a-09f0-05db-d87f4ca76453/en-GB_5.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/9b/21/f59b2152-810c-6105-24db-77d68e438fab/en-GB_6.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/15/8f/c6158f94-0e36-5b40-2ef8-30c12baa4ef2/en-GB_7.png/320x480bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/8f/a8/9a8fa865-8af9-df87-cea3-758d4cc80db2/en-GB_8.png/320x480bb.jpg"
         ],
         "sellerName": "Nintendo Co., Ltd.",
         "sellerUrl": "https://www.nintendo.com/regionselector/",
@@ -196,8 +204,8 @@
         "trackViewUrl": "https://apps.apple.com/gb/app/nintendo-today/id6736725704?uo=4",
         "userRatingCount": null,
         "userRatingCountForCurrentVersion": null,
-        "version": "v3.4.0",
+        "version": "4.0.0",
         "wrapperType": "software"
     },
-    "version": "v3.4.0"
+    "version": "4.0.0"
 }

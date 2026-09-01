@@ -1,18 +1,18 @@
 {
-    "version": "6.1.4",
-    "revision": "d51fa0e8",
+    "version": "6.2.0",
+    "revision": "85567a81",
     "app_env": {
         "CODE": "lp1",
         "API_ENDPOINT": "https://lp1.nso.nintendo.net/api",
         "ACCOUNT_WEB_PAGE_HOST": "https://accounts.nintendo.com",
-        "VERSION": "6.1.4",
-        "GIT_COMMIT_HASH": "d51fa0e8",
+        "VERSION": "6.2.0",
+        "GIT_COMMIT_HASH": "85567a81",
         "NX": true,
         "OUNCE": false,
         "NINTENDO_BROWSER": true,
         "PC_VIEWER": false
     },
-    "build_id": "2_Uz13AqnYE0fXULRDvut",
+    "build_id": "ChX_8EPawdOHEaheC1xLS",
     "build_manifest": {
         "__rewrites": {
             "afterFiles": [],
@@ -21,78 +21,68 @@
         },
         "/": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
-            "static/chunks/284-38c9d956184418d6.js",
+            "static/chunks/694-900376720948dd41.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-042ee65bb8afd230.js",
-            "static/chunks/131-fe1d0481e90aa231.js",
+            "static/chunks/493-e64e69824d794b67.js",
             "static/css/3f2abbdf4ab3cb18.css",
-            "static/chunks/pages/index-116bb444a3ca9d14.js"
+            "static/chunks/pages/index-0b3bf2e4584f79f8.js"
         ],
         "/_error": [
-            "static/chunks/pages/_error-e432a0f10cbfd8c1.js"
+            "static/chunks/pages/_error-f4d0b53bd7b4a98c.js"
         ],
-        "/challenge/cards": [
-            "static/chunks/741-2f933b79c341efe5.js",
-            "static/chunks/pages/challenge/cards-991daf8b70a5713a.js"
+        "/dk-challenge/cards": [
+            "static/chunks/408-79b85dc1b063fa55.js",
+            "static/chunks/pages/dk-challenge/cards-c2082cb84dd8da0d.js"
         ],
-        "/challenge/cards/[id]": [
-            "static/chunks/741-2f933b79c341efe5.js",
-            "static/chunks/pages/challenge/cards/[id]-29ac35837d6b3d93.js"
-        ],
-        "/challenge/error-state": [
-            "static/chunks/pages/challenge/error-state-45dedda14f2d4349.js"
-        ],
-        "/challenge/notification": [
-            "static/chunks/131-fe1d0481e90aa231.js",
-            "static/chunks/pages/challenge/notification-7eb3c93fa48c8cf9.js"
+        "/dk-challenge/cards/[id]": [
+            "static/chunks/408-79b85dc1b063fa55.js",
+            "static/chunks/pages/dk-challenge/cards/[id]-09ea932999d2362d.js"
         ],
         "/gift/revival/[categoryKey]": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/493-042ee65bb8afd230.js",
-            "static/chunks/pages/gift/revival/[categoryKey]-afa801b522f10feb.js"
+            "static/chunks/493-e64e69824d794b67.js",
+            "static/chunks/pages/gift/revival/[categoryKey]-118812a552e998a0.js"
         ],
         "/guide/[name]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/guide/[name]-82311ddcdb6f2b32.js"
+            "static/chunks/pages/guide/[name]-ce9a52ce2cc47e96.js"
         ],
         "/icon-collection": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/icon-collection-6c3dde2eccd27db0.js"
+            "static/chunks/pages/icon-collection-5fffd2925917ecf1.js"
         ],
         "/icon-collection/parts": [
-            "static/chunks/pages/icon-collection/parts-1eda159ea29b7d32.js"
+            "static/chunks/pages/icon-collection/parts-a3a27910d54dcfdd.js"
         ],
         "/icon-share/[id]": [
-            "static/chunks/pages/icon-share/[id]-4efa0d2145eb3258.js"
+            "static/chunks/pages/icon-share/[id]-c8d1546690061791.js"
         ],
         "/license": [
-            "static/chunks/pages/license-e8ecae00e83aa664.js"
+            "static/chunks/pages/license-1cb9f99dc3b47e3c.js"
         ],
         "/mission": [
-            "static/chunks/pages/mission-2e30fa067da62634.js"
+            "static/chunks/pages/mission-aa59fb4ebbdbe4e5.js"
         ],
         "/mission-history": [
             "static/chunks/ea88be26-95a96f7ae06eafd0.js",
             "static/chunks/390-8e58b94f8305e329.js",
-            "static/chunks/pages/mission-history-787ff797b8453d63.js"
+            "static/chunks/pages/mission-history-5ba6a4872053ee9d.js"
         ],
         "/point-detail": [
-            "static/chunks/pages/point-detail-f33bdeac06e62564.js"
+            "static/chunks/pages/point-detail-64296212234b788d.js"
         ],
         "/[category]/detail/[id]": [
             "static/chunks/659-646d575ab5fc42ff.js",
-            "static/chunks/pages/[category]/detail/[id]-c1395eb99bd7d423.js"
+            "static/chunks/pages/[category]/detail/[id]-1a463dc488f2dfaf.js"
         ],
         "sortedPages": [
             "/",
             "/_app",
             "/_error",
-            "/challenge/cards",
-            "/challenge/cards/[id]",
-            "/challenge/error-state",
-            "/challenge/notification",
+            "/dk-challenge/cards",
+            "/dk-challenge/cards/[id]",
             "/gift/revival/[categoryKey]",
             "/guide/[name]",
             "/icon-collection",
@@ -106,5 +96,5 @@
         ]
     },
     "html_url": "https://lp1.nso.nintendo.net/?country=GB&menu_page=home",
-    "html_sha256": "94d9bc02e9be53c4deb8244ecb07303af62499260aab1b4b2fffa93ca7e34001"
+    "html_sha256": "384a208678d5ffec88949f0f1a38f02ff436038a56d37710a8c2882cbbf2d491"
 }

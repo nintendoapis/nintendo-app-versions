@@ -198,7 +198,10 @@
             "iPadAir11M4-iPadAir11M4",
             "iPadAir11M4Cellular-iPadAir11M4Cellular",
             "iPadAir13M4-iPadAir13M4",
-            "iPadAir13M4Cellular-iPadAir13M4Cellular"
+            "iPadAir13M4Cellular-iPadAir13M4Cellular",
+            "iPhone18Pro-iPhone18Pro",
+            "iPhone18ProMax-iPhone18ProMax",
+            "iPhoneDuo-iPhoneDuo"
         ],
         "trackCensoredName": "Nintendo Switch App",
         "trackContentRating": "12+",

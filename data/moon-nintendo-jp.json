@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": "2.6.0",
+            "label": "Ver. 2.6.0 ［2026.9.15］",
+            "release_notes_html": "<ul class=\"c-list-text\">\n          <li>お子さまのゲーム機を保護者2人でみまもれる機能「いっしょにみまもり」を追加しました。保護者それぞれのアプリで、お子さまのプレイ状況の確認や、1日にあそぶ時間の設定などができます。</li>\n          <li>その他、機能の改善と不具合の修正を行いました。</li>\n        </ul>"
+        },
+        {
             "version": "2.5.0",
             "label": "Ver. 2.5.0 ［2026.6.16］（iOSのみ）",
-            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n          <li>機能の改善と、不具合の修正を行いました。</li>\n        </ul>"
+            "release_notes_html": "<ul class=\"c-list-text u-spc-lv2\">\n              <li>機能の改善と、不具合の修正を行いました。</li>\n            </ul>"
         },
         {
             "version": "2.4.0",

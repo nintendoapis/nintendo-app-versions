@@ -1,5 +1,5 @@
 {
-    "version": "1.7.1",
+    "version": "1.8.0",
     "updated_at": "Fri Oct 09 2026 08:06:28 GMT+0000 (Coordinated Universal Time)",
     "result": {
         "title": "Nintendo Music",
@@ -59,7 +59,7 @@
         "adSupported": true,
         "released": "7 Oct 2024",
         "updated": 1791533188000,
-        "version": "1.7.1",
+        "version": "1.8.0",
         "recentChanges": "<br>We&#39;ve fixed some issues to allow for a smoother experience when using this app.",
         "comments": null,
         "preregister": false,

@@ -196,7 +196,9 @@
             "iPadAir13M4Cellular-iPadAir13M4Cellular",
             "iPhone18Pro-iPhone18Pro",
             "iPhone18ProMax-iPhone18ProMax",
-            "iPhoneDuo-iPhoneDuo"
+            "iPhoneDuo-iPhoneDuo",
+            "iPadMiniA20Pro-iPadMiniA20Pro",
+            "iPadMiniA20ProCellular-iPadMiniA20ProCellular"
         ],
         "trackCensoredName": "Nintendo Store",
         "trackContentRating": "17+",
